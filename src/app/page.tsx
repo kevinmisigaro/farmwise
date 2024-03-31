@@ -1,113 +1,180 @@
-import Image from "next/image";
+import { inter, mali } from "@/utils/fonts";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <>
+      {/* start of hero section */}
+      <div
+        className="hero h-[78vh] bg-cover"
+        style={{
+          backgroundImage: "url(/assets/images/farm2.jpeg)",
+        }}
+      >
+        <div className="hero-overlay bg-opacity-60 bg-black"></div>
+        <div className="hero-content text-neutral-content">
+          <div className="max-w-screen-lg text-white">
+            <h1 className={`mb-5 text-5xl font-bold ${mali.className}`}>
+              Making farming fashionable <br /> & profitable for youth
+            </h1>
+            <p className={`mb-5 w-1/2 ${inter.className}`}>
+              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
+              et a id nisi.
+            </p>
+            <button className="btn btn-primary">Get Started</button>
+          </div>
         </div>
       </div>
+      {/* end of hero section */}
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      {/* why choose us section */}
+      <div className="py-28 bg-[#fefdf3]">
+        <h1 className={`text-center text-5xl ${mali.className}`}>
+          Why Are We Better <br /> Than Others?
+        </h1>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 px-10 gap-y-5 mt-10 gap-x-8">
+          <div className="basis-1 md:basis-1/3">
+            <div className="card w-full bg-white shadow-xl">
+              <div className="card-body flex items-center">
+                <img
+                  className="mask mask-circle w-32"
+                  src="https://daisyui.com/images/stock/photo-1567653418876-5bb0e566e1c2.jpg"
+                />
+                <p className={`${mali.className} mt-5 text-lg`}>
+                  Quality Organic Food Store
+                  <br />
+                  <br />
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="basis-1 md:basis-1/3">
+            <div className="card w-full bg-white shadow-xl">
+              <div className="card-body flex items-center">
+                <img
+                  className="mask mask-circle w-32"
+                  src="https://daisyui.com/images/stock/photo-1567653418876-5bb0e566e1c2.jpg"
+                />
+                <p className={`${mali.className} mt-5 text-lg`}>
+                  Quality Standards Services
+                  <br />
+                  <br />
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="basis-1 md:basis-1/3">
+            <div className="card w-full bg-white shadow-xl">
+              <div className="card-body flex items-center">
+                <img
+                  className="mask mask-circle w-32"
+                  src="https://daisyui.com/images/stock/photo-1567653418876-5bb0e566e1c2.jpg"
+                />
+                <p className={`${mali.className} mt-5 text-lg`}>
+                  Organic Food Straight
+                  <br />
+                  From The Farmer
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+      {/* end of why choose us section */}
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+      {/* services section  */}
+      <div className="py-32 bg-[#173d25]">
+        <h1 className={`text-center text-5xl text-white ${mali.className}`}>
+          We Offers Agriculture <br /> Eco Services
+        </h1>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-10 mt-10 px-20">
+          <div className="card w-full bg-[#00200d] shadow-xl">
+            <div className="card-body p-12">
+              <h3 className={`${mali.className} text-white text-lg`}>
+                Agricultural Products
+              </h3>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
+              <p className="text-[#81af93] mt-3">
+                Welcome to Dosner Organic Farms.We are a direct distributor of
+                100% Organic herbs produce.
+              </p>
+            </div>
+          </div>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+          <div className="card w-full bg-[#00200d] shadow-xl">
+            <div className="card-body p-12">
+              <h3 className={`${mali.className} text-white text-lg`}>
+                Fresh Vegetables
+              </h3>
+
+              <p className="text-[#81af93] mt-3">
+                Welcome to Dosner Organic Farms.We are a direct distributor of
+                100% Organic herbs produce.
+              </p>
+            </div>
+          </div>
+
+          <div className="card w-full bg-[#00200d] shadow-xl">
+            <div className="card-body p-12">
+              <h3 className={`${mali.className} text-white text-lg`}>
+                ADairy Products
+              </h3>
+
+              <p className="text-[#81af93] mt-3">
+                Welcome to Dosner Organic Farms.We are a direct distributor of
+                100% Organic herbs produce.
+              </p>
+            </div>
+          </div>
+
+          <div className="card w-full bg-[#00200d] shadow-xl">
+            <div className="card-body p-12">
+              <h3 className={`${mali.className} text-white text-lg`}>
+                Organic Corn
+              </h3>
+
+              <p className="text-[#81af93] mt-3">
+                Welcome to Dosner Organic Farms.We are a direct distributor of
+                100% Organic herbs produce.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-    </main>
+      {/* end of services section  */}
+
+      {/* benefits section  */}
+      <div>
+        <div className="flex flex-col md:flex-row items-stretch">
+          <div className="basis-1 md:basis-1/2 px-5 md:px-20 py-32">
+            <h2 className={`${mali.className} text-5xl`}>
+              We Are Distributors Of Quality 100% Organic Produce
+            </h2>
+            <p className="mt-10">
+              Lorem ipsum dolor sit amet, porro quisquam est, qui dolorem ipsum
+              quia dolor sit amet, consectetur, adipisci velit, sed quia non
+              numquam eius modi tempora incidunt ut labore et dolore quaerat
+            </p>
+          </div>
+          <div className="basis-1 md:basis-1/2 mb-10">
+            <div className="bg-[url('/assets/images/farm3.jpg')] h-[60vh] bg-cover"></div>
+
+            <div className="card bg-[#173d25] border-8 border-[#fdd51f] max-w-sm -mt-5 animate-bounce">
+              <div className="card-body text-white text-center">
+                <div className="stat-value">400+</div>
+                <div className={`stat-desc text-lg ${mali.className}`}>
+                  Pure Organic Products
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* end of benefits section */}
+    </>
   );
 }
