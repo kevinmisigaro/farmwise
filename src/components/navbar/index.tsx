@@ -1,3 +1,5 @@
+import { mali } from "@/utils/fonts";
+
 function Navbar() {
   return (
     <div className="navbar bg-[black] text-white">
@@ -34,24 +36,23 @@ function Navbar() {
             <li>
               <a>Services</a>
             </li>
-
           </ul>
         </div>
         <a className="btn btn-ghost text-xl">Farmwise</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-        <li>
-              <a>Home</a>
-            </li>
+          <li>
+            <a className={`${mali.className}`}>Home</a>
+          </li>
 
-            <li>
-              <a>About</a>
-            </li>
+          <li>
+            <a className={`${mali.className}`}>About</a>
+          </li>
 
-            <li>
-              <a>Services</a>
-            </li>
+          <li>
+            <a className={`${mali.className}`}>Services</a>
+          </li>
         </ul>
       </div>
       <div className="navbar-end">
