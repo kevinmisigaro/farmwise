@@ -149,6 +149,91 @@ export default function Home() {
       </div>
       {/* end of services section  */}
 
+      <div
+        className="hero h-[78vh] bg-cover"
+        style={{
+          backgroundImage: "url(/assets/images/Farm5.jpg",
+        }}
+      >
+        <div className="hero-overlay bg-opacity-40 bg-black"></div>
+        <div className="hero-content text-neutral-content">
+          <div className="text-white w-[80vw]">
+            <div className="grid grid-col-1 md:grid-cols-2 gap-x-20 gap-y-10">
+              <div>
+                <div className="flex flex-row items-center mb-5 gap-x-5">
+                  <img
+                    src="/assets/icons/Icon 3.png"
+                    className="text-white w-10"
+                  />
+                  <div className="font-bold text-lg">
+                    Mechanized and Irrigated Farmlands
+                  </div>
+                </div>
+                <div className="text-sm text-justify">
+                  Our state-of-the-art farms are spread across the country,
+                  featuring full mechanization and irrigation systems. You can
+                  lease a portion of these lands for each farming season,
+                  ensuring your venture into agriculture is as smooth as
+                  possible.
+                </div>
+              </div>
+
+              <div>
+                <div className="flex flex-row items-center mb-5 gap-x-5">
+                  <img
+                    src="/assets/icons/Icon 3.png"
+                    className="text-white w-10"
+                  />
+                  <div className="font-bold">Comprehensive Support</div>
+                </div>
+                <div className="text-sm text-justify">
+                  Every farm comes with detailed agronomic studies and extension
+                  services, ensuring you're never left guessing about the best
+                  practices for your crops. We prioritize security and offer
+                  detailed economics of production, focusing on the most
+                  optimized crops for our conditions.
+                </div>
+              </div>
+
+              <div>
+                <div className="flex flex-row items-center mb-5 gap-x-5">
+                  <img
+                    src="/assets/icons/Icon 3.png"
+                    className="text-white w-10"
+                  />
+                  <div className="font-bold">
+                    Environmentally Friendly Inputs
+                  </div>
+                </div>
+                <div className="text-sm text-justify">
+                  We provide fertilizers and pesticides that are not only
+                  effective but also environmentally friendly. This commitment
+                  to sustainability helps ensure an optimal harvest and
+                  contributes to a healthier planet.
+                </div>
+              </div>
+
+              <div>
+                <div className="flex flex-row items-center mb-5 gap-x-5">
+                  <img
+                    src="/assets/icons/Icon 3.png"
+                    className="text-white w-10"
+                  />
+                  <div className="font-bold">Guaranteed Success</div>
+                </div>
+                <div className="text-sm text-justify">
+                  By removing the hurdles traditionally associated with farming,
+                  we guarantee success in your agricultural endeavors. Our model
+                  is designed to make farming accessible, profitable, and
+                  hassle-free for everyone, regardless of their background in
+                  agriculture.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* benefits section  */}
       <div>
         <div className="flex flex-col md:flex-row items-stretch">
@@ -160,10 +245,13 @@ export default function Home() {
               Transform your vision of owning a prosperous farm into reality
               with Farmwise. Our streamlined process, backed by comprehensive
               support, makes farming a seamless, rewarding experience. With
-              limited spaces available, now is the moment to act. Visit us at &nbsp;
-              <a href="www.farmwise.tz" target="_blank" className="underline">www.farmwise.tz</a>, subscribe, and embark on your farming journey
-              today. Embrace the future of farming with Farmwise — a promise of
-              success!
+              limited spaces available, now is the moment to act. Visit us at
+              &nbsp;
+              <a href="www.farmwise.tz" target="_blank" className="underline">
+                www.farmwise.tz
+              </a>
+              , subscribe, and embark on your farming journey today. Embrace the
+              future of farming with Farmwise — a promise of success!
             </p>
           </div>
           <div className="basis-1 md:basis-1/2 mb-10">
