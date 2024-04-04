@@ -314,7 +314,7 @@ export default function Home() {
       </div>
       {/* end of testimonial */}
 
-      <div className="px-5 md:px-32 bg-[#fdd51f] flex flex-col md:flex-row justify-between gap-x-5 md:gap-x-12 py-12">
+      <div className="px-5 md:px-32 bg-[#173d25] text-white flex flex-col md:flex-row justify-between gap-x-5 md:gap-x-12 py-12">
         <div className="flex items-center gap-x-5 mb-5">
           <img
             className="mask mask-squircle w-[3.5rem] h-[3.5rem]"
