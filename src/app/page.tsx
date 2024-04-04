@@ -1,3 +1,4 @@
+import Testimonial from "@/components/testimonial";
 import { inter, mali } from "@/utils/fonts";
 
 export default function Home() {
@@ -7,21 +8,22 @@ export default function Home() {
       <div
         className="hero h-[78vh] bg-cover"
         style={{
-          backgroundImage: "url(/assets/images/farm2.jpeg)",
+          backgroundImage: "url(/assets/images/Farm5.jpg",
         }}
       >
-        <div className="hero-overlay bg-opacity-60 bg-black"></div>
+        <div className="hero-overlay bg-opacity-40 bg-black"></div>
         <div className="hero-content text-neutral-content">
-          <div className="max-w-screen-lg text-white">
+          <div className="max-w-screen-xl text-white">
             <h1 className={`mb-5 text-5xl font-bold ${mali.className}`}>
-              Making farming fashionable <br /> & profitable for youth
+              More than Farming...
             </h1>
-            <p className={`mb-5 w-1/2 ${inter.className}`}>
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
-            </p>
-            <button className="btn btn-primary">Get Started</button>
+            <h1 className={`mb-5 text-5xl font-bold ${mali.className}`}>
+              Its your{" "}
+              <span className={`${inter.className} font-light italic`}>
+                New
+              </span>{" "}
+              side hustle
+            </h1>
           </div>
         </div>
       </div>
@@ -152,12 +154,16 @@ export default function Home() {
         <div className="flex flex-col md:flex-row items-stretch">
           <div className="basis-1 md:basis-1/2 px-5 md:px-20 py-32">
             <h2 className={`${mali.className} text-5xl`}>
-              We Are Distributors Of Quality 100% Organic Produce
+              Why Wait? Your Farming Dream is Just a Click Away
             </h2>
-            <p className="mt-10">
-              Lorem ipsum dolor sit amet, porro quisquam est, qui dolorem ipsum
-              quia dolor sit amet, consectetur, adipisci velit, sed quia non
-              numquam eius modi tempora incidunt ut labore et dolore quaerat
+            <p className="mt-10 text-justify">
+              Transform your vision of owning a prosperous farm into reality
+              with Farmwise. Our streamlined process, backed by comprehensive
+              support, makes farming a seamless, rewarding experience. With
+              limited spaces available, now is the moment to act. Visit us at &nbsp;
+              <a href="www.farmwise.tz" target="_blank" className="underline">www.farmwise.tz</a>, subscribe, and embark on your farming journey
+              today. Embrace the future of farming with Farmwise — a promise of
+              success!
             </p>
           </div>
           <div className="basis-1 md:basis-1/2 mb-10">
@@ -175,6 +181,49 @@ export default function Home() {
         </div>
       </div>
       {/* end of benefits section */}
+
+      {/* start of testimonial */}
+      <div className="px-5 md:px-20 py-20 bg-[#fcfaf0]">
+        <div className={`${mali.className} text-center text-4xl`}>
+          What people say about Farmwise
+        </div>
+
+        <div
+          className={`grid grid-cols-1 md:grid-cols-4 gap-x-10 gap-y-6 mt-10`}
+        >
+          <Testimonial
+            name="Grace Kitali"
+            role="Customer service manager"
+            description="The thought of getting into agriculture was off for me with zero experience in farming. But Farmwise promises to make it accessible and, dare I say, even exciting. The platform not only demystified the agricultural sector to me but will also give me an opportunity for hassle-free investing in Agriculture beyond my regular job"
+          />
+          <Testimonial
+            description="Nadhani sasa kilimo kinakwenda kuwa na mwanga tofauti! As a businessman I have never dreamt of going into farming, I can not be present and ensure all is going well but I think with what I have seen here please may i be one of the first people you consider to take part in this beautiful project. Aisee farmwise mko juu sana!"
+            name="Hemedy Omar"
+            role="Business owner Kariakoo"
+          />
+          <Testimonial
+            description="I have always known that farming was profitable, but the odds were too much for me, like the distance, and deception. simply nobody to trust! The risk was too high, now with Framwise, I feel in control and secure. I  cant wait to start. Hongera sana Farmwise"
+            name="Dr Amina Maopola"
+            role="University Lecturer"
+          />
+          <Testimonial
+            description="Wow, I never knew at some point in my life I would be able to use technology and farming!! Im really excited, this is so huge, a banker and a farmer? … I can't wait for the next season of making money to start!"
+            name="Ms Asha Baruti"
+            role="Banker in Dar"
+          />
+          <Testimonial
+            description="Kama shamba lina Mifumo ya umwagiliaji nitalima sana tuu, maana tatizo kubwa ilikuwa jinsi ya kupata shamba lililo tayari, gharama ni kubwa sana kwa sisi Vijana. lakini pia kuna wakati hatupati mbegu bora."
+            name="Mr. Baraka Mugeta"
+            role="Dereva wa bajaji"
+          />
+          <Testimonial
+            description="The exciting thing is that Farmwise is fresh and different. So I am directly responsible for my farm and my fortunes. I can lease from multiple farms and grow different crops without the usual struggles. OMG this is amazing!"
+            name="Laitore Massai"
+            role="Traffic Police"
+          />
+        </div>
+      </div>
+      {/* end of testimonial */}
 
       <div className="px-5 md:px-32 bg-[#fdd51f] flex flex-col md:flex-row justify-between gap-x-5 md:gap-x-12 py-12">
         <div className="flex items-center gap-x-5 mb-5">
