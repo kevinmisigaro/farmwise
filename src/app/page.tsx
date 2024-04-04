@@ -13,7 +13,7 @@ export default function Home() {
       >
         <div className="hero-overlay bg-opacity-40 bg-black"></div>
         <div className="hero-content text-neutral-content">
-          <div className="max-w-screen-xl text-white">
+          <div className="w-[80vw] text-white">
             <h1 className={`mb-5 text-5xl font-bold ${mali.className}`}>
               More than Farming...
             </h1>
@@ -90,7 +90,8 @@ export default function Home() {
       {/* services section  */}
       <div className="py-32 bg-[#173d25]">
         <h1 className={`text-center text-5xl text-white ${mali.className}`}>
-          We Offers Agriculture <br /> Eco Services
+        How Farmwise works:
+          <br/> Effortless Farming at your Fingertips
         </h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-10 mt-10 px-20">
@@ -150,20 +151,20 @@ export default function Home() {
       {/* end of services section  */}
 
       <div
-        className="hero h-[78vh] bg-cover"
+        className="hero h-[85vh] bg-cover"
         style={{
-          backgroundImage: "url(/assets/images/Farm5.jpg",
+          backgroundImage: "url(/assets/images/tractor-field.jpg",
         }}
       >
         <div className="hero-overlay bg-opacity-40 bg-black"></div>
         <div className="hero-content text-neutral-content">
           <div className="text-white w-[80vw]">
-            <div className="grid grid-col-1 md:grid-cols-2 gap-x-20 gap-y-10">
+            <div className="grid grid-col-1 md:grid-cols-2 gap-20">
               <div>
                 <div className="flex flex-row items-center mb-5 gap-x-5">
                   <img
                     src="/assets/icons/Icon 3.png"
-                    className="text-white w-10"
+                    className="text-white max-w-20"
                   />
                   <div className="font-bold text-lg">
                     Mechanized and Irrigated Farmlands
@@ -181,7 +182,7 @@ export default function Home() {
               <div>
                 <div className="flex flex-row items-center mb-5 gap-x-5">
                   <img
-                    src="/assets/icons/Icon 3.png"
+                    src="/assets/icons/Icon 2.png"
                     className="text-white w-10"
                   />
                   <div className="font-bold">Comprehensive Support</div>
@@ -198,7 +199,7 @@ export default function Home() {
               <div>
                 <div className="flex flex-row items-center mb-5 gap-x-5">
                   <img
-                    src="/assets/icons/Icon 3.png"
+                    src="/assets/icons/Icon4.png"
                     className="text-white w-10"
                   />
                   <div className="font-bold">
@@ -216,7 +217,7 @@ export default function Home() {
               <div>
                 <div className="flex flex-row items-center mb-5 gap-x-5">
                   <img
-                    src="/assets/icons/Icon 3.png"
+                    src="/assets/icons/Icon 1.png"
                     className="text-white w-10"
                   />
                   <div className="font-bold">Guaranteed Success</div>
@@ -332,7 +333,9 @@ export default function Home() {
           />
           <div>
             <h3>Our Address</h3>
-            <h2 className="font-bold text-xl">294 Crosby Brook Road</h2>
+            <h2 className="font-bold text-xl">
+            Msasani Tower, Postal code 14111, <br/> Plot number 503/1, P.O. Box 38556, <br/> Dar Es Salaam, Tanzania
+            </h2>
           </div>
         </div>
 
