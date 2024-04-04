@@ -1,4 +1,4 @@
-import { mali } from "@/utils/fonts";
+import { inter, mali } from "@/utils/fonts";
 
 function Navbar() {
   return (
@@ -38,7 +38,17 @@ function Navbar() {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">Farmwise</a>
+        <a
+          className="btn btn-ghost flex flex-row gap-x-3 items-center text-xl"
+          href="/"
+        >
+          <img src="/assets/images/farmwiselogo.png" className="w-10" />{" "}
+          <div
+            className={`${inter.className} font-bold text-md text-[#277f3b]`}
+          >
+            Farmwise
+          </div>
+        </a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
