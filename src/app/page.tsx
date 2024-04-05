@@ -130,7 +130,7 @@ export default function Home() {
           <br /> Effortless Farming at your Fingertips
         </h1>
 
-        <div className="px-5 md:px-20 py-10 text-white">
+        <div className="px-5 md:px-20 py-10 text-white text-center">
           <p>
             At Farmwise, we&apos;ve streamlined the path to successful farming for
             busy professionals like you. Our innovative online Farm services
@@ -249,7 +249,7 @@ export default function Home() {
         <div className="hero-content text-neutral-content">
           <div className="text-white w-[80vw]">
             <div className={`${mali.className} text-center mb-12 text-3xl`}>
-            About farmwise
+            About Farmwise
             </div>
             <div className="grid grid-col-1 md:grid-cols-2 gap-20">
               <div>
