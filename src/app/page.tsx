@@ -11,7 +11,7 @@ export default function Home() {
           backgroundImage: "url(/assets/images/Farm5.jpg",
         }}
       >
-        <div className="hero-overlay bg-opacity-40 bg-black"></div>
+        <div className="hero-overlay bg-opacity-30 bg-black"></div>
         <div className="hero-content text-neutral-content">
           <div className="w-[80vw] text-white">
             <h1 className={`mb-5 text-5xl font-bold ${mali.className}`}>
@@ -19,9 +19,9 @@ export default function Home() {
             </h1>
             <h1 className={`mb-5 text-5xl font-bold ${mali.className}`}>
               Its your{" "}
-              <span className={`${inter.className} font-light italic`}>
+              <i className={`${inter.className} font-light italic`}>
                 New
-              </span>{" "}
+              </i>{" "}
               side hustle
             </h1>
           </div>
@@ -248,6 +248,9 @@ export default function Home() {
         <div className="hero-overlay bg-opacity-40 bg-black"></div>
         <div className="hero-content text-neutral-content">
           <div className="text-white w-[80vw]">
+            <div className={`${mali.className} text-center mb-12 text-3xl`}>
+            About farmwise
+            </div>
             <div className="grid grid-col-1 md:grid-cols-2 gap-20">
               <div>
                 <div className="flex flex-row items-center mb-5 gap-x-5">

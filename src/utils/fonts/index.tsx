@@ -1,6 +1,6 @@
-import { Mali, Inter } from "next/font/google";
+import { Montserrat, Inter } from "next/font/google";
 
-export const mali = Mali({
+export const mali = Montserrat({
   weight: "700",
   subsets: ["latin"],
 });
