@@ -54,9 +54,9 @@ export default function Home() {
 
             <div className="card bg-[#173d25] border-8 border-[#fdd51f] max-w-sm -mt-5 animate-bounce">
               <div className="card-body text-white text-center">
-                <div className="stat-value">400+</div>
+                <div className="stat-value">100+</div>
                 <div className={`stat-desc text-lg ${mali.className}`}>
-                  Pure Organic Products
+                  Farms
                 </div>
               </div>
             </div>
@@ -207,7 +207,7 @@ export default function Home() {
               <p className="text-[#81af93] mt-3">
                 Understanding your busy lifestyle and the physical distance from
                 your farm, we offer the option to hire certified agricultural
-                experts directly through our platform. They'll tend to your
+                experts directly through our platform. They&apos;ll tend to your
                 farm, applying expert knowledge and care, ensuring optimal
                 growth and yield.
               </p>
@@ -228,7 +228,7 @@ export default function Home() {
 
               <p className="text-[#81af93] mt-3">
                 The fruits of your investment are entirely yours. At harvest,
-                you're free to enjoy the produce, share it, or even sell it back
+                you&apos;re free to enjoy the produce, share it, or even sell it back
                 to us. Should you choose to sell, we ensure a smooth
                 transaction, crediting your proceeds directly to your designated
                 bank account.
@@ -278,7 +278,7 @@ export default function Home() {
                 </div>
                 <div className="text-sm text-justify">
                   Every farm comes with detailed agronomic studies and extension
-                  services, ensuring you're never left guessing about the best
+                  services, ensuring you&apos;re never left guessing about the best
                   practices for your crops. We prioritize security and offer
                   detailed economics of production, focusing on the most
                   optimized crops for our conditions.
@@ -349,7 +349,7 @@ export default function Home() {
             role="University Lecturer"
           />
           <Testimonial
-            description="Wow, I never knew at some point in my life I would be able to use technology and farming!! Im really excited, this is so huge, a banker and a farmer? … I can't wait for the next season of making money to start!"
+            description="Wow, I never knew at some point in my life I would be able to use technology and farming!! Im really excited, this is so huge, a banker and a farmer? … I can&apos;t wait for the next season of making money to start!"
             name="Ms Asha Baruti"
             role="Banker in Dar"
           />
