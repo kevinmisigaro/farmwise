@@ -132,10 +132,10 @@ export default function Home() {
 
         <div className="px-5 md:px-20 py-10 text-white">
           <p>
-            At Farmwise, we've streamlined the path to successful farming for
+            At Farmwise, we&apos;ve streamlined the path to successful farming for
             busy professionals like you. Our innovative online Farm services
             platform is designed to make agriculture accessible, no matter your
-            schedule or location. Here's how you can dive into farming,
+            schedule or location. Here&apos;s how you can dive into farming,
             hassle-free:
           </p>
         </div>
@@ -169,7 +169,7 @@ export default function Home() {
               </div>
 
               <p className="text-[#81af93] mt-3">
-                Decide on the acreage that fits your goals. Whether it's a
+                Decide on the acreage that fits your goals. Whether it&apos;s a
                 modest plot or an expansive field, Farmwise is equipped to bring
                 your farming vision to life.
               </p>
@@ -181,12 +181,12 @@ export default function Home() {
               <div className="flex flex-row items-center gap-x-5">
                 <img src="/assets/icons/relax.png" className="w-8" />
                 <h3 className={`${mali.className} text-white text-lg`}>
-                  Sit Back, We've Got This
+                  Sit Back, We&apos;ve Got This
                 </h3>
               </div>
 
               <p className="text-[#81af93] mt-3">
-                Once you've made your choice, Farmwise takes over. We provide
+                Once you&apos;ve made your choice, Farmwise takes over. We provide
                 all necessary quality inputs, including premium seeds,
                 environmentally friendly fertilizers, and pesticides. Plus, our
                 agronomic extension services are there to ensure your farm
