@@ -392,7 +392,6 @@ export default function Home() {
             </h2>
           </div>
         </div>
-
         <div className="flex items-center gap-x-5 mb-5">
           <img
             className="mask mask-squircle w-[3.5rem] h-[3.5rem]"
