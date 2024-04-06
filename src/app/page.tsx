@@ -11,7 +11,7 @@ export default function Home() {
           backgroundImage: "url(/assets/images/Farm5.jpg",
         }}
       >
-        <div className="hero-overlay bg-opacity-30 bg-black"></div>
+        <div className="hero-overlay bg-opacity-60 bg-black"></div>
         <div className="hero-content text-neutral-content">
           <div className="w-[80vw] text-white">
             <h1 className={`mb-5 text-5xl font-bold ${mali.className}`}>
@@ -22,6 +22,10 @@ export default function Home() {
               <i className={`${inter.className} font-light italic`}>New</i> side
               hustle
             </h1>
+
+            <div className="px-12 font-bold py-3 rounded-md max-w-fit mt-10 text-white bg-[#173d25] cursor-pointer">
+              Join Us
+            </div>
           </div>
         </div>
       </div>
