@@ -18,7 +18,7 @@ export default function Home() {
               More than Farming...
             </h1>
             <h1 className={`mb-5 text-5xl font-bold ${mali.className}`}>
-              Its your{" "}
+              It&rsquo;s your{" "}
               <i className={`${inter.className} font-light italic`}>
                 New
               </i>{" "}
@@ -56,7 +56,7 @@ export default function Home() {
               <div className="card-body text-white text-center">
                 <div className="stat-value">100+</div>
                 <div className={`stat-desc text-lg ${mali.className}`}>
-                  Farms
+                  Registered Users
                 </div>
               </div>
             </div>
@@ -245,7 +245,7 @@ export default function Home() {
           backgroundImage: "url(/assets/images/tractor-field.jpg",
         }}
       >
-        <div className="hero-overlay bg-opacity-40 bg-black"></div>
+        <div className="hero-overlay bg-opacity-80 bg-black"></div>
         <div className="hero-content text-neutral-content">
           <div className="text-white w-[80vw]">
             <div className={`${mali.className} text-center mb-12 text-3xl`}>
