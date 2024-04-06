@@ -19,10 +19,8 @@ export default function Home() {
             </h1>
             <h1 className={`mb-5 text-5xl font-bold ${mali.className}`}>
               It&rsquo;s your{" "}
-              <i className={`${inter.className} font-light italic`}>
-                New
-              </i>{" "}
-              side hustle
+              <i className={`${inter.className} font-light italic`}>New</i> side
+              hustle
             </h1>
           </div>
         </div>
@@ -48,6 +46,10 @@ export default function Home() {
               , subscribe, and embark on your farming journey today. Embrace the
               future of farming with Farmwise — a promise of success!
             </p>
+
+            <div className="px-12 py-3 rounded-md max-w-fit mt-10 text-white bg-[#173d25] cursor-pointer">
+              Button
+            </div>
           </div>
           <div className="basis-1 md:basis-1/2 mb-10">
             <div className="bg-[url('/assets/images/farm3.jpg')] h-[60vh] bg-cover"></div>
@@ -132,8 +134,8 @@ export default function Home() {
 
         <div className="px-5 md:px-20 py-10 text-white text-center">
           <p>
-            At Farmwise, we&apos;ve streamlined the path to successful farming for
-            busy professionals like you. Our innovative online Farm services
+            At Farmwise, we&apos;ve streamlined the path to successful farming
+            for busy professionals like you. Our innovative online Farm services
             platform is designed to make agriculture accessible, no matter your
             schedule or location. Here&apos;s how you can dive into farming,
             hassle-free:
@@ -186,8 +188,8 @@ export default function Home() {
               </div>
 
               <p className="text-[#81af93] mt-3">
-                Once you&apos;ve made your choice, Farmwise takes over. We provide
-                all necessary quality inputs, including premium seeds,
+                Once you&apos;ve made your choice, Farmwise takes over. We
+                provide all necessary quality inputs, including premium seeds,
                 environmentally friendly fertilizers, and pesticides. Plus, our
                 agronomic extension services are there to ensure your farm
                 thrives.
@@ -228,8 +230,8 @@ export default function Home() {
 
               <p className="text-[#81af93] mt-3">
                 The fruits of your investment are entirely yours. At harvest,
-                you&apos;re free to enjoy the produce, share it, or even sell it back
-                to us. Should you choose to sell, we ensure a smooth
+                you&apos;re free to enjoy the produce, share it, or even sell it
+                back to us. Should you choose to sell, we ensure a smooth
                 transaction, crediting your proceeds directly to your designated
                 bank account.
               </p>
@@ -249,7 +251,7 @@ export default function Home() {
         <div className="hero-content text-neutral-content">
           <div className="text-white w-[80vw]">
             <div className={`${mali.className} text-center mb-12 text-3xl`}>
-            About Farmwise
+              About Farmwise
             </div>
             <div className="grid grid-col-1 md:grid-cols-2 gap-20">
               <div>
@@ -281,9 +283,9 @@ export default function Home() {
                 </div>
                 <div className="text-sm text-justify">
                   Every farm comes with detailed agronomic studies and extension
-                  services, ensuring you&apos;re never left guessing about the best
-                  practices for your crops. We prioritize security and offer
-                  detailed economics of production, focusing on the most
+                  services, ensuring you&apos;re never left guessing about the
+                  best practices for your crops. We prioritize security and
+                  offer detailed economics of production, focusing on the most
                   optimized crops for our conditions.
                 </div>
               </div>
@@ -352,7 +354,7 @@ export default function Home() {
             role="University Lecturer"
           />
           <Testimonial
-            description="Wow, I never knew at some point in my life I would be able to use technology and farming!! Im really excited, this is so huge, a banker and a farmer? … I can&apos;t wait for the next season of making money to start!"
+            description="Wow, I never knew at some point in my life I would be able to use technology and farming!! Im really excited, this is so huge, a banker and a farmer? … I can't wait for the next season of making money to start!"
             name="Ms Asha Baruti"
             role="Banker in Dar"
           />
