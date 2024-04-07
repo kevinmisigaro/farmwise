@@ -123,13 +123,12 @@ export default function Home() {
       </div>
       {/* end of benefits section */}
 
-      {/* why choose us section */}
-      {/* <div className="py-28 bg-[#fefdf3]">
+    <div className="py-28 bg-[#fefdf3]">
         <h1 className={`text-center text-5xl ${mali.className}`}>
-          Why Are We Better <br /> Than Others?
+          Our services
         </h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 px-10 gap-y-5 mt-10 gap-x-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 px-10 gap-y-5 mt-10 gap-x-8">
           <div className="basis-1 md:basis-1/3">
             <div className="card w-full bg-white shadow-xl">
               <div className="card-body flex items-center">
@@ -138,7 +137,7 @@ export default function Home() {
                   src="https://daisyui.com/images/stock/photo-1567653418876-5bb0e566e1c2.jpg"
                 />
                 <p className={`${mali.className} mt-5 text-lg`}>
-                  Quality Organic Food Store
+                Talk to us today
                   <br />
                   <br />
                 </p>
@@ -154,7 +153,7 @@ export default function Home() {
                   src="https://daisyui.com/images/stock/photo-1567653418876-5bb0e566e1c2.jpg"
                 />
                 <p className={`${mali.className} mt-5 text-lg`}>
-                  Quality Standards Services
+                Lease a farm per season
                   <br />
                   <br />
                 </p>
@@ -169,17 +168,31 @@ export default function Home() {
                   className="mask mask-circle w-32"
                   src="https://daisyui.com/images/stock/photo-1567653418876-5bb0e566e1c2.jpg"
                 />
-                <p className={`${mali.className} mt-5 text-lg`}>
-                  Organic Food Straight
-                  <br />
-                  From The Farmer
+                <p className={`${mali.className} mt-5 text-lg text-center`}>
+                Hire and monitor <br/> farm manager performance
                 </p>
               </div>
             </div>
           </div>
+
+
+
+          <div className="basis-1 md:basis-1/3">
+            <div className="card w-full bg-white shadow-xl">
+              <div className="card-body flex items-center">
+                <img
+                  className="mask mask-circle w-32"
+                  src="https://daisyui.com/images/stock/photo-1567653418876-5bb0e566e1c2.jpg"
+                />
+                <p className={`${mali.className} mt-5 text-lg text-center`}>
+                Track farm, harvest, and <br/> sell produce all from the App.
+                </p>
+              </div>
+            </div>
+          </div>
+
         </div>
-      </div> */}
-      {/* end of why choose us section */}
+      </div> 
 
       {/* services section  */}
       <div className="py-32 bg-[#173d25]">
