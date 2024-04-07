@@ -1,35 +1,87 @@
+"use client";
+
 import Testimonial from "@/components/testimonial";
 import { inter, mali } from "@/utils/fonts";
+import { useRef } from "react";
+import Slider from "react-slick";
 
 export default function Home() {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 1000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    fade: true,
+  };
+
   return (
     <>
-      {/* start of hero section */}
-      <div
-        className="hero h-[78vh] bg-cover"
-        style={{
-          backgroundImage: "url(/assets/images/Farm5.jpg",
-        }}
-      >
-        <div className="hero-overlay bg-opacity-60 bg-black"></div>
-        <div className="hero-content text-neutral-content">
-          <div className="w-[80vw] text-white">
-            <h1 className={`mb-5 text-5xl font-bold ${mali.className}`}>
-              More than Farming...
-            </h1>
-            <h1 className={`mb-5 text-5xl font-bold ${mali.className}`}>
-              It&rsquo;s your{" "}
-              <i className={`${inter.className} font-light italic`}>New</i> side
-              hustle
-            </h1>
 
-            <div className="px-12 font-bold py-3 rounded-md max-w-fit mt-10 text-white bg-[#173d25] cursor-pointer">
-              Join Us
+      <Slider {...settings} className="mb-20">
+
+        <div className="h-[50vh] md:h-[78vh] relative">
+          <img src="/assets/images/Farm5.jpg" />
+          <div className="w-full absolute h-full bg-black top-0 start-0 bg-opacity-60 z-5"></div>
+          <div className="text-white absolute inset-0 px-10 md:px-32 h-full">
+            <div className="mt-32">
+              <h1 className={`mb-5 text-5xl font-bold ${mali.className}`}>
+                More than Farming...
+              </h1>
+              <h1 className={`mb-5 text-5xl font-bold ${mali.className}`}>
+                It&rsquo;s your{" "}
+                <i className={`${inter.className} font-light italic`}>New</i>{" "}
+                side hustle
+              </h1>
+
+              <div className="px-12 font-bold py-3 rounded-md max-w-fit mt-10 text-white bg-[#173d25] cursor-pointer">
+                Join Us
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      {/* end of hero section */}
+
+        <div className="h-[50vh] md:h-[78vh] relative">
+          <img src="/assets/images/farm1.jpg" />
+          <div className="w-full absolute h-full bg-black top-0 start-0 bg-opacity-60 z-5"></div>
+          <div className="text-white absolute inset-0 px-10 md:px-32 h-full">
+            <div className="mt-32">
+              <h1 className={`mb-5 text-5xl font-bold ${mali.className}`}>
+                Slider 2
+              </h1>
+              <h1 className={`mb-5 text-5xl font-bold ${mali.className}`}>
+              Lorem ipsum dolor sit amet consectetur adipisicing.
+              </h1>
+
+              <div className="px-12 font-bold py-3 rounded-md max-w-fit mt-10 text-white bg-[#173d25] cursor-pointer">
+                Join Us
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div className="h-[50vh] md:h-[78vh] relative">
+          <img src="/assets/images/farm2.jpeg" />
+          <div className="w-full absolute h-full bg-black top-0 start-0 bg-opacity-60 z-5"></div>
+          <div className="text-white absolute inset-0 px-10 md:px-32 h-full">
+            <div className="mt-32">
+              <h1 className={`mb-5 text-5xl font-bold ${mali.className}`}>
+                Slider 3
+              </h1>
+              <h1 className={`mb-5 text-5xl font-bold ${mali.className}`}>
+              Lorem ipsum dolor sit amet consectetur adipisicing.
+              </h1>
+
+              <div className="px-12 font-bold py-3 rounded-md max-w-fit mt-10 text-white bg-[#173d25] cursor-pointer">
+                Join Us
+              </div>
+            </div>
+          </div>
+        </div>
+      </Slider>
 
       {/* benefits section  */}
       <div>
