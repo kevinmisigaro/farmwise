@@ -1,4 +1,5 @@
 import { inter, mali } from "@/utils/fonts";
+import Link from "next/link";
 
 function Navbar() {
   return (
@@ -26,11 +27,11 @@ function Navbar() {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-black rounded-box w-52"
           >
             <li>
-              <a>Home</a>
+              <a href={"/"}>Home</a>
             </li>
 
             <li>
-              <a>About</a>
+              <Link href={"/about"}>About</Link>
             </li>
 
             <li>
@@ -53,11 +54,15 @@ function Navbar() {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a className={`${mali.className}`}>Home</a>
+            <a href={"/"} className={`${mali.className}`}>
+              Home
+            </a>
           </li>
 
           <li>
-            <a className={`${mali.className}`}>About</a>
+            <Link href={"/about"} className={`${mali.className}`}>
+              About
+            </Link>
           </li>
 
           <li>
