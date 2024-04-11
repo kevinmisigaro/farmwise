@@ -21,7 +21,7 @@ function Index() {
       <Slider {...settings} className="mb-20 w-full">
         <div className="h-[78vh] relative">
           <div
-            className="w-full h-[78vh]"
+            className="w-full h-[78vh] bg-cover"
             style={{
               backgroundImage: "url('/assets/images/Farm5.jpg')",
             }}
@@ -47,7 +47,7 @@ function Index() {
 
         <div className="h-[78vh] relative">
           <div
-            className="w-full h-[78vh]"
+            className="w-full h-[78vh] bg-cover"
             style={{
               backgroundImage: "url('/assets/images/farm1.jpg')",
             }}
@@ -71,7 +71,7 @@ function Index() {
 
         <div className="h-[78vh] relative">
           <div
-            className="w-full h-[78vh]"
+            className="w-full h-[78vh] bg-cover"
             style={{
               backgroundImage: "url('/assets/images/farm2.jpeg')",
             }}
