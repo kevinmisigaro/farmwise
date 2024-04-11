@@ -296,7 +296,7 @@ function Index() {
                 through our extensive list of mechanized and irrigated farms
                 across the country and select the one that speaks to your
                 agricultural aspirations. Decide on the acreage that fits your
-                goals, whether it's a modest plot or an expansive field.
+                goals, whether it&apos;s a modest plot or an expansive field.
                 Farmwise is equipped to bring your farming vision to life
               </p>
             </div>

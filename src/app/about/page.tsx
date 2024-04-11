@@ -38,7 +38,7 @@ const Index = () => {
           and sustainability. We believe that by engaging a new generation of
           farmers from diverse backgrounds, we can transform the agricultural
           landscape into one that is vibrant, inclusive, and capable of meeting
-          the world's food needs.
+          the world&apos;s food needs.
         </p>
       </div>
 
