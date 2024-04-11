@@ -1,4 +1,5 @@
 import RootLayout from "@/app/layout";
+import { mali } from "@/utils/fonts";
 
 const Index = () => {
   return (
@@ -49,30 +50,64 @@ const Index = () => {
         <div className="hero-content text-center text-neutral-content text-white">
           <div className="px-5 md:px-20">
             <h1 className="mb-5 text-4xl font-semibold">
-            Revolutionazing agriculture by addressing urban migration, promoting sustainable farming practices, and engaging a diverse community to ensure a vibrant and sustainable future for agriculture.
+              Revolutionazing agriculture by addressing urban migration,
+              promoting sustainable farming practices, and engaging a diverse
+              community to ensure a vibrant and sustainable future for
+              agriculture.
             </h1>
           </div>
         </div>
       </div>
 
       <div className="px-5 md:px-20 py-20 text-justify">
-      At FWT, we are dedicated to empowering individuals to become part of
-          the solution. Whether you are a seasoned farmer, a curious city
-          dweller with no farming experience, or a global citizen concerned
-          about food security, Farmwise offers you the opportunity to contribute
-          to a sustainable agricultural future. Through our platform, we provide
-          access to farm investment opportunities, cutting-edge agricultural
-          practices, and a supportive community of like-minded individuals
-          committed to making a difference.
-          <br />
-          <br />
-          Join us in our mission to revolutionize farming. Together, we can
-          ensure that agriculture remains a thriving and sustainable endeavor
-          for generations to come. Welcome to Farmwise Tanzania - where we grow
-          more than just food; we cultivate hope, community, and a brighter
-          future for all.
+        At FWT, we are dedicated to empowering individuals to become part of the
+        solution. Whether you are a seasoned farmer, a curious city dweller with
+        no farming experience, or a global citizen concerned about food
+        security, Farmwise offers you the opportunity to contribute to a
+        sustainable agricultural future. Through our platform, we provide access
+        to farm investment opportunities, cutting-edge agricultural practices,
+        and a supportive community of like-minded individuals committed to
+        making a difference.
+        <br />
+        <br />
+        Join us in our mission to revolutionize farming. Together, we can ensure
+        that agriculture remains a thriving and sustainable endeavor for
+        generations to come. Welcome to Farmwise Tanzania - where we grow more
+        than just food; we cultivate hope, community, and a brighter future for
+        all.
       </div>
 
+      <div className="px-5 md:px-20 py-10">
+        <div className={`${mali.className} text-center text-4xl`}>Our Team</div>
+
+        <div className="flex flex-col gap-y-10 md:flex-row items-center mt-10">
+          <div className="basis-1/2 flex flex-col items-center gap-y-4 justify-center text-center">
+            <div
+              className="w-52 h-52 rounded-full bg-cover"
+              style={{
+                backgroundImage: "url('/assets/images/team/farm-team1.jpeg')",
+              }}
+            ></div>
+
+            <div className="font-bold text-xl">Full name</div>
+
+            <div className="text-md">Role</div>
+          </div>
+
+          <div className="basis-1/2 flex flex-col items-center gap-y-4 justify-center text-center">
+            <div
+              className="w-52 h-52 rounded-full bg-cover"
+              style={{
+                backgroundImage: "url('/assets/images/team/farm-team2.jpeg')",
+              }}
+            ></div>
+
+            <div className="font-bold text-xl">Full name</div>
+
+            <div className="text-md">Role</div>
+          </div>
+        </div>
+      </div>
     </RootLayout>
   );
 };
