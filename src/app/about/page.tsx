@@ -85,7 +85,7 @@ const Index = () => {
             <div
               className="w-52 h-52 rounded-full bg-cover"
               style={{
-                backgroundImage: "url('/assets/images/team/farm-team1.jpeg')",
+                backgroundImage: "url('/assets/images/team/farm-team1-min.jpeg')",
               }}
             ></div>
 
@@ -99,7 +99,7 @@ const Index = () => {
             <div
               className="w-52 h-52 rounded-full bg-cover"
               style={{
-                backgroundImage: "url('/assets/images/team/farm-team2.jpeg')",
+                backgroundImage: "url('/assets/images/team/farm-team2-min.jpeg')",
               }}
             ></div>
 

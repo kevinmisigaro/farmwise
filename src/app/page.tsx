@@ -368,7 +368,7 @@ function Index() {
       <div
         className="hero h-[85vh] bg-cover"
         style={{
-          backgroundImage: "url(/assets/images/tractor-field.jpg",
+          backgroundImage: "url(/assets/images/tractor-field-min.jpg",
         }}
       >
         <div className="hero-overlay bg-opacity-80 bg-black"></div>
