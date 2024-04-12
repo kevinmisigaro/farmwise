@@ -77,10 +77,10 @@ const Index = () => {
         all.
       </div>
 
-      <div className="px-5 md:px-20 py-10">
-        <div className={`${mali.className} text-center text-4xl`}>Our Team</div>
+      <div className="px-5 md:px-20 py-20 bg-[#173d25] text-white">
+        <div className={`${mali.className} text-center text-4xl`}>Founders</div>
 
-        <div className="flex flex-col gap-y-10 md:flex-row items-center mt-10">
+        <div className="flex flex-col gap-y-10 md:flex-row items-stretch mt-10">
           <div className="basis-1/2 flex flex-col items-center gap-y-4 justify-center text-center">
             <div
               className="w-52 h-52 rounded-full bg-cover"
@@ -89,9 +89,10 @@ const Index = () => {
               }}
             ></div>
 
-            <div className="font-bold text-xl">Full name</div>
+            <div className="font-bold text-xl">Patricia Mmbando Kakorozya</div>
 
-            <div className="text-md">Role</div>
+            <div className="text-md">Co-Founder & C.E.O</div>
+
           </div>
 
           <div className="basis-1/2 flex flex-col items-center gap-y-4 justify-center text-center">
@@ -102,9 +103,10 @@ const Index = () => {
               }}
             ></div>
 
-            <div className="font-bold text-xl">Full name</div>
+            <div className="font-bold text-xl">Ruth Sidney Yongolo</div>
 
-            <div className="text-md">Role</div>
+            <div className="text-md">Co-Founder & C.O.O</div>
+
           </div>
         </div>
       </div>
