@@ -97,7 +97,7 @@ function Index() {
       {/* benefits section  */}
       <div>
         <div className="flex flex-col md:flex-row items-stretch">
-          <div className="basis-1 md:basis-1/2 px-5 md:px-20 py-32">
+          <div className="basis-1 md:basis-1/2 px-5 md:px-20 py-10 md:py-32">
             <h2 className={`${mali.className} text-5xl`}>
               Why Wait? Your Farming Dream is Just a Click Away
             </h2>
@@ -134,7 +134,7 @@ function Index() {
       </div>
       {/* end of benefits section */}
 
-      <div className="py-28 bg-[#fefdf3]">
+      <div className="py-10 md:py-28 bg-[#fefdf3]">
         <h1 className={`text-center text-5xl ${mali.className}`}>
           Our services
         </h1>
@@ -265,8 +265,8 @@ function Index() {
       </div>
 
       {/* services section  */}
-      <div className="py-32 bg-[#173d25]">
-        <h1 className={`text-center text-5xl text-white ${mali.className}`}>
+      <div className="py-12 md:py-32 bg-[#173d25]">
+        <h1 className={`text-center text-2xl md:text-5xl text-white ${mali.className}`}>
           How Farmwise works:
           <br /> Effortless Farming at your Fingertips
         </h1>
@@ -281,7 +281,7 @@ function Index() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-10 mt-10 px-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-10 mt-10 px-5 md:px-20">
           <div className="card w-full bg-[#00200d] shadow-xl">
             <div className="card-body p-12">
               <div className="flex flex-row items-center gap-x-5">
@@ -454,7 +454,7 @@ function Index() {
       </div>
 
       {/* start of testimonial */}
-      <div className="px-5 md:px-20 py-20 bg-[#fcfaf0]">
+      <div className="px-5 pt-[25rem] md:mt-1 md:px-20 py-12 md:py-20 bg-[#fcfaf0]">
         <div className={`${mali.className} text-center text-4xl`}>
           What people say about Farmwise
         </div>

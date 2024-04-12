@@ -71,7 +71,7 @@ function Navbar() {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Reach Out</a>
+        <a className="btn">Contact</a>
       </div>
     </div>
   );

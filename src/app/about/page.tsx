@@ -5,7 +5,7 @@ const Index = () => {
   return (
     <RootLayout>
       <div
-        className="hero h-[60vh]"
+        className="hero h-[35vh] md:h-[60vh]"
         style={{ backgroundImage: "url(/assets/images/farm2.jpeg)" }}
       >
         <div className="hero-overlay bg-opacity-60 bg-black"></div>
@@ -49,7 +49,7 @@ const Index = () => {
         <div className="hero-overlay bg-opacity-60 bg-black"></div>
         <div className="hero-content text-center text-neutral-content text-white">
           <div className="px-5 md:px-20">
-            <h1 className="mb-5 text-4xl font-semibold">
+            <h1 className="mb-5 text-3xl md:text-4xl font-semibold">
               Revolutionazing agriculture by addressing urban migration,
               promoting sustainable farming practices, and engaging a diverse
               community to ensure a vibrant and sustainable future for
