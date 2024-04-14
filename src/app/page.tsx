@@ -111,7 +111,7 @@ function Index() {
               <br />
               <br />
               Whether you are interested in investing, learning, or farming as a
-              side hustle, our Morogo farm project offers a unique opportunity
+              side hustle, our Morogoro farm project offers a unique opportunity
               to reap the benefit of farming with a difference. Register now to
               become part of our community. Register your interest now!
             </p>
