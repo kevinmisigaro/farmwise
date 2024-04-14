@@ -268,8 +268,8 @@ function Index() {
         </div>
       </div>
 
-      <div className="px-5 md:px-10 py-10 md:py-20">
-        <h1 className="font-bold text-2xl md:text-5xl text-center">
+      <div className="px-5 md:px-10 py-10 md:py-20 bg-[#3C975E]">
+        <h1 className="font-bold text-2xl md:text-5xl text-center text-white">
         Why Farming is Rarely <br/> Chosen as a Side Hustle
         </h1>
 
@@ -532,7 +532,7 @@ function Index() {
         <div className="hero-content text-neutral-content">
           <div className="text-white w-[80vw]">
             <div className={`${mali.className} text-center mb-12 text-3xl`}>
-              About Farmwise
+            Why Choose Farmwise
             </div>
             <div className="grid grid-col-1 md:grid-cols-2 gap-20">
               <div>
