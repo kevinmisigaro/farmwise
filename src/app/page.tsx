@@ -18,7 +18,7 @@ function Index() {
 
   return (
     <>
-      {/* <Slider {...settings} className="mb-20 w-full">
+      <Slider {...settings} className="mb-20 w-full">
         <div className="h-[78vh] relative">
           <div
             className="w-full h-[78vh] bg-cover"
@@ -29,10 +29,10 @@ function Index() {
           <div className="w-full absolute h-full bg-black top-0 start-0 bg-opacity-60 z-5"></div>
           <div className="text-white absolute inset-0 px-10 md:px-10 h-full">
             <div className="mt-32">
-              <h1 className={`mb-5 text-5xl font-bold ${mali.className}`}>
+              <h1 className={`mb-5 text-2xl md:text-5xl font-bold ${mali.className}`}>
                 More than Farming...
               </h1>
-              <h1 className={`mb-5 text-5xl font-bold ${mali.className}`}>
+              <h1 className={`mb-5 text-2xl md:text-5xl font-bold ${mali.className}`}>
                 It&rsquo;s your{" "}
                 <i className={`${inter.className} font-light italic`}>New</i>{" "}
                 side hustle
@@ -55,10 +55,10 @@ function Index() {
           <div className="w-full absolute h-full bg-black top-0 start-0 bg-opacity-60 z-5"></div>
           <div className="text-white absolute inset-0 px-10 md:px-32 h-full">
             <div className="mt-32">
-              <h1 className={`mb-5 text-5xl font-bold ${mali.className}`}>
+              <h1 className={`mb-5 text-2xl md:text-5xl font-bold ${mali.className}`}>
                 Slider 2
               </h1>
-              <h1 className={`mb-5 text-5xl font-bold ${mali.className}`}>
+              <h1 className={`mb-5 text-2xl md:text-5xl font-bold ${mali.className}`}>
                 Lorem ipsum dolor sit amet consectetur adipisicing.
               </h1>
 
@@ -79,10 +79,10 @@ function Index() {
           <div className="w-full absolute h-full bg-black top-0 start-0 bg-opacity-60 z-5"></div>
           <div className="text-white absolute inset-0 px-10 md:px-32 h-full">
             <div className="mt-32">
-              <h1 className={`mb-5 text-5xl font-bold ${mali.className}`}>
+              <h1 className={`mb-5 text-2xl md:text-5xl font-bold ${mali.className}`}>
                 Slider 3
               </h1>
-              <h1 className={`mb-5 text-5xl font-bold ${mali.className}`}>
+              <h1 className={`mb-5 text-2xl md:text-5xl font-bold ${mali.className}`}>
                 Lorem ipsum dolor sit amet consectetur adipisicing.
               </h1>
 
@@ -92,7 +92,7 @@ function Index() {
             </div>
           </div>
         </div>
-      </Slider> */}
+      </Slider>
 
       {/* benefits section  */}
       <div>
