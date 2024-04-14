@@ -270,7 +270,7 @@ function Index() {
 
       <div className="px-5 md:px-10 py-10 md:py-20">
         <h1 className="font-bold text-2xl md:text-5xl text-center">
-          Reasons Why Farming is Often <br/> Overlooked as a Side Hustle
+        Why Farming is Rarely <br/> Chosen as a Side Hustle
         </h1>
 
         <div className="grid grid-cols-1 md:grid-cols-4 px-10 gap-y-5 mt-10 gap-x-4 mt-10">
