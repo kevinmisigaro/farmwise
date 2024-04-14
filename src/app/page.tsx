@@ -103,7 +103,6 @@ function Index() {
             <h2 className={`${mali.className} text-3xl md:text-5xl`}>
               Morogoro Maize Farm Project
             </h2>
-            <h3 className="font-bold mt-6 text-xl md:text-3xl">Come grow with us</h3>
             <p className="mt-10 text-justify mb-10">
               Exciting news! Farmwise has secured 10,000 acres in
               Tanzania&apos;s fertile Morogoro region for our next maize farming
@@ -123,6 +122,8 @@ function Index() {
             >
               Register Now
             </Link>
+
+            <h3 className="font-black mt-10 text-xl md:text-3xl">Come grow with us!</h3>
           </div>
           <div className="basis-1 md:basis-1/2 mb-10">
             <div className="bg-[url('/assets/images/cta-2.jpg')] h-[60vh] bg-cover"></div>
