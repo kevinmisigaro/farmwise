@@ -188,7 +188,8 @@ function Index() {
               <div className="card-body flex items-center text-center">
                 <img className="h-28" src="/assets/icons/services/F1.png" />
                 <p className={`${mali.className} mt-5 text-lg text-center`}>
-                  Quality Agricultural Input <br /><br/>
+                  Quality Agricultural Input <br />
+                  <br />
                 </p>
                 <p className="h-[28vh]">
                   Supplies top-tier seeds, fertilizers, and pesticides, ensuring
@@ -270,7 +271,7 @@ function Index() {
 
       <div className="px-5 md:px-10 py-10 md:py-20 bg-[#3C975E]">
         <h1 className="font-bold text-2xl md:text-5xl text-center text-white">
-        Why Farming is Rarely <br/> Chosen as a Side Hustle
+          Why Farming is Rarely <br /> Chosen as a Side Hustle
         </h1>
 
         <div className="grid grid-cols-1 md:grid-cols-4 px-10 gap-y-5 mt-10 gap-x-4 mt-10">
@@ -278,7 +279,10 @@ function Index() {
           <div className="basis-1 md:basis-1/3">
             <div className="card w-full bg-white shadow-xl shadow">
               <div className="card-body flex items-center">
-                <img className="h-28" src="/assets/icons/hustle/icons8-cash-80.png" />
+                <img
+                  className="h-28"
+                  src="/assets/icons/hustle/icons8-cash-80.png"
+                />
                 <p className={`${mali.className} mt-5 text-lg`}>
                   High Initial Investment
                 </p>
@@ -297,7 +301,10 @@ function Index() {
           <div className="basis-1 md:basis-1/3">
             <div className="card w-full bg-white shadow-xl shadow">
               <div className="card-body flex items-center">
-                <img className="h-28" src="/assets/icons/hustle/icons8-time-50.png" />
+                <img
+                  className="h-28"
+                  src="/assets/icons/hustle/icons8-time-50.png"
+                />
                 <p className={`${mali.className} mt-5 text-lg`}>
                   Time Commitment
                 </p>
@@ -409,9 +416,9 @@ function Index() {
                   Storage and Market Access
                 </p>
                 <p className="h-[28vh] text-justify">
-                  Proper storage and market access are crucial for
-                  preserving quality and ensuring products reach the market,
-                  requiring additional resources and coordination.
+                  Proper storage and market access are crucial for preserving
+                  quality and ensuring products reach the market, requiring
+                  additional resources and coordination.
                 </p>
               </div>
             </div>
@@ -469,11 +476,11 @@ function Index() {
               </div>
 
               <p className="text-[#81af93] mt-3">
-                Once you&apos;ve made your choice, Farmwise takes over. We
-                provide all necessary quality inputs, including premium seeds,
-                environmentally friendly fertilizers, and pesticides. Plus, our
-                agronomic extension services are there to ensure your farm
-                thrives.
+                We supply everything you need, including high-quality seeds,
+                fertilizer, and pesticides. Our farm management app lets you
+                easily track and monitor your farm&apos;s progress daily alongside
+                your Farm Officer, ensuring transparency and giving you peace of
+                mind.
               </p>
             </div>
           </div>
@@ -532,7 +539,7 @@ function Index() {
         <div className="hero-content text-neutral-content">
           <div className="text-white w-[80vw]">
             <div className={`${mali.className} text-center mb-12 text-3xl`}>
-            Why Choose Farmwise
+              Why Choose Farmwise
             </div>
             <div className="grid grid-col-1 md:grid-cols-2 gap-20">
               <div>
