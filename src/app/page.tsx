@@ -19,9 +19,9 @@ function Index() {
   return (
     <>
       <Slider {...settings} className="mb-20 w-full">
-        <div className="h-[78vh] relative">
+        <div className="h-[50vh] md:h-[78vh] relative">
           <div
-            className="w-full h-[78vh] bg-cover"
+            className="w-full h-[50vh] md:h-[78vh] bg-cover"
             style={{
               backgroundImage: "url('/assets/images/Farm5.jpg')",
             }}
@@ -29,10 +29,14 @@ function Index() {
           <div className="w-full absolute h-full bg-black top-0 start-0 bg-opacity-60 z-5"></div>
           <div className="text-white absolute inset-0 px-10 md:px-10 h-full">
             <div className="mt-32">
-              <h1 className={`mb-5 text-2xl md:text-5xl font-bold ${mali.className}`}>
+              <h1
+                className={`mb-5 text-2xl md:text-5xl font-bold ${mali.className}`}
+              >
                 More than Farming...
               </h1>
-              <h1 className={`mb-5 text-2xl md:text-5xl font-bold ${mali.className}`}>
+              <h1
+                className={`mb-5 text-2xl md:text-5xl font-bold ${mali.className}`}
+              >
                 It&rsquo;s your{" "}
                 <i className={`${inter.className} font-light italic`}>New</i>{" "}
                 side hustle
@@ -45,9 +49,9 @@ function Index() {
           </div>
         </div>
 
-        <div className="h-[78vh] relative">
+        <div className="h-[50vh] md:h-[78vh] relative">
           <div
-            className="w-full h-[78vh] bg-cover"
+            className="w-full h-[50vh] md:h-[78vh] bg-cover"
             style={{
               backgroundImage: "url('/assets/images/farm1.jpg')",
             }}
@@ -55,10 +59,14 @@ function Index() {
           <div className="w-full absolute h-full bg-black top-0 start-0 bg-opacity-60 z-5"></div>
           <div className="text-white absolute inset-0 px-10 md:px-32 h-full">
             <div className="mt-32">
-              <h1 className={`mb-5 text-2xl md:text-5xl font-bold ${mali.className}`}>
+              <h1
+                className={`mb-5 text-2xl md:text-5xl font-bold ${mali.className}`}
+              >
                 Slider 2
               </h1>
-              <h1 className={`mb-5 text-2xl md:text-5xl font-bold ${mali.className}`}>
+              <h1
+                className={`mb-5 text-2xl md:text-5xl font-bold ${mali.className}`}
+              >
                 Lorem ipsum dolor sit amet consectetur adipisicing.
               </h1>
 
@@ -69,9 +77,9 @@ function Index() {
           </div>
         </div>
 
-        <div className="h-[78vh] relative">
+        <div className="h-[50vh] md:h-[78vh] relative">
           <div
-            className="w-full h-[78vh] bg-cover"
+            className="w-full h-[50vh] md:h-[78vh] bg-cover"
             style={{
               backgroundImage: "url('/assets/images/farm2.jpeg')",
             }}
@@ -79,10 +87,14 @@ function Index() {
           <div className="w-full absolute h-full bg-black top-0 start-0 bg-opacity-60 z-5"></div>
           <div className="text-white absolute inset-0 px-10 md:px-32 h-full">
             <div className="mt-32">
-              <h1 className={`mb-5 text-2xl md:text-5xl font-bold ${mali.className}`}>
+              <h1
+                className={`mb-5 text-2xl md:text-5xl font-bold ${mali.className}`}
+              >
                 Slider 3
               </h1>
-              <h1 className={`mb-5 text-2xl md:text-5xl font-bold ${mali.className}`}>
+              <h1
+                className={`mb-5 text-2xl md:text-5xl font-bold ${mali.className}`}
+              >
                 Lorem ipsum dolor sit amet consectetur adipisicing.
               </h1>
 
@@ -98,7 +110,7 @@ function Index() {
       <div>
         <div className="flex flex-col md:flex-row items-stretch">
           <div className="basis-1 md:basis-1/2 px-5 md:px-20 py-10 md:py-32">
-            <h2 className={`${mali.className} text-5xl`}>
+            <h2 className={`${mali.className} text-3xl md:text-5xl`}>
               Why Wait? Your Farming Dream is Just a Click Away
             </h2>
             <p className="mt-10 text-justify">
@@ -115,7 +127,7 @@ function Index() {
             </p>
 
             <div className="px-12 py-3 rounded-md max-w-fit mt-10 text-white bg-[#173d25] cursor-pointer">
-              Button
+              Contact Us
             </div>
           </div>
           <div className="basis-1 md:basis-1/2 mb-10">
@@ -125,7 +137,7 @@ function Index() {
               <div className="card-body text-white text-center">
                 <div className="stat-value">100+</div>
                 <div className={`stat-desc text-lg ${mali.className}`}>
-                  Registered Users
+                  Subscribed Users
                 </div>
               </div>
             </div>
@@ -266,7 +278,9 @@ function Index() {
 
       {/* services section  */}
       <div className="py-12 md:py-32 bg-[#173d25]">
-        <h1 className={`text-center text-2xl md:text-5xl text-white ${mali.className}`}>
+        <h1
+          className={`text-center text-2xl md:text-5xl text-white ${mali.className}`}
+        >
           How Farmwise works:
           <br /> Effortless Farming at your Fingertips
         </h1>
