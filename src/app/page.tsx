@@ -18,7 +18,7 @@ function Index() {
 
   return (
     <>
-      <Slider {...settings} className="mb-20 w-full">
+      {/* <Slider {...settings} className="mb-20 w-full">
         <div className="h-[78vh] relative">
           <div
             className="w-full h-[78vh] bg-cover"
@@ -92,7 +92,7 @@ function Index() {
             </div>
           </div>
         </div>
-      </Slider>
+      </Slider> */}
 
       {/* benefits section  */}
       <div>

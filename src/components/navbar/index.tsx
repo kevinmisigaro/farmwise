@@ -64,10 +64,6 @@ function Navbar() {
               About
             </Link>
           </li>
-
-          <li>
-            <a className={`${mali.className}`}>Services</a>
-          </li>
         </ul>
       </div>
       <div className="navbar-end">
