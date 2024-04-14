@@ -478,9 +478,9 @@ function Index() {
               <p className="text-[#81af93] mt-3">
                 We supply everything you need, including high-quality seeds,
                 fertilizer, and pesticides. Our farm management app lets you
-                easily track and monitor your farm&apos;s progress daily alongside
-                your Farm Officer, ensuring transparency and giving you peace of
-                mind.
+                easily track and monitor your farm&apos;s progress daily
+                alongside your Farm Officer, ensuring transparency and giving
+                you peace of mind.
               </p>
             </div>
           </div>
@@ -517,11 +517,9 @@ function Index() {
               </div>
 
               <p className="text-[#81af93] mt-3">
-                The fruits of your investment are entirely yours. At harvest,
-                you&apos;re free to enjoy the produce, share it, or even sell it
-                back to us. Should you choose to sell, we ensure a smooth
-                transaction, crediting your proceeds directly to your designated
-                bank account.
+                At harvest time, you can either keep your produce or sell on our
+                platform at premium price. We make sure the money from the sale
+                goes right into your bank account easily.
               </p>
             </div>
           </div>
