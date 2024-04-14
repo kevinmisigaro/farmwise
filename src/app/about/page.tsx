@@ -20,8 +20,8 @@ const Index = () => {
       <div className="px-5 md:px-20 py-20 text-justify">
         <p>
           Farmwise Tanzania (FWT) is tackling the severe decline in smallholder
-          farmers by making agriculture more accessible through a "farming as a
-          service" platform, aimed especially at urban dwellers and those new to
+          farmers by making agriculture more accessible through a &rdquo;farming as a
+          service&rdquo; platform, aimed especially at urban dwellers and those new to
           farming. This initiative seeks to counter the effects of urban
           migration and inadequate succession planning which threaten food
           security amid a growing global population. FWT allows individuals to
