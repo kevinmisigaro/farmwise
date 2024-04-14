@@ -525,7 +525,7 @@ function Index() {
           <div>
             <h3>Send an Email</h3>
             <h2 className="font-bold text-lg">
-              patricia.kakorozya@farmwise.tz
+            ruth.yongolo@farmwise.tz
             </h2>
           </div>
         </div>
