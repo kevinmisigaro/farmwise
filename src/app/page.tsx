@@ -4,6 +4,7 @@ import Footer from "@/components/footer";
 import Testimonial from "@/components/testimonial";
 import { inter, mali } from "@/utils/fonts";
 import { handleClickScroll } from "@/utils/functions";
+import Link from "next/link";
 import Slider from "react-slick";
 
 function Index() {
@@ -102,7 +103,7 @@ function Index() {
             <h2 className={`${mali.className} text-3xl md:text-5xl`}>
               Morogoro Maize Farm Project
             </h2>
-            <p className="mt-10 text-justify">
+            <p className="mt-10 text-justify mb-10">
               Exciting news! Farmwise has secured 10,000 acres in
               Tanzania&apos;s fertile Morogoro region for our next maize farming
               project. As we prepare the farm for the next planting season, we
@@ -117,9 +118,12 @@ function Index() {
               your interest now!
             </p>
 
-            <div className="px-12 py-3 rounded-md max-w-fit mt-10 text-white bg-[#173d25] cursor-pointer">
+            <Link
+              href={"/contact"}
+              className="px-12 py-3 rounded-md max-w-fit text-white bg-[#173d25] cursor-pointer"
+            >
               Register Now
-            </div>
+            </Link>
           </div>
           <div className="basis-1 md:basis-1/2 mb-10">
             <div className="bg-[url('/assets/images/farm3.jpg')] h-[60vh] bg-cover"></div>
