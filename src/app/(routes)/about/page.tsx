@@ -17,7 +17,7 @@ const Index = () => {
         </div>
       </div>
 
-      <div className="px-5 md:px-20 py-20 text-justify">
+      <div className="px-5 md:px-20 py-20 text-justify text-lg md:text-xl">
         <p>
           Farmwise Tanzania (FWT) is tackling the severe decline in smallholder
           farmers by making agriculture more accessible through a &rdquo;farming
@@ -49,7 +49,7 @@ const Index = () => {
         </div>
       </div>
 
-      <div className="px-5 md:px-20 py-20 text-justify">
+      <div className="px-5 md:px-20 py-20 text-justify text-lg md:text-xl">
         At FWT, we are dedicated to empowering individuals to become part of the
         solution. Whether you are a seasoned farmer, a curious city dweller with
         no farming experience, or a global citizen concerned about food
@@ -102,7 +102,7 @@ const Index = () => {
           </div>
         </div>
 
-        <div className="mt-12 md:mt-20 text-justify">
+        <div className="mt-12 md:mt-20 text-justify text-lg md:text-xl">
           <p>
             Patricia Kakorozya and Ruth Yongolo, founders of Farmwise Tanzania,
             shared a deep concern stemming from a common observation: with each
