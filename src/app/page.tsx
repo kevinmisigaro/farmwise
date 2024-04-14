@@ -289,12 +289,11 @@ function Index() {
               </div>
 
               <p className="text-[#81af93] mt-3">
-                Start your journey by subscribing to our online services. Browse
-                through our extensive list of mechanized and irrigated farms
-                across the country and select the one that speaks to your
-                agricultural aspirations. Decide on the acreage that fits your
-                goals, whether it&apos;s a modest plot or an expansive field.
-                Farmwise is equipped to bring your farming vision to life
+                At Farmwise, we offer a wide selection of farms across the
+                nation, for each planting season. Whether you are looking for a
+                small plot or a vast field to suit your agricultural ambitions.
+                Simply select your desired acreage, complete your payment, and
+                start your farming journey with us.
               </p>
             </div>
           </div>
