@@ -154,7 +154,7 @@ function Index() {
                 <p className={`${mali.className} mt-5 text-lg`}>
                   Short-term Farm Rental <br /> Opportunity Nationwide
                 </p>
-                <p className="h-[20vh]">
+                <p className="h-[28vh]">
                   Offers flexible, short-term leases on a wide range of farms
                   across the country, allowing investors and even non-farmers to
                   embark on agricultural projects instantly without long-term
@@ -172,7 +172,7 @@ function Index() {
                   Land Preparation and Management <br />
                   <br />
                 </p>
-                <p className="h-[20vh]">
+                <p className="h-[28vh]">
                   Provides comprehensive farm services including soil testing
                   and treatment, plowing, and irrigation setup (where
                   applicable) to ensure land is fertile and ready for planting,
@@ -190,7 +190,7 @@ function Index() {
                   Quality Agricultural Input <br />
                   <br />
                 </p>
-                <p className="h-[20vh]">
+                <p className="h-[28vh]">
                   Supplies top-tier seeds, fertilizers, and pesticides, ensuring
                   that farmers have access to the best inputs for their crops,
                   leading to healthier plants and increased yields.
@@ -208,7 +208,7 @@ function Index() {
                   <br />
                   <br />
                 </p>
-                <p className="h-[20vh]">
+                <p className="h-[28vh]">
                   Our mobile app delivers end-to-end farm management for remote
                   farm management for transparency and accountability. You can
                   select from our list of certified and dedicated Farm Officers
@@ -228,7 +228,7 @@ function Index() {
                   <br />
                   <br />
                 </p>
-                <p className="h-[20vh]">
+                <p className="h-[28vh]">
                   We partner with agricultural-centric banks to offer tailored
                   financial solutions, including loans, insurance cover, and
                   investment opportunities, aimed to support agro-investments
@@ -247,7 +247,7 @@ function Index() {
                   <br />
                   <br />
                 </p>
-                <p className="h-[20vh]">
+                <p className="h-[28vh]">
                   At Farmwise, we facilitate connections between farmers and
                   buyers, ensuring that produce is fairly priced, and reaches
                   the market efficiently and profitably, reducing the risk of
