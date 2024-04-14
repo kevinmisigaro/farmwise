@@ -126,7 +126,7 @@ function Index() {
             </Link>
           </div>
           <div className="basis-1 md:basis-1/2 mb-10">
-            <div className="bg-[url('/assets/images/farm3.jpg')] h-[60vh] bg-cover"></div>
+            <div className="bg-[url('/assets/images/cta-2.jpg')] h-[60vh] bg-cover"></div>
 
             <div className="card bg-[#173d25] border-8 border-[#fdd51f] max-w-sm -mt-5 animate-bounce">
               <div className="card-body text-white text-center">
