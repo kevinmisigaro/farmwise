@@ -1,4 +1,5 @@
 import RootLayout from "@/app/layout";
+import Footer from "@/components/footer";
 import { mali } from "@/utils/fonts";
 
 const Index = () => {
@@ -110,6 +111,8 @@ const Index = () => {
           </div>
         </div>
       </div>
+
+      <Footer />
     </RootLayout>
   );
 };

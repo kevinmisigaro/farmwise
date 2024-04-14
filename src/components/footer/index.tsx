@@ -11,7 +11,7 @@ function Footer() {
           <h6 className="footer-title">Social</h6>
           <div className="grid grid-flow-col gap-4">
             <a
-              href="https://www.instagram.com/farmwisetz/?hl=en"
+              href="https://twitter.com/Farmwisetz"
               target="_blank"
             >
               <img
