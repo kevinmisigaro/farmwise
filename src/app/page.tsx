@@ -191,7 +191,7 @@ function Index() {
             <div className="card w-full bg-white shadow-xl">
               <div className="card-body flex items-center text-center">
                 <img
-                  className="mask mask-circle w-20"
+                  className="w-20"
                   src="/assets/icons/services/F4.png"
                 />
                 <p className={`${mali.className} mt-5 text-lg text-center`}>
