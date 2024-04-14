@@ -3,10 +3,11 @@
 import { inter, mali } from "@/utils/fonts";
 import { handleClickScroll } from "@/utils/functions";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 
 function Navbar() {
   const router = useRouter();
+  const pathname = usePathname()
 
   return (
     <div className="navbar bg-[black] text-white">
@@ -43,7 +44,7 @@ function Navbar() {
             <li>
               <a
                 onClick={() => {
-                  if (window.location.pathname.includes("about")) {
+                  if (pathname == "/about") {
                     router.push("/");
                   }
                   handleClickScroll("services");
@@ -84,7 +85,7 @@ function Navbar() {
             <a
               className={`${mali.className}`}
               onClick={() => {
-                if (window.location.pathname.includes("about")) {
+                if (pathname == "/about") {
                   router.push("/");
                 }
                 handleClickScroll("services");

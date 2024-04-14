@@ -95,21 +95,14 @@ function Index() {
       {/* benefits section  */}
       <div id="dream">
         <div className="flex flex-col md:flex-row items-stretch">
-          <div className="basis-1 md:basis-1/2 px-5 md:px-20 py-10 md:py-32">
+          <div className="basis-1 md:basis-1/2 px-5 md:px-20 py-10">
             <h2 className={`${mali.className} text-3xl md:text-5xl`}>
-              Why Wait? Your Farming Dream is Just a Click Away
+            Morogoro Maize Farm Project
             </h2>
             <p className="mt-10 text-justify">
-              Transform your vision of owning a prosperous farm into reality
-              with Farmwise. Our streamlined process, backed by comprehensive
-              support, makes farming a seamless, rewarding experience. With
-              limited spaces available, now is the moment to act. Visit us at
-              &nbsp;
-              <a href="www.farmwise.tz" target="_blank" className="underline">
-                www.farmwise.tz
-              </a>
-              , subscribe, and embark on your farming journey today. Embrace the
-              future of farming with Farmwise — a promise of success!
+            Exciting news! Farmwise has secured 10,000 acres in Tanzania's fertile Morogoro region for our next maize farming project. As we prepare the farm for the next planting season, we invite you to be part of this sustainable agriculture movement.
+<br/><br/>
+Whether you are interested in investing, learning, or farming as a side hustle, our Morogo farm project offers a unique opportunity to reap the benefit of farming with a difference. Register now to become part of our community. Come grow with us. Register your interest now!
             </p>
 
             <div className="px-12 py-3 rounded-md max-w-fit mt-10 text-white bg-[#173d25] cursor-pointer">
