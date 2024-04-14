@@ -1,18 +1,12 @@
 "use client";
 
 import { inter, mali } from "@/utils/fonts";
+import { handleClickScroll } from "@/utils/functions";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 
 function Navbar() {
   const router = useRouter();
-
-  const handleClickScroll = (id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
 
   return (
     <div className="navbar bg-[black] text-white">

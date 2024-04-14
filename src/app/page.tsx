@@ -3,6 +3,7 @@
 import Footer from "@/components/footer";
 import Testimonial from "@/components/testimonial";
 import { inter, mali } from "@/utils/fonts";
+import { handleClickScroll } from "@/utils/functions";
 import Slider from "react-slick";
 
 function Index() {
@@ -44,8 +45,8 @@ function Index() {
               </h1>
 
               <div className="flex flex-row justify-center mt-10">
-                <div className="px-12 font-bold py-3 rounded-md max-w-fit text-white bg-[#173d25] cursor-pointer">
-                  Join Us
+                <div onClick={() => handleClickScroll("dream")} className="px-12 font-bold py-3 rounded-md max-w-fit text-white bg-[#173d25] cursor-pointer">
+                  Learn More
                 </div>
               </div>
             </div>
@@ -92,7 +93,7 @@ function Index() {
       </Slider>
 
       {/* benefits section  */}
-      <div>
+      <div id="dream">
         <div className="flex flex-col md:flex-row items-stretch">
           <div className="basis-1 md:basis-1/2 px-5 md:px-20 py-10 md:py-32">
             <h2 className={`${mali.className} text-3xl md:text-5xl`}>
