@@ -54,56 +54,38 @@ function Index() {
 
         <div className="h-[50vh] md:h-[78vh] relative">
           <div
-            className="w-full h-[50vh] md:h-[78vh] bg-cover bg-center"
+            className="w-full h-[50vh] md:h-[78vh] bg-cover"
             style={{
-              backgroundImage: "url('/assets/images/banners/banner2.jpg')",
+              backgroundImage: "url('/assets/images/banners/banner6.jpg')",
             }}
           ></div>
           <div className="w-full absolute h-full bg-black top-0 start-0 bg-opacity-60 z-5"></div>
           <div className="text-white absolute inset-0 px-10 md:px-32 h-full">
             <div className="mt-32">
               <h1
-                className={`mb-5 text-2xl md:text-5xl font-bold ${mali.className}`}
+                className={`mb-5 text-2xl md:text-5xl text-center font-bold ${mali.className}`}
               >
-                Slider 2
+                Monitor and track <br/> your money remotely
               </h1>
-              <h1
-                className={`mb-5 text-2xl md:text-5xl font-bold ${mali.className}`}
-              >
-                Lorem ipsum dolor sit amet consectetur adipisicing.
-              </h1>
-
-              <div className="px-12 font-bold py-3 rounded-md max-w-fit mt-10 text-white bg-[#173d25] cursor-pointer">
-                Join Us
-              </div>
             </div>
           </div>
         </div>
 
         <div className="h-[50vh] md:h-[78vh] relative">
           <div
-            className="w-full h-[50vh] md:h-[78vh] bg-cover"
+            className="w-full h-[50vh] md:h-[78vh] bg-cover bg-center"
             style={{
-              backgroundImage: "url('/assets/images/farm2.jpeg')",
+              backgroundImage: "url('/assets/images/banners/banner3.jpg')",
             }}
           ></div>
           <div className="w-full absolute h-full bg-black top-0 start-0 bg-opacity-60 z-5"></div>
           <div className="text-white absolute inset-0 px-10 md:px-32 h-full">
             <div className="mt-32">
               <h1
-                className={`mb-5 text-2xl md:text-5xl font-bold ${mali.className}`}
+                className={`mb-5 text-2xl md:text-5xl text-center font-bold ${mali.className}`}
               >
-                Slider 3
+                We make farming possible <br/> and profitable for everybody
               </h1>
-              <h1
-                className={`mb-5 text-2xl md:text-5xl font-bold ${mali.className}`}
-              >
-                Lorem ipsum dolor sit amet consectetur adipisicing.
-              </h1>
-
-              <div className="px-12 font-bold py-3 rounded-md max-w-fit mt-10 text-white bg-[#173d25] cursor-pointer">
-                Join Us
-              </div>
             </div>
           </div>
         </div>
@@ -521,7 +503,7 @@ function Index() {
           />
           <div>
             <h3>Helpline and Support</h3>
-            <h2 className="font-bold text-lg">+255713444448</h2>
+            <h2 className="font-bold text-lg">+255-713444448</h2>
           </div>
         </div>
 
