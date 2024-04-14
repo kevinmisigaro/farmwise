@@ -111,7 +111,7 @@ function Navbar() {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn" href="/contact">Join</a>
+        <Link className="btn" href="/contact">Join</Link>
       </div>
     </div>
   );
