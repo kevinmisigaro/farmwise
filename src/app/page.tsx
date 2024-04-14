@@ -113,7 +113,7 @@ function Index() {
               Whether you are interested in investing, learning, or farming as a
               side hustle, our Morogo farm project offers a unique opportunity
               to reap the benefit of farming with a difference. Register now to
-              become part of our community.{" "} Register your interest now!
+              become part of our community. Register your interest now!
             </p>
 
             <Link
@@ -123,7 +123,9 @@ function Index() {
               Register Now
             </Link>
 
-            <h3 className="font-black mt-10 text-xl md:text-3xl">Come grow with us!</h3>
+            <h3 className="font-black mt-10 text-xl md:text-3xl">
+              Come grow with us!
+            </h3>
           </div>
           <div className="basis-1 md:basis-1/2 mb-10">
             <div className="bg-[url('/assets/images/cta-2.jpg')] h-[60vh] bg-cover"></div>
@@ -150,7 +152,7 @@ function Index() {
           <div className="basis-1 md:basis-1/3">
             <div className="card w-full bg-white shadow-xl">
               <div className="card-body flex items-center">
-                <img className="w-20" src="/assets/icons/services/F9.png" />
+                <img className="h-28" src="/assets/icons/services/F9.png" />
                 <p className={`${mali.className} mt-5 text-lg`}>
                   Short-term Farm Rental <br /> Opportunity Nationwide
                 </p>
@@ -167,7 +169,7 @@ function Index() {
           <div className="basis-1 md:basis-1/3">
             <div className="card w-full bg-white shadow-xl">
               <div className="card-body flex items-center text-center">
-                <img className="w-20" src="/assets/icons/services/F8.png" />
+                <img className="h-28" src="/assets/icons/services/F8.png" />
                 <p className={`${mali.className} mt-5 text-lg`}>
                   Land Preparation and Management <br />
                   <br />
@@ -185,7 +187,7 @@ function Index() {
           <div className="basis-1 md:basis-1/3">
             <div className="card w-full bg-white shadow-xl">
               <div className="card-body flex items-center text-center">
-                <img className="w-20" src="/assets/icons/services/F1.png" />
+                <img className="h-28" src="/assets/icons/services/F1.png" />
                 <p className={`${mali.className} mt-5 text-lg text-center`}>
                   Quality Agricultural Input <br />
                   <br />
@@ -202,7 +204,7 @@ function Index() {
           <div className="basis-1 md:basis-1/3">
             <div className="card w-full bg-white shadow-xl">
               <div className="card-body flex items-center text-center">
-                <img className="w-20" src="/assets/icons/services/F6.png" />
+                <img className="h-28" src="/assets/icons/services/F6.png" />
                 <p className={`${mali.className} mt-5 text-lg text-center`}>
                   Farming as a Service (FaaS)
                   <br />
@@ -222,7 +224,7 @@ function Index() {
           <div className="basis-1 md:basis-1/3">
             <div className="card w-full bg-white shadow-xl">
               <div className="card-body flex items-center text-center">
-                <img className="w-20" src="/assets/icons/services/F4.png" />
+                <img className="h-28" src="/assets/icons/services/F4.png" />
                 <p className={`${mali.className} mt-5 text-lg text-center`}>
                   Agricultural Financial Services
                   <br />
@@ -241,7 +243,7 @@ function Index() {
           <div className="basis-1 md:basis-1/3">
             <div className="card w-full bg-white shadow-xl">
               <div className="card-body flex items-center text-center">
-                <img className="w-20" src="/assets/icons/services/F3.png" />
+                <img className="h-28" src="/assets/icons/services/F3.png" />
                 <p className={`${mali.className} mt-5 text-lg text-center`}>
                   Ready Market Access
                   <br />
@@ -256,6 +258,15 @@ function Index() {
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="flex flex-row justify-center mt-20">
+          <Link
+            href={"/contact"}
+            className="px-12 py-3 rounded-md max-w-fit text-white bg-[#173d25] cursor-pointer"
+          >
+            Register Now
+          </Link>
         </div>
       </div>
 
@@ -524,9 +535,7 @@ function Index() {
           />
           <div>
             <h3>Send an Email</h3>
-            <h2 className="font-bold text-lg">
-            ruth.yongolo@farmwise.tz
-            </h2>
+            <h2 className="font-bold text-lg">ruth.yongolo@farmwise.tz</h2>
           </div>
         </div>
       </div>
