@@ -103,6 +103,7 @@ function Index() {
             <h2 className={`${mali.className} text-3xl md:text-5xl`}>
               Morogoro Maize Farm Project
             </h2>
+            <h3 className="font-bold mt-6 text-xl md:text-3xl">Come grow with us</h3>
             <p className="mt-10 text-justify mb-10">
               Exciting news! Farmwise has secured 10,000 acres in
               Tanzania&apos;s fertile Morogoro region for our next maize farming
@@ -113,9 +114,7 @@ function Index() {
               Whether you are interested in investing, learning, or farming as a
               side hustle, our Morogo farm project offers a unique opportunity
               to reap the benefit of farming with a difference. Register now to
-              become part of our community.{" "}
-              <span className="font-bold">Come grow with us</span>. Register
-              your interest now!
+              become part of our community.{" "} Register your interest now!
             </p>
 
             <Link
