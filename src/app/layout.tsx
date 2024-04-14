@@ -9,6 +9,30 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <title>Farmwise</title>
+        <meta property="og:url" content="https://www.farmwise.tz" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Farmwise" />
+        <meta name="twitter:card" content="summary" />
+        <meta
+          property="og:description"
+          content="We make farming possible and profitable for everybody."
+        />
+        <meta
+          name="image"
+          property="og:image"
+          content="/assets/images/farmwiselogo.png"
+        />
+        <meta property="og:image:type" content="image/svg+xml" />
+        <meta property="og:image:width" content="50" />
+        <meta property="og:image:height" content="50" />
+        <meta property="og:image:alt" content="logo" />
+        <meta name="image" content="/assets/images/farmwiselogo.png" />
+        <meta
+          name="description"
+          content="We make farming possible and profitable for everybody."
+        />
+        <meta name="twitter:image" content="/assets/images/farmwiselogo.png" />
         <link
           rel="stylesheet"
           type="text/css"
