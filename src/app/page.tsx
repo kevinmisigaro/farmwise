@@ -100,7 +100,7 @@ function Index() {
             Morogoro Maize Farm Project
             </h2>
             <p className="mt-10 text-justify">
-            Exciting news! Farmwise has secured 10,000 acres in Tanzania's fertile Morogoro region for our next maize farming project. As we prepare the farm for the next planting season, we invite you to be part of this sustainable agriculture movement.
+            Exciting news! Farmwise has secured 10,000 acres in Tanzania&apos;s fertile Morogoro region for our next maize farming project. As we prepare the farm for the next planting season, we invite you to be part of this sustainable agriculture movement.
 <br/><br/>
 Whether you are interested in investing, learning, or farming as a side hustle, our Morogo farm project offers a unique opportunity to reap the benefit of farming with a difference. Register now to become part of our community. Come grow with us. Register your interest now!
             </p>
