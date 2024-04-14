@@ -27,7 +27,7 @@ function Index() {
               backgroundImage: "url('/assets/images/banners/banner1.jpg')",
             }}
           ></div>
-          <div className="w-full absolute h-full bg-black top-0 start-0 bg-opacity-60 z-5"></div>
+          <div className="w-full absolute h-full bg-black top-0 start-0 bg-opacity-30 z-5"></div>
           <div className="text-white absolute inset-0 text-center px-10 md:px-10 h-full">
             <div className="mt-32">
               <h1
@@ -80,7 +80,7 @@ function Index() {
           ></div>
           <div className="w-full absolute h-full bg-black top-0 start-0 bg-opacity-60 z-5"></div>
           <div className="text-white absolute inset-0 px-10 md:px-32 h-full">
-            <div className="mt-32">
+            <div className="mt-[17rem]">
               <h1
                 className={`mb-5 text-2xl md:text-5xl text-center font-bold ${mali.className}`}
               >
@@ -131,7 +131,7 @@ function Index() {
       </div>
       {/* end of benefits section */}
 
-      <div className="py-10 md:py-28 bg-[#fefdf3]">
+      <div className="py-10 md:py-28 bg-[#fefdf3]" id="services">
         <h1 className={`text-center text-5xl ${mali.className}`}>
           Our services
         </h1>
@@ -190,10 +190,7 @@ function Index() {
           <div className="basis-1 md:basis-1/3">
             <div className="card w-full bg-white shadow-xl">
               <div className="card-body flex items-center text-center">
-                <img
-                  className="w-20"
-                  src="/assets/icons/services/F4.png"
-                />
+                <img className="w-20" src="/assets/icons/services/F6.png" />
                 <p className={`${mali.className} mt-5 text-lg text-center`}>
                   Farming as a Service (FaaS)
                   <br />
@@ -211,7 +208,7 @@ function Index() {
           <div className="basis-1 md:basis-1/3">
             <div className="card w-full bg-white shadow-xl">
               <div className="card-body flex items-center text-center">
-                <img className="w-20" src="/assets/icons/services/F3.png" />
+                <img className="w-20" src="/assets/icons/services/F4.png" />
                 <p className={`${mali.className} mt-5 text-lg text-center`}>
                   Agricultural Financial Services
                   <br />
@@ -229,7 +226,7 @@ function Index() {
           <div className="basis-1 md:basis-1/3">
             <div className="card w-full bg-white shadow-xl">
               <div className="card-body flex items-center text-center">
-                <img className="w-20" src="/assets/icons/services/F6.png" />
+                <img className="w-20" src="/assets/icons/services/F3.png" />
                 <p className={`${mali.className} mt-5 text-lg text-center`}>
                   Ready Market Access
                   <br />
@@ -247,7 +244,7 @@ function Index() {
       </div>
 
       {/* services section  */}
-      <div className="py-12 md:py-32 bg-[#173d25]">
+      <div className="py-12 md:py-32 bg-[#173d25]" id="works">
         <h1
           className={`text-center text-2xl md:text-5xl text-white ${mali.className}`}
         >

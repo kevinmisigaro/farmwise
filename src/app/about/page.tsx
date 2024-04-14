@@ -19,27 +19,16 @@ const Index = () => {
 
       <div className="px-5 md:px-20 py-20 text-justify">
         <p>
-          Farmwise Tanzania (FWT) is the vision brought to life by two
-          remarkable women, Patricia Kakorozya and Ruth Yongolo, united by a
-          shared concern for the future of agriculture in their country.
-          Observing the steady decline of smallholder farmers in rural areas,
-          largely due to urban migration and a lack of succession planning,
-          Patricia and Ruth were moved to action. They recognized the critical
-          challenge facing not just Tanzania, but the world: with a rapidly
-          growing global population, the demand for food is escalating,
-          necessitating innovative solutions for sustainable and efficient food
-          production.
-          <br />
-          <br />
-          In response to this urgent need, Farmwise Tanzania was born. Our
-          platform is more than just a business; it is a movement towards
-          revitalizing agriculture by making it accessible and appealing to city
-          dwellers and global citizens alike. Farmwise champions an innovative
-          approach to farming that prioritizes organic methods, traceability,
-          and sustainability. We believe that by engaging a new generation of
-          farmers from diverse backgrounds, we can transform the agricultural
-          landscape into one that is vibrant, inclusive, and capable of meeting
-          the world&apos;s food needs.
+          Farmwise Tanzania (FWT) is tackling the severe decline in smallholder
+          farmers by making agriculture more accessible through a "farming as a
+          service" platform, aimed especially at urban dwellers and those new to
+          farming. This initiative seeks to counter the effects of urban
+          migration and inadequate succession planning which threaten food
+          security amid a growing global population. FWT allows individuals to
+          invest in agriculture, manage their investments flexibly, and actively
+          participate in sustainable farming practices. This approach transforms
+          farming into a practical side hustle and financial opportunity,
+          promoting a sustainable and prosperous future for agriculture.
         </p>
       </div>
 
@@ -86,28 +75,28 @@ const Index = () => {
             <div
               className="w-52 h-52 rounded-full bg-cover"
               style={{
-                backgroundImage: "url('/assets/images/team/farm-team1-min.jpeg')",
+                backgroundImage:
+                  "url('/assets/images/team/farm-team1-min.jpeg')",
               }}
             ></div>
 
             <div className="font-bold text-xl">Patricia Mmbando Kakorozya</div>
 
             <div className="text-md">Co-Founder & C.E.O</div>
-
           </div>
 
           <div className="basis-1/2 flex flex-col items-center gap-y-4 justify-center text-center">
             <div
               className="w-52 h-52 rounded-full bg-cover"
               style={{
-                backgroundImage: "url('/assets/images/team/farm-team2-min.jpeg')",
+                backgroundImage:
+                  "url('/assets/images/team/farm-team2-min.jpeg')",
               }}
             ></div>
 
             <div className="font-bold text-xl">Ruth Sidney Yongolo</div>
 
             <div className="text-md">Co-Founder & C.O.O</div>
-
           </div>
         </div>
       </div>

@@ -1,7 +1,19 @@
+"use client";
+
 import { inter, mali } from "@/utils/fonts";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 function Navbar() {
+  const router = useRouter();
+
+  const handleClickScroll = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="navbar bg-[black] text-white">
       <div className="navbar-start">
@@ -35,7 +47,16 @@ function Navbar() {
             </li>
 
             <li>
-              <a>Services</a>
+              <a
+                onClick={() => {
+                  if (window.location.pathname.includes("about")) {
+                    router.push("/");
+                  }
+                  handleClickScroll("services");
+                }}
+              >
+                Services
+              </a>
             </li>
           </ul>
         </div>
@@ -63,6 +84,32 @@ function Navbar() {
             <Link href={"/about"} className={`${mali.className}`}>
               About
             </Link>
+          </li>
+
+          <li>
+            <a
+              onClick={() => {
+                if (window.location.pathname.includes("about")) {
+                  router.push("/");
+                }
+                handleClickScroll("services");
+              }}
+            >
+              Services
+            </a>
+          </li>
+
+          <li>
+            <a
+              onClick={() => {
+                if (window.location.pathname.includes("about")) {
+                  router.push("/");
+                }
+                handleClickScroll("works");
+              }}
+            >
+              How it Works
+            </a>
           </li>
         </ul>
       </div>
