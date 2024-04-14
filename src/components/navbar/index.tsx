@@ -82,6 +82,7 @@ function Navbar() {
 
           <li>
             <a
+              className={`${mali.className}`}
               onClick={() => {
                 if (window.location.pathname.includes("about")) {
                   router.push("/");
@@ -95,6 +96,7 @@ function Navbar() {
 
           <li>
             <a
+              className={`${mali.className}`}
               onClick={() => {
                 if (window.location.pathname.includes("about")) {
                   router.push("/");
@@ -108,7 +110,7 @@ function Navbar() {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Contact</a>
+        <a className="btn">Join</a>
       </div>
     </div>
   );
