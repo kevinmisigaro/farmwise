@@ -172,7 +172,6 @@ function Index() {
                 <img className="h-28" src="/assets/icons/services/F8.png" />
                 <p className={`${mali.className} mt-5 text-lg`}>
                   Land Preparation and Management <br />
-                  <br />
                 </p>
                 <p className="h-[28vh]">
                   Provides comprehensive farm services including soil testing
@@ -189,8 +188,7 @@ function Index() {
               <div className="card-body flex items-center text-center">
                 <img className="h-28" src="/assets/icons/services/F1.png" />
                 <p className={`${mali.className} mt-5 text-lg text-center`}>
-                  Quality Agricultural Input <br />
-                  <br />
+                  Quality Agricultural Input <br /><br/>
                 </p>
                 <p className="h-[28vh]">
                   Supplies top-tier seeds, fertilizers, and pesticides, ensuring
@@ -267,6 +265,158 @@ function Index() {
           >
             Register Now
           </Link>
+        </div>
+      </div>
+
+      <div className="px-5 md:px-10 py-10 md:py-20">
+        <h1 className="font-bold text-2xl md:text-5xl text-center">
+          Reasons Why Farming is Often <br/> Overlooked as a Side Hustle
+        </h1>
+
+        <div className="grid grid-cols-1 md:grid-cols-4 px-10 gap-y-5 mt-10 gap-x-4 mt-10">
+          {/* card start */}
+          <div className="basis-1 md:basis-1/3">
+            <div className="card w-full bg-white shadow-xl shadow">
+              <div className="card-body flex items-center">
+                <img className="h-28" src="/assets/icons/hustle/icons8-cash-80.png" />
+                <p className={`${mali.className} mt-5 text-lg`}>
+                  High Initial Investment
+                </p>
+                <p className="h-[28vh] text-justify">
+                  Farming often requires significant upfront costs, including
+                  land, equipment, seeds, and other necessary supplies, which
+                  can be a barrier for individuals looking for low-cost entry
+                  points into side hustles.
+                </p>
+              </div>
+            </div>
+          </div>
+          {/* card end */}
+
+          {/* card start */}
+          <div className="basis-1 md:basis-1/3">
+            <div className="card w-full bg-white shadow-xl shadow">
+              <div className="card-body flex items-center">
+                <img className="h-28" src="/assets/icons/hustle/icons8-time-50.png" />
+                <p className={`${mali.className} mt-5 text-lg`}>
+                  Time Commitment
+                </p>
+                <p className="h-[28vh] text-justify">
+                  Farming is time-consuming, requiring regular attention. This
+                  can be challenging for those who already have full-time jobs
+                  or other commitments, making it difficult to manage alongside
+                  other responsibilities.
+                </p>
+              </div>
+            </div>
+          </div>
+          {/* card end */}
+
+          {/* card start */}
+          <div className="basis-1 md:basis-1/3">
+            <div className="card w-full bg-white shadow-xl shadow">
+              <div className="card-body flex items-center">
+                <img className="h-28" src="/assets/icons/hustle/F17.png" />
+                <p className={`${mali.className} mt-5 text-lg`}>
+                  Lack of Knowledge
+                </p>
+                <p className="h-[28vh] text-justify">
+                  Farming requires specific skills and knowledge about crop
+                  cycles, soil health, pest management, and more. People without
+                  agricultural experience may find the learning curve steep and
+                  intimidating.
+                </p>
+              </div>
+            </div>
+          </div>
+          {/* card end */}
+
+          {/* card start */}
+          <div className="basis-1 md:basis-1/3">
+            <div className="card w-full bg-white shadow-xl shadow">
+              <div className="card-body flex items-center">
+                <img className="h-28" src="/assets/icons/hustle/F16.png" />
+                <p className={`${mali.className} mt-5 text-lg`}>
+                  Labor Intensive
+                </p>
+                <p className="h-[28vh] text-justify">
+                  Farming is physically demanding to manage multitasks like
+                  planting, tending, and harvesting. This aspect can be a
+                  deterrent for people seeking less physically intensive side
+                  hustles.
+                </p>
+              </div>
+            </div>
+          </div>
+          {/* card end */}
+
+          {/* card start */}
+          <div className="basis-1 md:basis-1/3">
+            <div className="card w-full bg-white shadow-xl shadow">
+              <div className="card-body flex items-center">
+                <img className="h-28" src="/assets/icons/hustle/F15.png" />
+                <p className={`${mali.className} mt-5 text-lg`}>
+                  Risk of Crop Failure
+                </p>
+                <p className="h-[28vh] text-justify">
+                  Factors like pests, diseases, and adverse weather can lead to
+                  crop failures, posing financial risks.
+                </p>
+              </div>
+            </div>
+          </div>
+          {/* card end */}
+
+          {/* card start */}
+          <div className="basis-1 md:basis-1/3">
+            <div className="card w-full bg-white shadow-xl shadow">
+              <div className="card-body flex items-center">
+                <img className="h-28" src="/assets/icons/hustle/F13.png" />
+                <p className={`${mali.className} mt-5 text-lg`}>Isolation</p>
+                <p className="h-[28vh] text-justify">
+                  Farms are often located in rural areas, which might be less
+                  appealing for individuals accustomed to urban settings.
+                </p>
+              </div>
+            </div>
+          </div>
+          {/* card end */}
+
+          {/* card start */}
+          <div className="basis-1 md:basis-1/3">
+            <div className="card w-full bg-white shadow-xl shadow">
+              <div className="card-body flex items-center">
+                <img className="h-28" src="/assets/icons/hustle/F12.png" />
+                <p className={`${mali.className} mt-5 text-lg`}>
+                  Cultural Perceptions
+                </p>
+                <p className="h-[28vh] text-justify">
+                  For Millennials and Gen Z even in some cultures, farming might
+                  be viewed as less prestigious or desirable compared to other
+                  professions or side hustles.
+                </p>
+              </div>
+            </div>
+          </div>
+          {/* card end */}
+
+          {/* card start */}
+          <div className="basis-1 md:basis-1/3">
+            <div className="card w-full bg-white shadow-xl shadow">
+              <div className="card-body flex items-center">
+                <img className="h-28" src="/assets/icons/hustle/F10.png" />
+                <p className={`${mali.className} mt-5 text-lg`}>
+                  Storage and Market Access
+                </p>
+                <p className="h-[28vh] text-justify">
+                  Proper storage and market access are crucial for
+                  preserving quality and ensuring products reach the market,
+                  requiring additional resources and coordination.
+                </p>
+              </div>
+            </div>
+          </div>
+          {/* card end */}
         </div>
       </div>
 
