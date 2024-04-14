@@ -16,7 +16,7 @@ export default function RootLayout({
         <meta name="twitter:card" content="summary" />
         <meta
           property="og:description"
-          content="We make farming possible and profitable for everybody."
+          content="We make farming possible and profitable for everyone."
         />
         <meta
           name="image"
@@ -30,7 +30,7 @@ export default function RootLayout({
         <meta name="image" content="/assets/images/farmwiselogo.png" />
         <meta
           name="description"
-          content="We make farming possible and profitable for everybody."
+          content="We make farming possible and profitable for everyone."
         />
         <meta name="twitter:image" content="/assets/images/farmwiselogo.png" />
         <link

@@ -45,7 +45,10 @@ function Index() {
               </h1>
 
               <div className="flex flex-row justify-center mt-10">
-                <div onClick={() => handleClickScroll("dream")} className="px-12 font-bold py-3 rounded-md max-w-fit text-white bg-[#173d25] cursor-pointer">
+                <div
+                  onClick={() => handleClickScroll("dream")}
+                  className="px-12 font-bold py-3 rounded-md max-w-fit text-white bg-[#173d25] cursor-pointer"
+                >
                   Learn More
                 </div>
               </div>
@@ -66,7 +69,7 @@ function Index() {
               <h1
                 className={`mb-5 text-2xl md:text-5xl text-center font-bold ${mali.className}`}
               >
-                Monitor and track <br /> your money remotely
+                Monitor and track <br /> your farm remotely
               </h1>
             </div>
           </div>
@@ -85,7 +88,7 @@ function Index() {
               <h1
                 className={`mb-5 text-2xl md:text-5xl text-center font-bold ${mali.className}`}
               >
-                We make farming possible <br /> and profitable for everybody
+                We make farming possible <br /> and profitable for everyone
               </h1>
             </div>
           </div>
@@ -97,16 +100,25 @@ function Index() {
         <div className="flex flex-col md:flex-row items-stretch">
           <div className="basis-1 md:basis-1/2 px-5 md:px-20 py-10">
             <h2 className={`${mali.className} text-3xl md:text-5xl`}>
-            Morogoro Maize Farm Project
+              Morogoro Maize Farm Project
             </h2>
             <p className="mt-10 text-justify">
-            Exciting news! Farmwise has secured 10,000 acres in Tanzania&apos;s fertile Morogoro region for our next maize farming project. As we prepare the farm for the next planting season, we invite you to be part of this sustainable agriculture movement.
-<br/><br/>
-Whether you are interested in investing, learning, or farming as a side hustle, our Morogo farm project offers a unique opportunity to reap the benefit of farming with a difference. Register now to become part of our community. Come grow with us. Register your interest now!
+              Exciting news! Farmwise has secured 10,000 acres in
+              Tanzania&apos;s fertile Morogoro region for our next maize farming
+              project. As we prepare the farm for the next planting season, we
+              invite you to be part of this sustainable agriculture movement.
+              <br />
+              <br />
+              Whether you are interested in investing, learning, or farming as a
+              side hustle, our Morogo farm project offers a unique opportunity
+              to reap the benefit of farming with a difference. Register now to
+              become part of our community.{" "}
+              <span className="font-bold">Come grow with us</span>. Register
+              your interest now!
             </p>
 
             <div className="px-12 py-3 rounded-md max-w-fit mt-10 text-white bg-[#173d25] cursor-pointer">
-              Contact Us
+              Register Now
             </div>
           </div>
           <div className="basis-1 md:basis-1/2 mb-10">
@@ -140,8 +152,9 @@ Whether you are interested in investing, learning, or farming as a side hustle, 
                 </p>
                 <p className="h-[20vh]">
                   Offers flexible, short-term leases on a wide range of farms
-                  across the country, allowing investors and farmers to embark
-                  on agricultural projects without long-term commitments.
+                  across the country, allowing investors and even non-farmers to
+                  embark on agricultural projects instantly without long-term
+                  commitments.
                 </p>
               </div>
             </div>
@@ -156,9 +169,10 @@ Whether you are interested in investing, learning, or farming as a side hustle, 
                   <br />
                 </p>
                 <p className="h-[20vh]">
-                  Provides comprehensive services including soil testing,
-                  plowing, and irrigation setup to ensure land is fertile and
-                  ready for planting, optimizing crop yield potential.
+                  Provides comprehensive farm services including soil testing
+                  and treatment, plowing, and irrigation setup (where
+                  applicable) to ensure land is fertile and ready for planting,
+                  optimizing crop yield potential.
                 </p>
               </div>
             </div>
@@ -191,9 +205,11 @@ Whether you are interested in investing, learning, or farming as a side hustle, 
                   <br />
                 </p>
                 <p className="h-[20vh]">
-                  Delivers end-to-end farm management by certified Farm
-                  Officers, covering all aspects from planting to harvesting,
-                  ideal for investors who wish to farm remotely.
+                  Our mobile app delivers end-to-end farm management for remote
+                  farm management for transparency and accountability. You can
+                  select from our list of certified and dedicated Farm Officers
+                  from accredited Agricultural institutions to manage your farm
+                  covering all aspects from planting to harvesting.
                 </p>
               </div>
             </div>
@@ -209,9 +225,10 @@ Whether you are interested in investing, learning, or farming as a side hustle, 
                   <br />
                 </p>
                 <p className="h-[20vh]">
-                  Offers tailored financial solutions, including loans and
-                  investment opportunities, aimed at supporting farmers and
-                  investors in funding their agricultural ventures.
+                  We partner with agricultural-centric banks to offer tailored
+                  financial solutions, including loans, insurance cover, and
+                  investment opportunities, aimed to support agro-investments
+                  for guaranteed returns.
                 </p>
               </div>
             </div>
@@ -227,9 +244,10 @@ Whether you are interested in investing, learning, or farming as a side hustle, 
                   <br />
                 </p>
                 <p className="h-[20vh]">
-                  Facilitates connections between farmers and buyers, ensuring
-                  that produce reaches the market efficiently and profitably,
-                  reducing the risk of post-harvest losses.
+                  At Farmwise, we facilitate connections between farmers and
+                  buyers, ensuring that produce is fairly priced, and reaches
+                  the market efficiently and profitably, reducing the risk of
+                  post-harvest losses for our platform investors.
                 </p>
               </div>
             </div>
