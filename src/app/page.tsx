@@ -66,9 +66,9 @@ function Index() {
           ></div>
           <div className="w-full absolute h-full bg-black top-0 start-0 bg-opacity-60 z-5"></div>
           <div className="text-white absolute inset-0 px-10 md:px-32 h-full">
-            <div className="mt-32">
+            <div className="mt-32 flex flex-row justify-center">
               <h1
-                className={`mb-5 text-2xl md:text-5xl text-center font-bold ${mali.className}`}
+                className={`mb-5 text-2xl md:text-5xl font-bold ${mali.className}`}
               >
                 Monitor and track <br /> your farm remotely
               </h1>
@@ -85,7 +85,7 @@ function Index() {
           ></div>
           <div className="w-full absolute h-full bg-black top-0 start-0 bg-opacity-60 z-5"></div>
           <div className="text-white absolute inset-0 px-10 md:px-32 h-full">
-            <div className="mt-40 md:mt-[17rem]">
+            <div className="mt-40 md:mt-[17rem] flex flex-row justify-center">
               <h1
                 className={`mb-5 text-2xl md:text-5xl text-center font-bold ${mali.className}`}
               >
