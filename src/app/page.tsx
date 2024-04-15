@@ -17,28 +17,29 @@ function Index() {
     autoplay: true,
     autoplaySpeed: 5000,
     fade: true,
+    initialSlide: 0,
   };
 
   return (
     <>
-      <Slider {...settings} className="mb-20 w-full">
+        <Slider {...settings} className="mb-20">
         <div className="h-[50vh] md:h-[78vh] relative">
           <div
-            className="w-full h-[50vh] md:h-[78vh] bg-cover"
+            className="h-[50vh] md:h-[78vh] bg-cover"
             style={{
               backgroundImage: "url('/assets/images/banners/banner1.jpg')",
             }}
           ></div>
           <div className="w-full absolute h-full bg-black top-0 start-0 bg-opacity-30 z-5"></div>
-          <div className="text-white absolute inset-0 text-center px-10 md:px-10 h-full">
+          <div className="text-white absolute inset-0 text-center px-2 md:px-10 h-full">
             <div className="mt-32">
               <h1
-                className={`mb-5 text-2xl md:text-5xl font-bold ${mali.className}`}
+                className={`mb-5 text-xl md:text-5xl font-bold ${mali.className}`}
               >
                 More than Farming...
               </h1>
               <h1
-                className={`mb-5 text-2xl md:text-5xl font-bold ${mali.className}`}
+                className={`mb-5 text-xl md:text-5xl font-bold ${mali.className}`}
               >
                 It&rsquo;s your{" "}
                 <i className={`${inter.className} font-light italic`}>New</i>{" "}
@@ -48,7 +49,7 @@ function Index() {
               <div className="flex flex-row justify-center mt-10">
                 <div
                   onClick={() => handleClickScroll("dream")}
-                  className="px-12 font-bold py-3 rounded-md max-w-fit text-white bg-[#173d25] cursor-pointer"
+                  className="px-4 md:px-12 font-bold py-3 rounded-md max-w-fit text-white bg-[#173d25] cursor-pointer"
                 >
                   Learn More
                 </div>
@@ -59,16 +60,16 @@ function Index() {
 
         <div className="h-[50vh] md:h-[78vh] relative">
           <div
-            className="w-full h-[50vh] md:h-[78vh] bg-cover"
+            className="h-[50vh] md:h-[78vh] bg-cover"
             style={{
               backgroundImage: "url('/assets/images/banners/banner6.jpg')",
             }}
           ></div>
           <div className="w-full absolute h-full bg-black top-0 start-0 bg-opacity-60 z-5"></div>
-          <div className="text-white absolute inset-0 px-10 md:px-32 h-full">
+          <div className="text-white absolute inset-0 px-2  md:px-32 h-full">
             <div className="mt-32 flex flex-row justify-center">
               <h1
-                className={`mb-5 text-2xl md:text-5xl font-bold ${mali.className}`}
+                className={`mb-5 text-xl md:text-5xl font-bold ${mali.className}`}
               >
                 Monitor and track <br /> your farm remotely
               </h1>
@@ -78,13 +79,13 @@ function Index() {
 
         <div className="h-[50vh] md:h-[78vh] relative">
           <div
-            className="w-full h-[50vh] md:h-[78vh] bg-cover bg-center"
+            className="h-[50vh] md:h-[78vh] bg-cover bg-center"
             style={{
               backgroundImage: "url('/assets/images/banners/banner3.jpg')",
             }}
           ></div>
           <div className="w-full absolute h-full bg-black top-0 start-0 bg-opacity-60 z-5"></div>
-          <div className="text-white absolute inset-0 px-10 md:px-32 h-full">
+          <div className="text-white absolute inset-0 px-2 md:px-32 h-full">
             <div className="mt-40 md:mt-[17rem] flex flex-row justify-center">
               <h1
                 className={`mb-5 text-2xl md:text-5xl text-center font-bold ${mali.className}`}
