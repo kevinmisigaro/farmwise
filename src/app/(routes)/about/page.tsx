@@ -6,10 +6,10 @@ const Index = () => {
   return (
     <RootLayout>
       <div
-        className="hero h-[35vh] md:h-[60vh]"
-        style={{ backgroundImage: "url(/assets/images/farm2.jpeg)" }}
+        className="hero h-[35vh] md:h-[60vh] bg-cover"
+        style={{ backgroundImage: "url(/assets/images/banners/about-us.png)" }}
       >
-        <div className="hero-overlay bg-opacity-60 bg-black"></div>
+        <div className="hero-overlay bg-opacity-25 bg-black"></div>
         <div className="hero-content text-center text-neutral-content text-white">
           <div className="max-w-md">
             <h1 className="mb-5 text-5xl font-bold">About Us</h1>
