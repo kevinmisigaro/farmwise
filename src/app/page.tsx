@@ -1,5 +1,7 @@
 "use client";
 
+import HowItWorksCard from "@/components/HowItWorksCard";
+import SideHustleCard from "@/components/SideHustleCard";
 import Footer from "@/components/footer";
 import Testimonial from "@/components/testimonial";
 import { inter, mali } from "@/utils/fonts";
@@ -22,7 +24,7 @@ function Index() {
 
   return (
     <>
-        <Slider {...settings} className="mb-20">
+      <Slider {...settings} className="mb-20">
         <div className="h-[50vh] md:h-[78vh] relative">
           <div
             className="h-[50vh] md:h-[78vh] bg-cover"
@@ -100,11 +102,11 @@ function Index() {
       {/* benefits section  */}
       <div id="dream">
         <div className="flex flex-col md:flex-row items-stretch">
-          <div className="basis-1 md:basis-1/2 px-5 md:px-20 py-10">
+          <div className="basis-1 md:basis-1/2 px-5 md:px-20 -mt-8 mb-10">
             <h2 className={`${mali.className} text-3xl md:text-5xl`}>
               Morogoro Maize Farm Project
             </h2>
-            <p className="mt-10 text-justify mb-10">
+            <p className="mt-10 text-justify mb-10 text-xl md:text-2xl">
               Exciting news! Farmwise has secured 10,000 acres in
               Tanzania&apos;s fertile Morogoro region for our next maize farming
               project. As we prepare the farm for the next planting season, we
@@ -124,9 +126,7 @@ function Index() {
               Register Now
             </Link>
 
-            <h3 className="font-black mt-10 text-xl md:text-3xl">
-              Come grow with us!
-            </h3>
+            <h3 className="font-black mt-10 text-3xl">Come grow with us!</h3>
           </div>
           <div className="basis-1 md:basis-1/2 mb-10">
             <div className="bg-[url('/assets/images/cta-2.jpg')] h-[60vh] bg-cover"></div>
@@ -149,15 +149,15 @@ function Index() {
           Our services
         </h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 px-10 gap-y-5 mt-10 gap-x-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 px-10 gap-y-5 mt-10 gap-x-8 items-stretch">
           <div className="basis-1 md:basis-1/3">
             <div className="card w-full bg-white shadow-xl">
-              <div className="card-body flex items-center">
+              <div className="card-body flex items-center text-center max-h-fit">
                 <img className="h-28" src="/assets/icons/services/F9.png" />
-                <p className={`${mali.className} mt-5 text-lg`}>
+                <p className={`${mali.className} mt-5 text-2xl font-bold`}>
                   Short-term Farm Rental <br /> Opportunity Nationwide
                 </p>
-                <p className="h-[28vh]">
+                <p className="text-xl mt-5">
                   Offers flexible, short-term leases on a wide range of farms
                   across the country, allowing investors and even non-farmers to
                   embark on agricultural projects instantly without long-term
@@ -169,12 +169,12 @@ function Index() {
 
           <div className="basis-1 md:basis-1/3">
             <div className="card w-full bg-white shadow-xl">
-              <div className="card-body flex items-center text-center">
+              <div className="card-body flex items-center text-center max-h-fit">
                 <img className="h-28" src="/assets/icons/services/F8.png" />
-                <p className={`${mali.className} mt-5 text-lg`}>
+                <p className={`${mali.className} mt-5 text-2xl font-bold`}>
                   Land Preparation and Management <br />
                 </p>
-                <p className="h-[28vh]">
+                <p className="text-xl mt-5">
                   Provides comprehensive farm services including soil testing
                   and treatment, plowing, and irrigation setup (where
                   applicable) to ensure land is fertile and ready for planting,
@@ -186,14 +186,13 @@ function Index() {
 
           <div className="basis-1 md:basis-1/3">
             <div className="card w-full bg-white shadow-xl">
-              <div className="card-body flex items-center text-center">
+              <div className="card-body flex items-center text-center max-h-fit">
                 <img className="h-28" src="/assets/icons/services/F1.png" />
-                <p className={`${mali.className} mt-5 text-lg text-center`}>
-                  Quality Agricultural Input <br />
-                  <br />
+                <p className={`${mali.className} mt-5 text-2xl font-bold`}>
+                  Quality Agricultural Input
                 </p>
-                <p className="h-[28vh]">
-                  Supplies top-tier seeds, fertilizers, and pesticides, ensuring
+                <p className="text-xl mt-5 mb-7">
+                  Supplies top-tier seeds, fertilizers, and pesticides, so
                   that farmers have access to the best inputs for their crops,
                   leading to healthier plants and increased yields.
                 </p>
@@ -205,12 +204,12 @@ function Index() {
             <div className="card w-full bg-white shadow-xl">
               <div className="card-body flex items-center text-center">
                 <img className="h-28" src="/assets/icons/services/F6.png" />
-                <p className={`${mali.className} mt-5 text-lg text-center`}>
+                <p className={`${mali.className} mt-5 text-2xl font-bold`}>
                   Farming as a Service (FaaS)
                   <br />
                   <br />
                 </p>
-                <p className="h-[28vh]">
+                <p className="max-h-fit md:h-[45vh] text-xl mt-5">
                   Our mobile app delivers end-to-end farm management for remote
                   farm management for transparency and accountability. You can
                   select from our list of certified and dedicated Farm Officers
@@ -225,12 +224,12 @@ function Index() {
             <div className="card w-full bg-white shadow-xl">
               <div className="card-body flex items-center text-center">
                 <img className="h-28" src="/assets/icons/services/F4.png" />
-                <p className={`${mali.className} mt-5 text-lg text-center`}>
+                <p className={`${mali.className} mt-5 text-2xl text-center`}>
                   Agricultural Financial Services
                   <br />
                   <br />
                 </p>
-                <p className="h-[28vh]">
+                <p className="max-h-fit md:h-[45vh] text-xl mt-5">
                   We partner with agricultural-centric banks to offer tailored
                   financial solutions, including loans, insurance cover, and
                   investment opportunities, aimed to support agro-investments
@@ -249,7 +248,7 @@ function Index() {
                   <br />
                   <br />
                 </p>
-                <p className="h-[28vh]">
+                <p className="max-h-fit md:h-[45vh] text-xl mt-5">
                   At Farmwise, we facilitate connections between farmers and
                   buyers, ensuring that produce is fairly priced, and reaches
                   the market efficiently and profitably, reducing the risk of
@@ -271,160 +270,80 @@ function Index() {
       </div>
 
       <div className="px-5 md:px-10 py-10 md:py-20 bg-[#3C975E]">
-        <h1 className="font-bold text-2xl md:text-5xl text-center text-white">
+        <h1 className="font-bold text-4xl md:text-5xl text-center text-white">
           Why Farming is Rarely <br /> Chosen as a Side Hustle
         </h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-4 px-10 gap-y-5 mt-10 gap-x-4 mt-10">
-          {/* card start */}
-          <div className="basis-1 md:basis-1/3">
-            <div className="card w-full bg-white shadow-xl shadow">
-              <div className="card-body flex items-center">
-                <img
-                  className="h-28"
-                  src="/assets/icons/hustle/icons8-cash-80.png"
-                />
-                <p className={`${mali.className} mt-5 text-lg`}>
-                  High Initial Investment
-                </p>
-                <p className="h-[28vh] text-justify">
-                  Farming often requires significant upfront costs, including
-                  land, equipment, seeds, and other necessary supplies, which
-                  can be a barrier for individuals looking for low-cost entry
-                  points into side hustles.
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* card end */}
+        <div className="grid grid-cols-1 md:grid-cols-4 px-5 md:px-10 gap-y-5 mt-10 gap-x-4 mt-10">
 
-          {/* card start */}
-          <div className="basis-1 md:basis-1/3">
-            <div className="card w-full bg-white shadow-xl shadow">
-              <div className="card-body flex items-center">
-                <img
-                  className="h-28"
-                  src="/assets/icons/hustle/icons8-time-50.png"
-                />
-                <p className={`${mali.className} mt-5 text-lg`}>
-                  Time Commitment
-                </p>
-                <p className="h-[28vh] text-justify">
-                  Farming is time-consuming, requiring regular attention. This
-                  can be challenging for those who already have full-time jobs
-                  or other commitments, making it difficult to manage alongside
-                  other responsibilities.
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* card end */}
+          <SideHustleCard
+          title=" High Initial Investment"
+          description=" Farming often requires significant upfront costs, including
+          land, equipment, seeds, and other necessary supplies, which
+          can be a barrier for individuals looking for low-cost entry
+          points into side hustles."
+          image="/assets/icons/hustle/icons8-cash-80.png"
+          />
 
-          {/* card start */}
-          <div className="basis-1 md:basis-1/3">
-            <div className="card w-full bg-white shadow-xl shadow">
-              <div className="card-body flex items-center">
-                <img className="h-28" src="/assets/icons/hustle/F17.png" />
-                <p className={`${mali.className} mt-5 text-lg`}>
-                  Lack of Knowledge
-                </p>
-                <p className="h-[28vh] text-justify">
-                  Farming requires specific skills and knowledge about crop
-                  cycles, soil health, pest management, and more. People without
-                  agricultural experience may find the learning curve steep and
-                  intimidating.
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* card end */}
+<SideHustleCard
+          title="Time Commitment"
+          description=" Farming is time-consuming, requiring regular attention. This
+          can be challenging for those who already have full-time jobs
+          or other commitments, making it difficult to manage alongside
+          other responsibilities."
+          image="/assets/icons/hustle/icons8-time-50.png"
+          />
 
-          {/* card start */}
-          <div className="basis-1 md:basis-1/3">
-            <div className="card w-full bg-white shadow-xl shadow">
-              <div className="card-body flex items-center">
-                <img className="h-28" src="/assets/icons/hustle/F16.png" />
-                <p className={`${mali.className} mt-5 text-lg`}>
-                  Labor Intensive
-                </p>
-                <p className="h-[28vh] text-justify">
-                  Farming is physically demanding to manage multitasks like
-                  planting, tending, and harvesting. This aspect can be a
-                  deterrent for people seeking less physically intensive side
-                  hustles.
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* card end */}
 
-          {/* card start */}
-          <div className="basis-1 md:basis-1/3">
-            <div className="card w-full bg-white shadow-xl shadow">
-              <div className="card-body flex items-center">
-                <img className="h-28" src="/assets/icons/hustle/F15.png" />
-                <p className={`${mali.className} mt-5 text-lg`}>
-                  Risk of Crop Failure
-                </p>
-                <p className="h-[28vh] text-justify">
-                  Factors like pests, diseases, and adverse weather can lead to
-                  crop failures, posing financial risks.
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* card end */}
+<SideHustleCard
+          title="Lack of Knowledge"
+          description=" Farming requires specific skills and knowledge about crop
+          cycles, soil health, pest management, and more. People without
+          agricultural experience may find the learning curve steep and
+          intimidating."
+          image="/assets/icons/hustle/F17.png"
+          />
 
-          {/* card start */}
-          <div className="basis-1 md:basis-1/3">
-            <div className="card w-full bg-white shadow-xl shadow">
-              <div className="card-body flex items-center">
-                <img className="h-28" src="/assets/icons/hustle/F13.png" />
-                <p className={`${mali.className} mt-5 text-lg`}>Isolation</p>
-                <p className="h-[28vh] text-justify">
-                  Farms are often located in rural areas, which might be less
-                  appealing for individuals accustomed to urban settings.
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* card end */}
+<SideHustleCard
+          title="Labor Intensive"
+          description=" Farming is physically demanding to manage multitasks like
+          planting, tending, and harvesting. This aspect can be a
+          deterrent for people seeking less physically intensive side
+          hustles."
+          image="/assets/icons/hustle/F16.png"
+          />
 
-          {/* card start */}
-          <div className="basis-1 md:basis-1/3">
-            <div className="card w-full bg-white shadow-xl shadow">
-              <div className="card-body flex items-center">
-                <img className="h-28" src="/assets/icons/hustle/F12.png" />
-                <p className={`${mali.className} mt-5 text-lg`}>
-                  Cultural Perceptions
-                </p>
-                <p className="h-[28vh] text-justify">
-                  For Millennials and Gen Z even in some cultures, farming might
-                  be viewed as less prestigious or desirable compared to other
-                  professions or side hustles.
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* card end */}
+<SideHustleCard
+          title="Risk of Crop Failure"
+          description=" Factors like pests, diseases, and adverse weather can lead to
+          crop failures, posing financial risks."
+          image="/assets/icons/hustle/F15.png"
+          />
 
-          {/* card start */}
-          <div className="basis-1 md:basis-1/3">
-            <div className="card w-full bg-white shadow-xl shadow">
-              <div className="card-body flex items-center">
-                <img className="h-28" src="/assets/icons/hustle/F10.png" />
-                <p className={`${mali.className} mt-5 text-lg`}>
-                  Storage and Market Access
-                </p>
-                <p className="h-[28vh] text-justify">
-                  Proper storage and market access are crucial for preserving
-                  quality and ensuring products reach the market, requiring
-                  additional resources and coordination.
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* card end */}
+
+
+<SideHustleCard
+          title="Isolation"
+          description=" Farms are often located in rural areas, which might be less
+          appealing for individuals accustomed to urban settings."
+          image="/assets/icons/hustle/F13.png"
+          />
+
+<SideHustleCard
+          title="Cultural Perceptions"
+          description=" For Millennials and Gen Z even in some cultures, farming might
+          be viewed as less prestigious or desirable compared to other
+          professions or side hustles."
+          image="/assets/icons/hustle/F12.png"
+          />
+<SideHustleCard
+          title=" Storage and Market Access"
+          description="  Proper storage and market access are crucial for preserving
+          quality and ensuring products reach the market, requiring
+          additional resources and coordination."
+          image="/assets/icons/hustle/F10.png"
+          />
+
         </div>
       </div>
 
@@ -437,7 +356,7 @@ function Index() {
           <br /> Effortless Farming at your Fingertips
         </h1>
 
-        <div className="px-5 md:px-20 py-10 text-white text-center">
+        <div className="px-5 text-lg md:px-20 py-10 text-white text-center">
           <p>
             At Farmwise, we&apos;ve streamlined the path to successful farming
             for busy professionals like you. Our innovative online Farm services
@@ -448,82 +367,43 @@ function Index() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-10 mt-10 px-5 md:px-20">
-          <div className="card w-full bg-[#00200d] shadow-xl">
-            <div className="card-body p-12">
-              <div className="flex flex-row items-center gap-x-5">
-                <img src="/assets/icons/add-user.png" className="w-8" />
-                <h3 className={`${mali.className} text-white text-lg`}>
-                  Select and customize your Farm.
-                </h3>
-              </div>
+          <HowItWorksCard
+            title=" Select and customize your Farm"
+            description=" At Farmwise, we offer a wide selection of farms across the
+          nation, for each planting season. Whether you are looking for a
+          small plot or a vast field to suit your agricultural ambitions.
+          Simply select your desired acreage, complete your payment, and
+          start your farming journey with us."
+            image="/assets/icons/add-user.png"
+          />
 
-              <p className="text-[#81af93] mt-3">
-                At Farmwise, we offer a wide selection of farms across the
-                nation, for each planting season. Whether you are looking for a
-                small plot or a vast field to suit your agricultural ambitions.
-                Simply select your desired acreage, complete your payment, and
-                start your farming journey with us.
-              </p>
-            </div>
-          </div>
+          <HowItWorksCard
+            title="Sit Back, We've Got This"
+            description="We supply everything you need, including high-quality seeds,
+          fertilizer, and pesticides. Our farm management app lets you
+          easily track and monitor your farm's progress daily
+          alongside your Farm Officer, ensuring transparency and giving
+          you peace of mind."
+            image="/assets/icons/relax.png"
+          />
 
-          <div className="card w-full bg-[#00200d] shadow-xl">
-            <div className="card-body p-12">
-              <div className="flex flex-row items-center gap-x-5">
-                <img src="/assets/icons/relax.png" className="w-8" />
-                <h3 className={`${mali.className} text-white text-lg`}>
-                  Sit Back, We&apos;ve Got This
-                </h3>
-              </div>
+          <HowItWorksCard
+            title="Expert Care On-Demand"
+            description="  Understanding your busy lifestyle and the physical distance from
+          your farm, we offer the option to hire certified agricultural
+          experts directly through our platform. They'll tend to your
+          farm, applying expert knowledge and care, ensuring optimal
+          growth and yield."
+            image="/assets/icons/customer-support.png"
+          />
 
-              <p className="text-[#81af93] mt-3">
-                We supply everything you need, including high-quality seeds,
-                fertilizer, and pesticides. Our farm management app lets you
-                easily track and monitor your farm&apos;s progress daily
-                alongside your Farm Officer, ensuring transparency and giving
-                you peace of mind.
-              </p>
-            </div>
-          </div>
-
-          <div className="card w-full bg-[#00200d] shadow-xl">
-            <div className="card-body p-12">
-              <div className="flex flex-row items-center gap-x-5">
-                <img src="/assets/icons/customer-support.png" className="w-8" />
-                <h3 className={`${mali.className} text-white text-lg`}>
-                  Expert Care On-Demand
-                </h3>
-              </div>
-
-              <p className="text-[#81af93] mt-3">
-                Understanding your busy lifestyle and the physical distance from
-                your farm, we offer the option to hire certified agricultural
-                experts directly through our platform. They&apos;ll tend to your
-                farm, applying expert knowledge and care, ensuring optimal
-                growth and yield.
-              </p>
-            </div>
-          </div>
-
-          <div className="card w-full bg-[#00200d] shadow-xl">
-            <div className="card-body p-12">
-              <div className="flex flex-row items-center gap-x-5">
-                <img
-                  src="/assets/icons/combine-harvester.png"
-                  className="w-8"
-                />
-                <h3 className={`${mali.className} text-white text-lg`}>
-                  Harvest Your Success
-                </h3>
-              </div>
-
-              <p className="text-[#81af93] mt-3">
-                At harvest time, you can either keep your produce or sell on our
-                platform at premium price. We make sure the money from the sale
-                goes right into your bank account easily.
-              </p>
-            </div>
-          </div>
+          <HowItWorksCard
+            title=" Harvest Your Success"
+            description="At harvest time, you can either keep your produce or sell on our
+          platform at premium price. We make sure the money from the sale
+          goes right into your bank account easily."
+            image="/assets/icons/combine-harvester.png"
+          />
         </div>
       </div>
       {/* end of services section  */}
@@ -536,7 +416,7 @@ function Index() {
       >
         <div className="hero-overlay bg-opacity-80 bg-black"></div>
         <div className="hero-content text-neutral-content">
-          <div className="text-white w-[80vw]">
+          <div className="text-white w-[80vw] pt-20">
             <div className={`${mali.className} text-center mb-12 text-3xl`}>
               Why Choose Farmwise
             </div>
@@ -691,9 +571,7 @@ function Index() {
           />
           <div>
             <h3>Send an Email</h3>
-            <h2 className="font-bold text-lg">
-            enquiry@farmwise.tz
-            </h2>
+            <h2 className="font-bold text-lg">enquiry@farmwise.tz</h2>
           </div>
         </div>
       </div>
