@@ -1,5 +1,6 @@
 import Navbar from "@/components/navbar";
 import "./globals.css";
+import { PostHogProvider } from "posthog-js/react";
 
 export default function RootLayout({
   children,
@@ -47,7 +48,9 @@ export default function RootLayout({
       </head>
       <body>
         <Navbar />
+        <PostHogProvider>
         <main>{children}</main>
+        </PostHogProvider>
       </body>
     </html>
   );
