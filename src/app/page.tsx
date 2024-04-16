@@ -440,7 +440,7 @@ function Index() {
       {/* end of services section  */}
 
       <div
-        className="hero h-[85vh] bg-cover"
+        className="hero h-[95vh] bg-cover"
         style={{
           backgroundImage: "url(/assets/images/tractor-field-min.jpg",
         }}
