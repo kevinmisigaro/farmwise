@@ -24,7 +24,7 @@ function Index() {
 
   return (
     <>
-      <Slider {...settings} className="mb-20">
+      {/* <Slider {...settings} className="mb-20">
         <div className="h-[50vh] md:h-[78vh] relative">
           <div
             className="h-[50vh] md:h-[78vh] bg-cover"
@@ -97,12 +97,48 @@ function Index() {
             </div>
           </div>
         </div>
-      </Slider>
+      </Slider> */}
+
+<div className="h-[50vh] md:h-[78vh] relative">
+          <div
+            className="h-[50vh] md:h-[78vh] bg-cover"
+            style={{
+              backgroundImage: "url('/assets/images/banners/banner1.jpg')",
+            }}
+          ></div>
+          <div className="w-full absolute h-full bg-black top-0 start-0 bg-opacity-30 z-5"></div>
+          <div className="text-white absolute inset-0 text-center px-2 md:px-10 h-full">
+            <div className="mt-32">
+              <h1
+                className={`mb-5 text-xl md:text-5xl font-bold ${mali.className}`}
+              >
+                More than Farming...
+              </h1>
+              <h1
+                className={`mb-5 text-xl md:text-5xl font-bold ${mali.className}`}
+              >
+                It&rsquo;s your{" "}
+                <i className={`${inter.className} font-light italic`}>New</i>{" "}
+                side hustle
+              </h1>
+
+              <div className="flex flex-row justify-center mt-10">
+                <div
+                  onClick={() => handleClickScroll("dream")}
+                  className="px-4 md:px-12 font-bold py-3 rounded-md max-w-fit text-white bg-[#173d25] cursor-pointer"
+                >
+                  Learn More
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
 
       {/* benefits section  */}
       <div id="dream">
         <div className="flex flex-col md:flex-row items-stretch">
-          <div className="basis-1 md:basis-1/2 px-5 md:px-20 -mt-8 mb-10">
+          <div className="basis-1 md:basis-1/2 px-5 md:px-20 mt-10 mb-10">
             <h2 className={`${mali.className} text-3xl md:text-5xl`}>
               Morogoro Maize Farm Project
             </h2>
@@ -192,8 +228,8 @@ function Index() {
                   Quality Agricultural Input
                 </p>
                 <p className="text-xl mt-5 mb-7">
-                  Supplies top-tier seeds, fertilizers, and pesticides, so
-                  that farmers have access to the best inputs for their crops,
+                  Supplies top-tier seeds, fertilizers, and pesticides, so that
+                  farmers have access to the best inputs for their crops,
                   leading to healthier plants and increased yields.
                 </p>
               </div>
@@ -275,75 +311,70 @@ function Index() {
         </h1>
 
         <div className="grid grid-cols-1 md:grid-cols-4 px-5 md:px-10 gap-y-5 mt-10 gap-x-4 mt-10">
-
           <SideHustleCard
-          title=" High Initial Investment"
-          description=" Farming often requires significant upfront costs, including
+            title=" High Initial Investment"
+            description=" Farming often requires significant upfront costs, including
           land, equipment, seeds, and other necessary supplies, which
           can be a barrier for individuals looking for low-cost entry
           points into side hustles."
-          image="/assets/icons/hustle/icons8-cash-80.png"
+            image="/assets/icons/hustle/icons8-cash-80.png"
           />
 
-<SideHustleCard
-          title="Time Commitment"
-          description=" Farming is time-consuming, requiring regular attention. This
+          <SideHustleCard
+            title="Time Commitment"
+            description=" Farming is time-consuming, requiring regular attention. This
           can be challenging for those who already have full-time jobs
           or other commitments, making it difficult to manage alongside
           other responsibilities."
-          image="/assets/icons/hustle/icons8-time-50.png"
+            image="/assets/icons/hustle/icons8-time-50.png"
           />
 
-
-<SideHustleCard
-          title="Lack of Knowledge"
-          description=" Farming requires specific skills and knowledge about crop
+          <SideHustleCard
+            title="Lack of Knowledge"
+            description=" Farming requires specific skills and knowledge about crop
           cycles, soil health, pest management, and more. People without
           agricultural experience may find the learning curve steep and
           intimidating."
-          image="/assets/icons/hustle/F17.png"
+            image="/assets/icons/hustle/F17.png"
           />
 
-<SideHustleCard
-          title="Labor Intensive"
-          description=" Farming is physically demanding to manage multitasks like
+          <SideHustleCard
+            title="Labor Intensive"
+            description=" Farming is physically demanding to manage multitasks like
           planting, tending, and harvesting. This aspect can be a
           deterrent for people seeking less physically intensive side
           hustles."
-          image="/assets/icons/hustle/F16.png"
+            image="/assets/icons/hustle/F16.png"
           />
 
-<SideHustleCard
-          title="Risk of Crop Failure"
-          description=" Factors like pests, diseases, and adverse weather can lead to
+          <SideHustleCard
+            title="Risk of Crop Failure"
+            description=" Factors like pests, diseases, and adverse weather can lead to
           crop failures, posing financial risks."
-          image="/assets/icons/hustle/F15.png"
+            image="/assets/icons/hustle/F15.png"
           />
 
-
-
-<SideHustleCard
-          title="Isolation"
-          description=" Farms are often located in rural areas, which might be less
+          <SideHustleCard
+            title="Isolation"
+            description=" Farms are often located in rural areas, which might be less
           appealing for individuals accustomed to urban settings."
-          image="/assets/icons/hustle/F13.png"
+            image="/assets/icons/hustle/F13.png"
           />
 
-<SideHustleCard
-          title="Cultural Perceptions"
-          description=" For Millennials and Gen Z even in some cultures, farming might
+          <SideHustleCard
+            title="Cultural Perceptions"
+            description=" For Millennials and Gen Z even in some cultures, farming might
           be viewed as less prestigious or desirable compared to other
           professions or side hustles."
-          image="/assets/icons/hustle/F12.png"
+            image="/assets/icons/hustle/F12.png"
           />
-<SideHustleCard
-          title=" Storage and Market Access"
-          description="  Proper storage and market access are crucial for preserving
+          <SideHustleCard
+            title=" Storage and Market Access"
+            description="  Proper storage and market access are crucial for preserving
           quality and ensuring products reach the market, requiring
           additional resources and coordination."
-          image="/assets/icons/hustle/F10.png"
+            image="/assets/icons/hustle/F10.png"
           />
-
         </div>
       </div>
 
@@ -503,37 +534,29 @@ function Index() {
         </div>
 
         <div
-          className={`grid grid-cols-1 md:grid-cols-4 gap-x-10 gap-y-6 mt-10`}
+          className={`grid grid-cols-1 md:grid-cols-3 gap-x-10 gap-y-6 mt-10`}
         >
           <Testimonial
-            name="Grace Kitali"
-            role="Customer service manager"
-            description="The thought of getting into agriculture was off for me with zero experience in farming. But Farmwise promises to make it accessible and, dare I say, even exciting. The platform not only demystified the agricultural sector to me but will also give me an opportunity for hassle-free investing in Agriculture beyond my regular job"
+            description="Kama shamba limeandaliwa na lina Mifumo ya umwagiliaji nitalima sana tuu, maana tatizo kubwa ilikuwa jinsi ya kupata shamba lililo tayari, gharama ni kubwa sana kwa sisi Vijana. Lakini pia kuna wakati hatupati mbegu bora."
+            name="Baraka Mugeta
+            "
+            role="Dereva wa Bajaji
+            "
+            image="/assets/images/testimonials/testimonial1.jpeg"
           />
+
+          <Testimonial
+            description="The thought of getting into agriculture was off for me with zero experience in farming. But Farmwise promises to make it accessible and, dare I say, even exciting. The platform not only demystified the agricultural sector to me but will also give me an opportunity for hassle-free investing in Agriculture beyond my regular job"
+            name="Nanza Mmbuji"
+            role="Lawyer - Children's Rights Activist"
+            image="/assets/images/testimonials/testimonial2.jpeg"
+          />
+
           <Testimonial
             description="Nadhani sasa kilimo kinakwenda kuwa na mwanga tofauti! As a businessman I have never dreamt of going into farming, I can not be present and ensure all is going well but I think with what I have seen here please may i be one of the first people you consider to take part in this beautiful project. Aisee farmwise mko juu sana!"
             name="Hemedy Omar"
             role="Business owner Kariakoo"
-          />
-          <Testimonial
-            description="I have always known that farming was profitable, but the odds were too much for me, like the distance, and deception. simply nobody to trust! The risk was too high, now with Framwise, I feel in control and secure. I  cant wait to start. Hongera sana Farmwise"
-            name="Dr Amina Maopola"
-            role="University Lecturer"
-          />
-          <Testimonial
-            description="Wow, I never knew at some point in my life I would be able to use technology and farming!! Im really excited, this is so huge, a banker and a farmer? … I can't wait for the next season of making money to start!"
-            name="Ms Asha Baruti"
-            role="Banker in Dar"
-          />
-          <Testimonial
-            description="Kama shamba lina Mifumo ya umwagiliaji nitalima sana tuu, maana tatizo kubwa ilikuwa jinsi ya kupata shamba lililo tayari, gharama ni kubwa sana kwa sisi Vijana. lakini pia kuna wakati hatupati mbegu bora."
-            name="Mr. Baraka Mugeta"
-            role="Dereva wa bajaji"
-          />
-          <Testimonial
-            description="The exciting thing is that Farmwise is fresh and different. So I am directly responsible for my farm and my fortunes. I can lease from multiple farms and grow different crops without the usual struggles. OMG this is amazing!"
-            name="Laitore Massai"
-            role="Traffic Police"
+            image="/assets/images/testimonials/testimonial3.jpeg"
           />
         </div>
       </div>
