@@ -1,6 +1,6 @@
 import Navbar from "@/components/navbar";
 import "./globals.css";
-import { PostHogProvider } from "posthog-js/react";
+import { CSPostHogProvider } from "@/utils/providers/PostHogProvider";
 
 export default function RootLayout({
   children,
@@ -46,12 +46,12 @@ export default function RootLayout({
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
         />
       </head>
-      <body>
-        <Navbar />
-        <PostHogProvider>
-        <main>{children}</main>
-        </PostHogProvider>
-      </body>
+      <CSPostHogProvider>
+        <body>
+          <Navbar />
+          <main>{children}</main>
+        </body>
+      </CSPostHogProvider>
     </html>
   );
 }
