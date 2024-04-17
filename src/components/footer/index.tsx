@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function Footer() {
@@ -7,7 +8,15 @@ function Footer() {
         <aside>
           <img src="/assets/images/Farmwise logo.png" className="w-20" />
         </aside>
-        <nav>
+        <nav className="grid grid-cols-1">
+          <h6 className="footer-title">Explore</h6>
+          <div className="grid grid-cols-1 gap-4">
+            <Link href={"/faq"}>
+              FAQ
+            </Link>
+          </div>
+        </nav>
+        <nav className="grid grid-cols-1">
           <h6 className="footer-title">Social</h6>
           <div className="grid grid-flow-col gap-4">
             <a
