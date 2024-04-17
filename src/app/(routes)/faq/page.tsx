@@ -1,3 +1,5 @@
+"use client"
+
 import RootLayout from "@/app/layout";
 import { faqs } from "@/utils/collections";
 import React from "react";
