@@ -553,7 +553,7 @@ function Index() {
 
           <Testimonial
             description="Nadhani sasa kilimo kinakwenda kuwa na mwanga tofauti! As a businessman I have never dreamt of going into farming, I can not be present and ensure all is going well but I think with what I have seen here please may i be one of the first people you consider to take part in this beautiful project. Aisee farmwise mko juu sana!"
-            name="Hemedy Omar"
+            name="Alphonso Mlawi"
             role="Business owner Kariakoo"
             image="/assets/images/testimonials/testimonial3.jpeg"
           />
