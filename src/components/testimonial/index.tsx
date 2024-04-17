@@ -51,7 +51,7 @@ function Testimonial({
       </div>
       </div>
 
-      <div className="text-justify">{description}</div>
+      <div className="text-justify text-lg">{description}</div>
     </div>
   );
 }

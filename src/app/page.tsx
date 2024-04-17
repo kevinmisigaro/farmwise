@@ -532,9 +532,8 @@ function Index() {
         <div className={`${mali.className} text-center text-4xl`}>
           What people say about Farmwise
         </div>
-
         <div
-          className={`grid grid-cols-1 md:grid-cols-3 gap-x-10 gap-y-6 mt-10`}
+          className={`grid grid-cols-1 md:grid-cols-4 gap-x-10 gap-y-6 mt-10`}
         >
           <Testimonial
             description="Kama shamba limeandaliwa na lina Mifumo ya umwagiliaji nitalima sana tuu, maana tatizo kubwa ilikuwa jinsi ya kupata shamba lililo tayari, gharama ni kubwa sana kwa sisi Vijana. Lakini pia kuna wakati hatupati mbegu bora."
@@ -557,6 +556,13 @@ function Index() {
             name="Hemedy Omar"
             role="Business owner Kariakoo"
             image="/assets/images/testimonials/testimonial3.jpeg"
+          />
+
+          <Testimonial 
+            image="/assets/images/testimonials/testimonial4.jpg"
+            role="Banker"
+            name="Asha Baruti"
+            description="Wow, I never knew at some point in my life I would be able to use technology and farming!! I&apos;m really excited, this is so huge, a banker and a farmer? … I can&apos;t wait for the next season of making money to start! "
           />
         </div>
       </div>
