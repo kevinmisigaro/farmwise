@@ -600,7 +600,7 @@ function Index() {
           />
           <div>
             <h3>Send an Email</h3>
-            <h2 className="font-bold text-lg">enquiry@farmwise.tz</h2>
+            <a href="mailto:enquiry@farmwise.tz" className="font-bold text-lg hover:underline">enquiry@farmwise.tz</a>
           </div>
         </div>
       </div>
