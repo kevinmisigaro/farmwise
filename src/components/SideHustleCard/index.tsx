@@ -19,7 +19,7 @@ function SideHustleCard({
           </h3>
         </div>
 
-        <p className="text-lg md:text-xl mt-5 mt-3 text-justify">
+        <p className="text-lg md:text-xl mt-5 mt-3 text-left md:text-justify">
           {description}
         </p>
       </div>

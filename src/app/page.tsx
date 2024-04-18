@@ -169,7 +169,7 @@ function Index() {
           </div>
         </div>
 
-        <div className="mt-12 md:mt-20 text-justify text-lg md:text-xl">
+        <div className="mt-12 md:mt-20 text-left md:text-justify text-lg md:text-xl">
           <p>
             Patricia Kakorozya and Ruth Yongolo, founders of Farmwise Tanzania,
             shared a deep concern stemming from a common observation: with each
@@ -202,7 +202,7 @@ function Index() {
             <h2 className={`${mali.className} text-3xl md:text-5xl`}>
               Morogoro Maize Farm Project
             </h2>
-            <p className="mt-10 text-justify mb-10 text-xl md:text-2xl">
+            <p className="mt-10 text-left md:text-justify mb-10 text-xl md:text-2xl">
               Exciting news! Farmwise has secured 10,000 acres in
               Tanzania&apos;s fertile Morogoro region for our next maize farming
               project. As we prepare the farm for the next planting season, we
@@ -246,8 +246,7 @@ function Index() {
         </h1>
 
         <div className="grid grid-cols-1 md:grid-cols-3 px-10 gap-y-5 mt-10 gap-x-8 items-stretch">
-          <div className="basis-1 md:basis-1/3">
-            <div className="card w-full bg-white shadow-xl">
+        <div className="card w-full bg-white shadow-xl">
               <div className="card-body flex items-center text-center">
                 <img className="h-28" src="/assets/icons/services/F9.png" />
                 <p className={`${mali.className} mt-5 text-2xl font-bold h-28 md:h-12`}>
@@ -261,9 +260,7 @@ function Index() {
                 </p>
               </div>
             </div>
-          </div>
 
-          <div className="basis-1 md:basis-1/3">
             <div className="card w-full bg-white shadow-xl">
               <div className="card-body flex items-center text-center">
                 <img className="h-28" src="/assets/icons/services/F8.png" />
@@ -278,9 +275,8 @@ function Index() {
                 </p>
               </div>
             </div>
-          </div>
 
-          <div className="basis-1 md:basis-1/3">
+
             <div className="card w-full bg-white shadow-xl">
               <div className="card-body flex items-center text-center">
                 <img className="h-28" src="/assets/icons/services/F1.png" />
@@ -294,9 +290,7 @@ function Index() {
                 </p>
               </div>
             </div>
-          </div>
 
-          <div className="basis-1 md:basis-1/3">
             <div className="card w-full bg-white shadow-xl">
               <div className="card-body flex items-center text-center">
                 <img className="h-28" src="/assets/icons/services/F6.png" />
@@ -312,9 +306,6 @@ function Index() {
                 </p>
               </div>
             </div>
-          </div>
-
-          <div className="basis-1 md:basis-1/3">
             <div className="card w-full bg-white shadow-xl">
               <div className="card-body flex items-center text-center">
                 <img className="h-28" src="/assets/icons/services/F4.png" />
@@ -329,9 +320,7 @@ function Index() {
                 </p>
               </div>
             </div>
-          </div>
 
-          <div className="basis-1 md:basis-1/3">
             <div className="card w-full bg-white shadow-xl">
               <div className="card-body flex items-center text-center">
                 <img className="h-28" src="/assets/icons/services/F3.png" />
@@ -348,7 +337,6 @@ function Index() {
                 </p>
               </div>
             </div>
-          </div>
         </div>
 
         <div className="flex flex-row justify-center mt-20">
@@ -507,7 +495,7 @@ function Index() {
                     Instant and Flexible
                   </div>
                 </div>
-                <div className="text-xl md:text-2xl text-justify">
+                <div className="text-xl md:text-2xl text-left md:text-justify">
                   Farmwise DIY - Remote Farming offers an on-demand farming
                   service that allows investors to start or pause their farming
                   operations at their convenience. This instant access ensures
@@ -526,7 +514,7 @@ function Index() {
                     Minimal Time and Investment Required
                   </div>
                 </div>
-                <div className=" text-xl md:text-2xl text-justify">
+                <div className=" text-xl md:text-2xl text-left md:text-justify">
                   The platform is designed to minimize both the time and
                   financial commitment required from the user. With pre-set
                   farming packages and automated systems, users can start with a
@@ -545,7 +533,7 @@ function Index() {
                     Guaranteed ROI
                   </div>
                 </div>
-                <div className=" text-xl md:text-2xl text-justify">
+                <div className=" text-xl md:text-2xl text-left md:text-justify">
                   Farmwise DIY provides a structured approach with optimized
                   farming practices and technology that ensures a predictable
                   and reliable return on investment. This guarantee makes it an
@@ -564,7 +552,7 @@ function Index() {
                     No Farming Knowledge or Experience Required
                   </div>
                 </div>
-                <div className=" text-xl md:text-2xl text-justify">
+                <div className=" text-xl md:text-2xl text-left md:text-justify">
                   The platform is user-friendly and requires no prior farming
                   knowledge or experience. Farmwise DIY comes equipped with
                   automated systems, expert-guided protocols, and a full suite
@@ -583,7 +571,7 @@ function Index() {
                     Tech-Driven Convenience
                   </div>
                 </div>
-                <div className=" text-xl md:text-2xl text-justify">
+                <div className=" text-xl md:text-2xl text-left md:text-justify">
                   Leveraging the latest in agricultural technology, Farmwise DIY
                   allows users to manage their farming operations remotely.
                   Whether through a smartphone app or a web interface, users can
@@ -602,7 +590,7 @@ function Index() {
                     Scalability to Fit Any Goal
                   </div>
                 </div>
-                <div className=" text-xl md:text-2xl text-justify">
+                <div className=" text-xl md:text-2xl text-left md:text-justify">
                   Whether you are looking to experiment with agriculture as a
                   hobby or build a sizable farming operation, Farmwise DIY can
                   scale to meet your needs. You can expand your involvement and
@@ -621,7 +609,7 @@ function Index() {
           What people say about Farmwise
         </div>
         <div
-          className={`grid grid-cols-1 md:grid-cols-4 gap-x-10 gap-y-6 mt-10`}
+          className={`grid grid-cols-1 md:grid-cols-4 gap-x-10 gap-y-6 mt-10 items-center`}
         >
           <Testimonial
             image="/assets/images/testimonials/testimonial4.jpg"
