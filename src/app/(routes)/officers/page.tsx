@@ -4,8 +4,8 @@ function Page() {
   return (
     <div>
       <div
-        className="hero h-[55vh] bg-cover bg-top"
-        style={{ backgroundImage: "url(/assets/images/officer.jpg)" }}
+        className="hero h-[55vh] bg-cover"
+        style={{ backgroundImage: "url(/assets/images/officer.jpg)", backgroundPosition: "center -45px" }}
       >
         <div className="hero-overlay bg-opacity-70 bg-black"></div>
         <div className="hero-content text-center text-neutral-content text-white">

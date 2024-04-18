@@ -11,27 +11,18 @@ function Footer() {
         <nav className="grid grid-cols-1">
           <h6 className="footer-title">Explore</h6>
           <div className="grid grid-cols-1 gap-4">
-            <Link href={"/faq"}>
-              FAQ
-            </Link>
-            <Link href={"/"}>
-              Blog
-            </Link>
-            <Link href={"/"}>
-             Careers
-            </Link>
-            <Link href={"/"}>
-              Community
-            </Link>
+            <Link href={"/faq"}>FAQ</Link>
+            <Link href={"/"}>Blog</Link>
+            <Link href={"/owners"}>Land Owners</Link>
+            <Link href={"/officers"}>Farm Officers</Link>
+            <Link href={"/owners"}>Careers</Link>
+            <Link href={"/officers"}>Community</Link>
           </div>
         </nav>
         <nav className="grid grid-cols-1">
           <h6 className="footer-title">Social</h6>
           <div className="grid grid-flow-col gap-4">
-            <a
-              href="https://twitter.com/Farmwisetz"
-              target="_blank"
-            >
+            <a href="https://twitter.com/Farmwisetz" target="_blank">
               <img
                 src="/assets/images/social/icons8-twitterx-50.png"
                 className="w-8"
