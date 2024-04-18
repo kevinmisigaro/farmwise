@@ -5,7 +5,7 @@ function Page() {
     <div>
       <div
         className="hero h-[40vh]"
-        style={{ backgroundImage: "url(/assets/images/banners/banner3.jpg)" }}
+        style={{ backgroundImage: "url(/assets/images/farm2.jpeg)" }}
       >
         <div className="hero-overlay bg-opacity-60 bg-black"></div>
         <div className="hero-content text-center text-neutral-content text-white">
@@ -15,13 +15,7 @@ function Page() {
         </div>
       </div>
       <div className="px-5 md:px-20 py-10 flex flex-row justify-center">
-        <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSfbGR7-tpjo8LkzGSuIwNwOWO0yTTsj7nf5K-oyybSr6wZY0w/viewform?embedded=true"
-          width="1000"
-          height="1100"
-        >
-          Loading…
-        </iframe>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSekLGiA52Pxo0LlriUZloh6H8BD3IuRTbSIKUcqrk3X6BLk2Q/viewform?embedded=true" width="1000" height="2000" >Loading…</iframe>
       </div>
     </div>
   );
