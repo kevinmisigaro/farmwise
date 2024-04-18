@@ -2,13 +2,13 @@ function Index() {
   return (
     <div>
          <div
-        className="hero h-[35vh] md:h-[60vh]"
+        className="hero h-[40vh]"
         style={{ backgroundImage: "url(/assets/images/banners/banner7-min.jpg)" }}
       >
         <div className="hero-overlay bg-opacity-60 bg-black"></div>
         <div className="hero-content text-center text-neutral-content text-white">
           <div className="max-w-md">
-            <h1 className="mb-5 text-4xl font-bold">
+            <h1 className="mb-5 text-6xl font-bold">
             Be the First to Benefit!
             </h1>
           </div>

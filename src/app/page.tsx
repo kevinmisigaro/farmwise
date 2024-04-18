@@ -105,18 +105,20 @@ function Index() {
       >
         <div className="hero-overlay bg-opacity-40 bg-black"></div>
         <div className="hero-content text-center text-neutral-content">
-          <div className="max-w-md text-white">
+          <div className="max-w-2xl text-white">
             <h1
-              className={`mb-5 text-xl md:text-5xl font-bold ${mali.className}`}
+              className={`mb-5 text-3xl md:text-5xl font-bold ${mali.className}`}
             >
               More than Farming...
             </h1>
             <h1
-              className={`mb-5 text-xl md:text-5xl font-bold ${mali.className}`}
+              className={`mb-5 text-3xl md:text-5xl font-bold ${mali.className}`}
             >
               It&rsquo;s your{" "}
-              <i className={`${inter.className} font-light italic`}>New</i> side
-              hustle
+              <span className={`${inter.className} font-light italic`}>
+                New
+              </span>{" "}
+              side hustle
             </h1>
 
             <div className="flex flex-row justify-center mt-10">
@@ -228,7 +230,7 @@ function Index() {
               <div className="card-body text-white text-center">
                 <div className="stat-value">1000+</div>
                 <div className={`stat-desc text-lg ${mali.className}`}>
-                  Subscribed Users
+                  Registered Interest
                 </div>
               </div>
             </div>
