@@ -11,9 +11,7 @@ function Page() {
         <div className="hero-content text-center text-neutral-content text-white">
           <div className="max-w-7xl">
             <h1 className="mb-5 text-xl md:text-4xl font-bold text-center">
-              If you&apos;re an agricultural graduate from an accredited college and
-              interested in becoming a Farm Officer, please leave
-              your details below.
+            Farm Officer: <br/><br/> If you're an agricultural graduate from an accredited college and interested in Farmwise, , please leave your details below.
             </h1>
           </div>
         </div>
