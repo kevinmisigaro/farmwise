@@ -250,10 +250,10 @@ function Index() {
             <div className="card w-full bg-white shadow-xl">
               <div className="card-body flex items-center text-center">
                 <img className="h-28" src="/assets/icons/services/F9.png" />
-                <p className={`${mali.className} mt-5 text-2xl font-bold h-12`}>
+                <p className={`${mali.className} mt-5 text-2xl font-bold h-28 md:h-12`}>
                   Short-term Farm Rental <br /> Opportunity Nationwide
                 </p>
-                <p className="text-xl mt-5 h-40">
+                <p className="text-xl mt-5 h-50 md:h-40">
                   Offers flexible, short-term leases on a wide range of farms
                   across the country, allowing investors and even non-farmers to
                   embark on agricultural projects instantly without long-term
@@ -267,10 +267,10 @@ function Index() {
             <div className="card w-full bg-white shadow-xl">
               <div className="card-body flex items-center text-center">
                 <img className="h-28" src="/assets/icons/services/F8.png" />
-                <p className={`${mali.className} mt-5 text-2xl font-bold h-12`}>
+                <p className={`${mali.className} mt-5 text-2xl font-bold h-16 md:h-12`}>
                   Land Preparation and Management <br />
                 </p>
-                <p className="text-xl mt-5 h-40">
+                <p className="text-xl mt-5 h-52 md:h-40">
                   Provides comprehensive farm services including soil testing
                   and treatment, plowing, and irrigation setup (where
                   applicable) to ensure land is fertile and ready for planting,
@@ -303,7 +303,7 @@ function Index() {
                 <p className={`${mali.className} mt-5 text-2xl font-bold h-12`}>
                   Farming as a Service (FaaS)
                 </p>
-                <p className="text-xl mt-5 h-60">
+                <p className="text-xl mt-5 h-68 md:h-60">
                   Our mobile app delivers end-to-end farm management for remote
                   farm management for transparency and accountability. You can
                   select from our list of certified and dedicated Farm Officers
