@@ -10,7 +10,7 @@ function Testimonial({
   image: string
 }) {
   return (
-    <div className="flex flex-col gap-y-2 w-[300px] px-8 py-10 bg-white shadow-xl rounded-md">
+    <div className="flex flex-col gap-y-2 h-[35rem] px-8 py-10 bg-white shadow-xl rounded-md">
       <div className="rating">
         <input
           type="radio"
