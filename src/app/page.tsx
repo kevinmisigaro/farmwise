@@ -1,6 +1,7 @@
 "use client";
 
 import HowItWorksCard from "@/components/HowItWorksCard";
+import ServicesCard from "@/components/ServicesCard";
 import SideHustleCard from "@/components/SideHustleCard";
 import Footer from "@/components/footer";
 import Testimonial from "@/components/testimonial";
@@ -246,97 +247,62 @@ function Index() {
         </h1>
 
         <div className="grid grid-cols-1 md:grid-cols-3 px-10 gap-y-5 mt-10 gap-x-8 items-stretch">
-        <div className="card w-full bg-white shadow-xl">
-              <div className="card-body flex items-center text-center">
-                <img className="h-28" src="/assets/icons/services/F9.png" />
-                <p className={`${mali.className} mt-5 text-2xl font-bold h-28 md:h-12`}>
-                  Short-term Farm Rental <br /> Opportunity Nationwide
-                </p>
-                <p className="text-xl mt-5 h-50 md:h-40">
-                  Offers flexible, short-term leases on a wide range of farms
-                  across the country, allowing investors and even non-farmers to
-                  embark on agricultural projects instantly without long-term
-                  commitments.
-                </p>
-              </div>
-            </div>
-
-            <div className="card w-full bg-white shadow-xl">
-              <div className="card-body flex items-center text-center">
-                <img className="h-28" src="/assets/icons/services/F8.png" />
-                <p className={`${mali.className} mt-5 text-2xl font-bold h-16 md:h-12`}>
-                  Land Preparation and Management <br />
-                </p>
-                <p className="text-xl mt-5 h-52 md:h-40">
-                  Provides comprehensive farm services including soil testing
-                  and treatment, plowing, and irrigation setup (where
-                  applicable) to ensure land is fertile and ready for planting,
-                  optimizing crop yield potential.
-                </p>
-              </div>
-            </div>
+        
+            <ServicesCard
+                title="Short-term Farm Rental Opportunity Nationwide"
+                description=" Offers flexible, short-term leases on a wide range of farms
+                across the country, allowing investors and even non-farmers to
+                embark on agricultural projects instantly without long-term
+                commitments."
+                image="/assets/icons/services/F9.png"
+            />
 
 
-            <div className="card w-full bg-white shadow-xl">
-              <div className="card-body flex items-center text-center">
-                <img className="h-28" src="/assets/icons/services/F1.png" />
-                <p className={`${mali.className} mt-5 text-2xl font-bold h-12`}>
-                  Quality Agricultural Input
-                </p>
-                <p className="text-xl mt-5 h-40">
-                  Supplies top-tier seeds, fertilizers, and pesticides, so that
-                  farmers have access to the best inputs for their crops,
-                  leading to healthier plants and increased yields.
-                </p>
-              </div>
-            </div>
+<ServicesCard
+                title="Land Preparation and Management"
+                description="Provides comprehensive farm services including soil testing
+                and treatment, plowing, and irrigation setup (where
+                applicable) to ensure land is fertile and ready for planting,
+                optimizing crop yield potential."
+                image="/assets/icons/services/F8.png"
+            />
+<ServicesCard
+                title=" Quality Agricultural Input"
+                description="   Supplies top-tier seeds, fertilizers, and pesticides, so that
+                farmers have access to the best inputs for their crops,
+                leading to healthier plants and increased yields."
+                image="/assets/icons/services/F1.png"
+            />
 
-            <div className="card w-full bg-white shadow-xl">
-              <div className="card-body flex items-center text-center">
-                <img className="h-28" src="/assets/icons/services/F6.png" />
-                <p className={`${mali.className} mt-5 text-2xl font-bold h-12`}>
-                  Farming as a Service (FaaS)
-                </p>
-                <p className="text-xl mt-5 h-68 md:h-60">
-                  Our mobile app delivers end-to-end farm management for remote
-                  farm management for transparency and accountability. You can
-                  select from our list of certified and dedicated Farm Officers
-                  from accredited Agricultural institutions to manage your farm
-                  covering all aspects from planting to harvesting.
-                </p>
-              </div>
-            </div>
-            <div className="card w-full bg-white shadow-xl">
-              <div className="card-body flex items-center text-center">
-                <img className="h-28" src="/assets/icons/services/F4.png" />
-                <p className={`${mali.className} mt-5 text-2xl font-bold h-12`}>
-                  Agricultural Financial Services
-                </p>
-                <p className="text-xl mt-5 h-60">
-                  We partner with agricultural-centric banks to offer tailored
-                  financial solutions, including loans, insurance cover, and
-                  investment opportunities, aimed to support agro-investments
-                  for guaranteed returns.
-                </p>
-              </div>
-            </div>
 
-            <div className="card w-full bg-white shadow-xl">
-              <div className="card-body flex items-center text-center">
-                <img className="h-28" src="/assets/icons/services/F3.png" />
-                <p className={`${mali.className} mt-5 text-2xl font-bold h-12`}>
-                  Ready Market Access
-                  <br />
-                  <br />
-                </p>
-                <p className="text-xl mt-5 h-60">
-                  At Farmwise, we facilitate connections between farmers and
-                  buyers, ensuring that produce is fairly priced, and reaches
-                  the market efficiently and profitably, reducing the risk of
-                  post-harvest losses for our platform investors.
-                </p>
-              </div>
-            </div>
+<ServicesCard
+                title="Farming as a Service (FaaS)"
+                description="Our mobile app delivers end-to-end farm management for remote
+                farm management for transparency and accountability. You can
+                select from our list of certified and dedicated Farm Officers
+                from accredited Agricultural institutions to manage your farm
+                covering all aspects from planting to harvesting."
+                image="/assets/icons/services/F6.png"
+            />
+<ServicesCard
+                title=" Agricultural Financial Services"
+                description="We partner with agricultural-centric banks to offer tailored
+                financial solutions, including loans, insurance cover, and
+                investment opportunities, aimed to support agro-investments
+                for guaranteed returns."
+                image="/assets/icons/services/F4.png"
+            />
+
+<ServicesCard
+                title="  Ready Market Access"
+                description=" At Farmwise, we facilitate connections between farmers and
+                buyers, ensuring that produce is fairly priced, and reaches
+                the market efficiently and profitably, reducing the risk of
+                post-harvest losses for our platform investors."
+                image="/assets/icons/services/F3.png"
+            />
+
+      
         </div>
 
         <div className="flex flex-row justify-center mt-20">
