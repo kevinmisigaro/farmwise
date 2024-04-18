@@ -422,7 +422,7 @@ function Index() {
             description=" For Millennials and Gen Z even in some cultures, farming might
           be viewed as less prestigious or desirable compared to other
           professions or side hustles."
-            image="/assets/icons/hustle/F12.png"
+            image="/assets/icons/hustle/icons8-sad-50.png"
           />
           <SideHustleCard
             title=" Storage & Market Access"
@@ -503,9 +503,11 @@ function Index() {
                     src="/assets/icons/Farm.png"
                     className="text-white max-w-20"
                   /> */}
-                  <div className="font-bold text-xl">Instant and Flexible</div>
+                  <div className="font-bold text-xl md:text-2xl">
+                    Instant and Flexible
+                  </div>
                 </div>
-                <div className="text-xl text-justify">
+                <div className="text-xl md:text-2xl text-justify">
                   Farmwise DIY - Remote Farming offers an on-demand farming
                   service that allows investors to start or pause their farming
                   operations at their convenience. This instant access ensures
@@ -520,11 +522,11 @@ function Index() {
                     src="/assets/icons/Com Sup.png"
                     className="text-white w-10"
                   /> */}
-                  <div className="font-bold text-xl">
+                  <div className="font-bold  text-xl md:text-2xl">
                     Minimal Time and Investment Required
                   </div>
                 </div>
-                <div className="text-xl text-justify">
+                <div className=" text-xl md:text-2xl text-justify">
                   The platform is designed to minimize both the time and
                   financial commitment required from the user. With pre-set
                   farming packages and automated systems, users can start with a
@@ -539,9 +541,11 @@ function Index() {
                     src="assets/icons/Recy.png"
                     className="text-white w-10"
                   /> */}
-                  <div className="font-bold text-xl">Guaranteed ROI</div>
+                  <div className="font-bold  text-xl md:text-2xl">
+                    Guaranteed ROI
+                  </div>
                 </div>
-                <div className="text-xl text-justify">
+                <div className=" text-xl md:text-2xl text-justify">
                   Farmwise DIY provides a structured approach with optimized
                   farming practices and technology that ensures a predictable
                   and reliable return on investment. This guarantee makes it an
@@ -556,11 +560,11 @@ function Index() {
                     src="/assets/icons/Success.png"
                     className="text-white w-10"
                   /> */}
-                  <div className="font-bold text-xl">
+                  <div className="font-bold  text-xl md:text-2xl">
                     No Farming Knowledge or Experience Required
                   </div>
                 </div>
-                <div className="text-xl text-justify">
+                <div className=" text-xl md:text-2xl text-justify">
                   The platform is user-friendly and requires no prior farming
                   knowledge or experience. Farmwise DIY comes equipped with
                   automated systems, expert-guided protocols, and a full suite
@@ -575,11 +579,11 @@ function Index() {
                     src="/assets/icons/Success.png"
                     className="text-white w-10"
                   /> */}
-                  <div className="font-bold text-xl">
+                  <div className="font-bold  text-xl md:text-2xl">
                     Tech-Driven Convenience
                   </div>
                 </div>
-                <div className="text-xl text-justify">
+                <div className=" text-xl md:text-2xl text-justify">
                   Leveraging the latest in agricultural technology, Farmwise DIY
                   allows users to manage their farming operations remotely.
                   Whether through a smartphone app or a web interface, users can
@@ -594,11 +598,11 @@ function Index() {
                     src="/assets/icons/Success.png"
                     className="text-white w-10"
                   /> */}
-                  <div className="font-bold text-xl">
+                  <div className="font-bold  text-xl md:text-2xl">
                     Scalability to Fit Any Goal
                   </div>
                 </div>
-                <div className="text-xl text-justify">
+                <div className=" text-xl md:text-2xl text-justify">
                   Whether you are looking to experiment with agriculture as a
                   hobby or build a sizable farming operation, Farmwise DIY can
                   scale to meet your needs. You can expand your involvement and
