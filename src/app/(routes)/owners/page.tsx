@@ -9,7 +9,7 @@ function Page() {
       >
         <div className="hero-overlay bg-opacity-70 bg-black"></div>
         <div className="hero-content text-center text-neutral-content text-white">
-          <div className="max-w-2xl">
+          <div className="max-w-7xl">
             <h1 className="mb-5 text-3xl font-bold text-left">
               Unlock the power of your farmland with Farmwise Tanzania! If you
               want to lease or sell your land, we can help make it a part of
