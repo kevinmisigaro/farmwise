@@ -108,7 +108,7 @@ function Navbar() {
         >
           <img src="/assets/images/farmwiselogo.png" className="w-10" />{" "}
           <div
-            className={`${inter.className} font-bold text-md text-[#277f3b]`}
+            className={`${inter.className} font-bold text-md text-[#277f3b] hidden md:block`}
           >
             Farmwise
           </div>
