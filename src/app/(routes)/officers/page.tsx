@@ -5,7 +5,7 @@ function Page() {
     <div>
       <div
         className="hero h-[40vh]"
-        style={{ backgroundImage: "url(/assets/images/farm1.jpg)" }}
+        style={{ backgroundImage: "url(/assets/images/officer.jpg)" }}
       >
         <div className="hero-overlay bg-opacity-70 bg-black"></div>
         <div className="hero-content text-center text-neutral-content text-white">
