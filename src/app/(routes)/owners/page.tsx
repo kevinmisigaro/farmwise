@@ -10,8 +10,8 @@ function Page() {
         <div className="hero-overlay bg-opacity-70 bg-black"></div>
         <div className="hero-content text-center text-neutral-content text-white">
           <div className="max-w-7xl">
-            <h1 className="mb-5 text-xl md:text-4xl font-bold text-left">
-            Farmland Owners: Long lease or sell your asset? Leave your details below.
+            <h1 className="mb-5 text-xl md:text-4xl font-bold text-center">
+            Farmland Owners: <br/> Long lease or sell your asset? Leave your details below.
             </h1>
           </div>
         </div>
