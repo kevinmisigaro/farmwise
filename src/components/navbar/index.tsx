@@ -84,20 +84,20 @@ function Navbar() {
               </a>
             </li>
             <li>
-              <Link href={"/faq"} className={`${mali.className}`}>
-                FAQ
-              </Link>
-            </li>
-
-            <li>
-              <Link href={"/"} className={`${mali.className}`}>
+              <Link href={"/owners"} className={`${mali.className}`}>
                 Land Owners
               </Link>
             </li>
 
             <li>
-              <Link href={"/"} className={`${mali.className}`}>
+              <Link href={"/officers"} className={`${mali.className}`}>
                 Farm Officers
+              </Link>
+            </li>
+
+            <li>
+              <Link href={"/faq"} className={`${mali.className}`}>
+                FAQ
               </Link>
             </li>
           </ul>
@@ -163,21 +163,22 @@ function Navbar() {
               How it Works
             </a>
           </li>
-          <li>
-            <Link href={"/faq"} className={`${mali.className}`}>
-              FAQ
-            </Link>
-          </li>
 
           <li>
-            <Link href={"/"} className={`${mali.className}`}>
+            <Link href={"/owners"} className={`${mali.className}`}>
               Land Owners
             </Link>
           </li>
 
           <li>
-            <Link href={"/"} className={`${mali.className}`}>
+            <Link href={"/officers"} className={`${mali.className}`}>
               Farm Officers
+            </Link>
+          </li>
+
+          <li>
+            <Link href={"/faq"} className={`${mali.className}`}>
+              FAQ
             </Link>
           </li>
         </ul>
