@@ -362,10 +362,10 @@ export const faqs:FaqList[] = [
                 question: 'How can I contribute to the Farmwise Tanzania community?',
                 answer: 'Contributions can be made through participating in forums, sharing your farming experiences, volunteering for community projects, or by becoming a mentor to new investors and farm officers.'
             },
-            {
-                question: 'Is there a mentorship program available for new investors or farm officers?',
-                answer: 'Yes, we offer a mentorship program where experienced investors and seasoned farm officers can mentor newcomers to help them navigate the complexities of agricultural investment and operations.'
-            }
+            // {
+            //     question: 'Is there a mentorship program available for new investors or farm officers?',
+            //     answer: 'Yes, we offer a mentorship program where experienced investors and seasoned farm officers can mentor newcomers to help them navigate the complexities of agricultural investment and operations.'
+            // }
         ]
     }
 ];
