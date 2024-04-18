@@ -14,6 +14,15 @@ function Footer() {
             <Link href={"/faq"}>
               FAQ
             </Link>
+            <Link href={"/"}>
+              Blog
+            </Link>
+            <Link href={"/"}>
+             Careers
+            </Link>
+            <Link href={"/"}>
+              Community
+            </Link>
           </div>
         </nav>
         <nav className="grid grid-cols-1">

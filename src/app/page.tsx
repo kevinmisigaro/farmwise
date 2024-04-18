@@ -553,7 +553,7 @@ function Index() {
           </div>
 
       {/* start of testimonial */}
-      <div className="px-5 md:mt-1 md:px-20 py-12 md:py-20 bg-[#fcfaf0]">
+      <div className="px-5 md:mt-1 md:px-20 py-12 md:py-20 bg-[#D3D1C6]">
         <div className={`${mali.className} text-center text-4xl`}>
           What people say about Farmwise
         </div>
