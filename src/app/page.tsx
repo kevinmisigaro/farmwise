@@ -99,41 +99,40 @@ function Index() {
         </div>
       </Slider> */}
 
-<div className="h-[50vh] md:h-[78vh] relative">
-          <div
-            className="h-[50vh] md:h-[78vh] bg-cover"
-            style={{
-              backgroundImage: "url('/assets/images/banners/banner1.jpg')",
-            }}
-          ></div>
-          <div className="w-full absolute h-full bg-black top-0 start-0 bg-opacity-30 z-5"></div>
-          <div className="text-white absolute inset-0 text-center px-2 md:px-10 h-full">
-            <div className="mt-32">
-              <h1
-                className={`mb-5 text-xl md:text-5xl font-bold ${mali.className}`}
-              >
-                More than Farming...
-              </h1>
-              <h1
-                className={`mb-5 text-xl md:text-5xl font-bold ${mali.className}`}
-              >
-                It&rsquo;s your{" "}
-                <i className={`${inter.className} font-light italic`}>New</i>{" "}
-                side hustle
-              </h1>
+      <div className="h-[50vh] md:h-[78vh] relative">
+        <div
+          className="h-[50vh] md:h-[78vh] bg-cover"
+          style={{
+            backgroundImage: "url('/assets/images/banners/banner1.jpg')",
+          }}
+        ></div>
+        <div className="w-full absolute h-full bg-black top-0 start-0 bg-opacity-30 z-5"></div>
+        <div className="text-white absolute inset-0 text-center px-2 md:px-10 h-full">
+          <div className="mt-32">
+            <h1
+              className={`mb-5 text-xl md:text-5xl font-bold ${mali.className}`}
+            >
+              More than Farming...
+            </h1>
+            <h1
+              className={`mb-5 text-xl md:text-5xl font-bold ${mali.className}`}
+            >
+              It&rsquo;s your{" "}
+              <i className={`${inter.className} font-light italic`}>New</i> side
+              hustle
+            </h1>
 
-              <div className="flex flex-row justify-center mt-10">
-                <div
-                  onClick={() => handleClickScroll("dream")}
-                  className="px-4 md:px-12 font-bold py-3 rounded-md max-w-fit text-white bg-[#173d25] cursor-pointer"
-                >
-                  Learn More
-                </div>
+            <div className="flex flex-row justify-center mt-10">
+              <div
+                onClick={() => handleClickScroll("dream")}
+                className="px-4 md:px-12 font-bold py-3 rounded-md max-w-fit text-white bg-[#173d25] cursor-pointer"
+              >
+                Learn More
               </div>
             </div>
           </div>
         </div>
-
+      </div>
 
       {/* benefits section  */}
       <div id="dream">
@@ -440,13 +439,13 @@ function Index() {
       {/* end of services section  */}
 
       <div
-        className="hero h-[95vh] bg-cover"
+        className="hero max-h-fit bg-cover"
         style={{
           backgroundImage: "url(/assets/images/tractor-field-min.jpg",
         }}
       >
-        <div className="hero-overlay bg-opacity-80 bg-black"></div>
-        <div className="hero-content text-neutral-content">
+        <div className="hero-overlay bg-opacity-80 py-20 bg-black"></div>
+        <div className="hero-content text-neutral-content  py-20">
           <div className="text-white w-[80vw] pt-20">
             <div className={`${mali.className} text-center mb-12 text-3xl`}>
               Why Choose Farmwise
@@ -458,16 +457,14 @@ function Index() {
                     src="/assets/icons/Farm.png"
                     className="text-white max-w-20"
                   />
-                  <div className="font-bold text-lg">
-                    Mechanized and Irrigated Farmlands
-                  </div>
+                  <div className="font-bold text-lg">Instant and Flexible</div>
                 </div>
                 <div className="text-sm text-justify">
-                  Our state-of-the-art farms are spread across the country,
-                  featuring full mechanization and irrigation systems. You can
-                  lease a portion of these lands for each farming season,
-                  ensuring your venture into agriculture is as smooth as
-                  possible.
+                  Farmwise DIY - Remote Farming offers an on-demand farming
+                  service that allows investors to start or pause their farming
+                  operations at their convenience. This instant access ensures
+                  that users can adapt quickly to changing market conditions or
+                  personal circumstances.
                 </div>
               </div>
 
@@ -477,14 +474,16 @@ function Index() {
                     src="/assets/icons/Com Sup.png"
                     className="text-white w-10"
                   />
-                  <div className="font-bold">Comprehensive Support</div>
+                  <div className="font-bold">
+                    Minimal Time and Investment Required
+                  </div>
                 </div>
                 <div className="text-sm text-justify">
-                  Every farm comes with detailed agronomic studies and extension
-                  services, ensuring you&apos;re never left guessing about the
-                  best practices for your crops. We prioritize security and
-                  offer detailed economics of production, focusing on the most
-                  optimized crops for our conditions.
+                  The platform is designed to minimize both the time and
+                  financial commitment required from the user. With pre-set
+                  farming packages and automated systems, users can start with a
+                  small investment and very little time commitment, making it an
+                  accessible entry point into the agriculture sector.
                 </div>
               </div>
 
@@ -494,15 +493,14 @@ function Index() {
                     src="assets/icons/Recy.png"
                     className="text-white w-10"
                   />
-                  <div className="font-bold">
-                    Environmentally Friendly Inputs
-                  </div>
+                  <div className="font-bold">Guaranteed ROI</div>
                 </div>
                 <div className="text-sm text-justify">
-                  We provide fertilizers and pesticides that are not only
-                  effective but also environmentally friendly. This commitment
-                  to sustainability helps ensure an optimal harvest and
-                  contributes to a healthier planet.
+                  Farmwise DIY provides a structured approach with optimized
+                  farming practices and technology that ensures a predictable
+                  and reliable return on investment. This guarantee makes it an
+                  attractive option for those looking for stable financial
+                  opportunities in a typically variable industry.
                 </div>
               </div>
 
@@ -512,14 +510,50 @@ function Index() {
                     src="/assets/icons/Success.png"
                     className="text-white w-10"
                   />
-                  <div className="font-bold">Guaranteed Success</div>
+                  <div className="font-bold">
+                    No Farming Knowledge or Experience Required
+                  </div>
                 </div>
                 <div className="text-sm text-justify">
-                  By removing the hurdles traditionally associated with farming,
-                  we guarantee success in your agricultural endeavors. Our model
-                  is designed to make farming accessible, profitable, and
-                  hassle-free for everyone, regardless of their background in
-                  agriculture.
+                  The platform is user-friendly and requires no prior farming
+                  knowledge or experience. Farmwise DIY comes equipped with
+                  automated systems, expert-guided protocols, and a full suite
+                  of management tools that handle everything from seeding to
+                  harvesting.
+                </div>
+              </div>
+
+              <div>
+                <div className="flex flex-row items-center mb-5 gap-x-5">
+                  <img
+                    src="/assets/icons/Success.png"
+                    className="text-white w-10"
+                  />
+                  <div className="font-bold">Tech-Driven Convenience</div>
+                </div>
+                <div className="text-sm text-justify">
+                  Leveraging the latest in agricultural technology, Farmwise DIY
+                  allows users to manage their farming operations remotely.
+                  Whether through a smartphone app or a web interface, users can
+                  monitor, control, and make decisions about their farm from
+                  anywhere in the world.
+                </div>
+              </div>
+
+              <div>
+                <div className="flex flex-row items-center mb-5 gap-x-5">
+                  <img
+                    src="/assets/icons/Success.png"
+                    className="text-white w-10"
+                  />
+                  <div className="font-bold">Scalability to Fit Any Goal</div>
+                </div>
+                <div className="text-sm text-justify">
+                  Whether you are looking to experiment with agriculture as a
+                  hobby or build a sizable farming operation, Farmwise DIY can
+                  scale to meet your needs. You can expand your involvement and
+                  investment incrementally as you become more comfortable with
+                  the platform.
                 </div>
               </div>
             </div>
@@ -558,11 +592,11 @@ function Index() {
             image="/assets/images/testimonials/testimonial3.jpeg"
           />
 
-          <Testimonial 
+          <Testimonial
             image="/assets/images/testimonials/testimonial4.jpg"
             role="Banker"
             name="Asha Baruti"
-            description="Wow, I never knew at some point in my life I would be able to use technology and farming!! I&apos;m really excited, this is so huge, a banker and a farmer? … I can&apos;t wait for the next season of making money to start! "
+            description="Wow, I never knew at some point in my life I would be able to use technology and farming!! I'm really excited, this is so huge, a banker and a farmer? … I can't wait for the next season of making money to start! "
           />
         </div>
       </div>
@@ -600,7 +634,12 @@ function Index() {
           />
           <div>
             <h3>Send an Email</h3>
-            <a href="mailto:enquiry@farmwise.tz" className="font-bold text-lg hover:underline">enquiry@farmwise.tz</a>
+            <a
+              href="mailto:enquiry@farmwise.tz"
+              className="font-bold text-lg hover:underline"
+            >
+              enquiry@farmwise.tz
+            </a>
           </div>
         </div>
       </div>

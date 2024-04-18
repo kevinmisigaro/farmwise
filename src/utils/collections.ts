@@ -19,6 +19,23 @@ export const faqs:FaqList[] = [
             {
                 question: "What types of farm investments are available",
                 answer: "Investors can choose from a variety of crops and farming projects, each with detailed information on potential returns and farming practices."
+            },
+            {
+                question: "How are farms vetted on Farmwise Tanzania",
+                answer: "All farms are thoroughly vetted by our team to ensure they meet our standards for sustainability, profitability, and ethical farming practices."
+            }
+        ]
+    },
+    {
+        title: "Investment Specific",
+        questions: [
+            {
+                question: "How do I make an investment",
+                answer: "Once registered, you can browse available farm projects, select one that aligns with your interests, and follow the prompts to invest when the specific farm project is open."
+            },
+            {
+                question: "What is the minimum investment amount",
+                answer: "The minimum investment amount varies by project but is typically detailed on each project page when it is open."
             }
         ]
     }
