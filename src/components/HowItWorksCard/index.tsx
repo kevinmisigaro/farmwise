@@ -15,13 +15,13 @@ function HowItWorksCard({
         <div className="flex flex-row items-center gap-x-5">
           <img src={image} className="w-12 md:w-8" />
           <h3
-            className={`${mali.className} text-white text-3xl font-bold md:text-lg`}
+            className={`${mali.className} text-white text-2xl font-bold md:text-xl`}
           >
             {title}
           </h3>
         </div>
 
-        <p className="text-xl mt-5 md:text-base text-[#81af93] mt-3">
+        <p className="text-xl mt-5 text-[#81af93] mt-3">
           {description}
         </p>
       </div>

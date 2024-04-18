@@ -67,66 +67,7 @@ const Index = () => {
         all.
       </div>
 
-      <div className="px-5 md:px-20 py-20 bg-[#173d25] text-white">
-        <div className={`${mali.className} text-center text-4xl`}>
-          Founders Story
-        </div>
 
-        <div className="flex flex-col gap-y-10 md:flex-row items-stretch mt-10">
-          <div className="basis-1/2 flex flex-col items-center gap-y-4 justify-center text-center">
-            <div
-              className="w-52 h-52 rounded-full bg-cover"
-              style={{
-                backgroundImage:
-                  "url('/assets/images/team/farm-team1-min.jpeg')",
-              }}
-            ></div>
-
-            <div className="font-bold text-xl">Patricia Mmbando Kakorozya</div>
-
-            <div className="text-md">Co-Founder & C.E.O</div>
-          </div>
-
-          <div className="basis-1/2 flex flex-col items-center gap-y-4 justify-center text-center">
-            <div
-              className="w-52 h-52 rounded-full bg-cover"
-              style={{
-                backgroundImage:
-                  "url('/assets/images/team/farm-team2-min.jpeg')",
-              }}
-            ></div>
-
-            <div className="font-bold text-xl">Ruth Sidney Yongolo</div>
-
-            <div className="text-md">Co-Founder & C.O.O</div>
-          </div>
-        </div>
-
-        <div className="mt-12 md:mt-20 text-justify text-lg md:text-xl">
-          <p>
-            Patricia Kakorozya and Ruth Yongolo, founders of Farmwise Tanzania,
-            shared a deep concern stemming from a common observation: with each
-            visit to their villages, they witnessed the troubling decline in the
-            number of smallholder farmers and abandoned farmlands. Coming from
-            farming backgrounds themselves and now living in Dar es Salaam.
-            Witnessing how city dwellers struggle with financial pressures, they
-            felt a personal and urgent call to action. This shared sentiment
-            ignited their resolve to find a solution that would reverse the
-            trend.
-            <br />
-            <br />
-            Motivated by their own need for additional revenue streams and
-            recognizing the broader potential to invigorate the agricultural
-            sector, they developed an innovative business model. Their vision
-            was to transform farming into an appealing side hustle specifically
-            tailored for gainfully employed city dwellers like themselves. By
-            making farming accessible and profitable, Farmwise Tanzania aims to
-            attract those far removed from traditional agricultural settings,
-            thereby ensuring a win-win approach for both platform users and the
-            future of farming for future generations.
-          </p>
-        </div>
-      </div>
 
       <Footer />
     </RootLayout>

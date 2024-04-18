@@ -38,7 +38,7 @@ function Navbar() {
             </li>
 
             <li>
-              <Link href={"/about"}>About</Link>
+              <a onClick={() =>  handleClickScroll("about")} href={"/about"}>About</a>
             </li>
 
             <li>
@@ -76,20 +76,15 @@ function Navbar() {
           </li>
 
           <li>
-            <Link href={"/about"} className={`${mali.className}`}>
+            <a  onClick={() =>   handleClickScroll("about")} className={`${mali.className}`}>
               About
-            </Link>
+            </a>
           </li>
 
           <li>
             <a
               className={`${mali.className}`}
-              onClick={() => {
-                if (pathname == "/about") {
-                  router.push("/");
-                }
-                handleClickScroll("services");
-              }}
+              onClick={() =>   handleClickScroll("services")}
             >
               Services
             </a>
@@ -98,12 +93,7 @@ function Navbar() {
           <li>
             <a
               className={`${mali.className}`}
-              onClick={() => {
-                if (window.location.pathname.includes("about")) {
-                  router.push("/");
-                }
-                handleClickScroll("works");
-              }}
+              onClick={() => handleClickScroll("works")}
             >
               How it Works
             </a>
