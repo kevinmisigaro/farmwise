@@ -10,36 +10,41 @@ function Testimonial({
   image: string
 }) {
   return (
-    <div className="flex flex-col gap-y-2 h-[35rem] px-8 py-10 bg-white shadow-xl rounded-md">
+    <div className="flex flex-col gap-y-2 h-[35rem] md:h-[38rem] px-8 py-10 bg-white shadow-xl rounded-md">
       <div className="rating">
         <input
           type="radio"
           name="rating-4"
           className="mask mask-star-2 bg-green-500"
+          readOnly
         />
         <input
           type="radio"
           name="rating-4"
           className="mask mask-star-2 bg-green-500"
           checked
+          readOnly
         />
         <input
           type="radio"
           name="rating-4"
           className="mask mask-star-2 bg-green-500"
           checked
+          readOnly
         />
         <input
           type="radio"
           name="rating-4"
           className="mask mask-star-2 bg-green-500"
           checked
+          readOnly
         />
         <input
           type="radio"
           name="rating-4"
           className="mask mask-star-2 bg-green-500"
           checked
+          readOnly
         />
       </div>
 

@@ -3,7 +3,6 @@
 import HowItWorksCard from "@/components/HowItWorksCard";
 import ServicesCard from "@/components/ServicesCard";
 import SideHustleCard from "@/components/SideHustleCard";
-import Footer from "@/components/footer";
 import Testimonial from "@/components/testimonial";
 import { inter, mali } from "@/utils/fonts";
 import { handleClickScroll } from "@/utils/functions";
@@ -24,7 +23,7 @@ function Index() {
   };
 
   return (
-    <>
+    <div>
       {/* <Slider {...settings} className="mb-20">
         <div className="h-[50vh] md:h-[78vh] relative">
           <div
@@ -100,17 +99,11 @@ function Index() {
         </div>
       </Slider> */}
 
-      <div className="h-[50vh] md:h-[78vh] relative">
-        <div
-          className="h-[50vh] md:h-[78vh] bg-cover"
-          style={{
-            backgroundImage: "url('/assets/images/banners/banner1.jpg')",
-          }}
-        ></div>
-        <div className="w-full absolute h-full bg-black top-0 start-0 bg-opacity-30 z-5"></div>
-        <div className="text-white absolute inset-0 text-center px-2 md:px-10 h-full">
-          <div className="mt-32">
-            <h1
+<div className="hero h-[50vh] md:h-[78vh]" style={{backgroundImage: 'url(/assets/images/banners/banner1.jpg)'}}>
+  <div className="hero-overlay bg-opacity-40 bg-black"></div>
+  <div className="hero-content text-center text-neutral-content">
+    <div className="max-w-md text-white">
+    <h1
               className={`mb-5 text-xl md:text-5xl font-bold ${mali.className}`}
             >
               More than Farming...
@@ -131,9 +124,11 @@ function Index() {
                 Learn More
               </div>
             </div>
-          </div>
-        </div>
-      </div>
+    </div>
+  </div>
+</div>
+
+
 
       <div className="px-5 md:px-20 py-20 bg-[#173d25] text-white" id="about">
         <div className={`${mali.className} text-center text-4xl`}>
@@ -651,9 +646,7 @@ function Index() {
           </div>
         </div>
       </div>
-
-      <Footer />
-    </>
+    </div>
   );
 }
 

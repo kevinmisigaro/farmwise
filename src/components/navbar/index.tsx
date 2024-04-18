@@ -4,10 +4,15 @@ import { inter, mali } from "@/utils/fonts";
 import { handleClickScroll } from "@/utils/functions";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
+import { useEffect } from "react";
 
 function Navbar() {
   const router = useRouter();
-  const pathname = usePathname()
+  const pathname = usePathname();
+
+  useEffect(() => {
+    console.log(pathname);
+  }, []);
 
   return (
     <div className="navbar bg-[black] text-white">
@@ -34,17 +39,28 @@ function Navbar() {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-black rounded-box w-52"
           >
             <li>
-              <a href={"https://farmwise.tz"}>Home</a>
-            </li>
-
-            <li>
-              <a onClick={() =>  handleClickScroll("about")} href={"/about"}>About</a>
+              <Link href={"/"}>Home</Link>
             </li>
 
             <li>
               <a
                 onClick={() => {
-                  if (pathname == "/about") {
+                  if (pathname !== "") {
+                    router.push("/");
+                  }
+                  handleClickScroll("about");
+                }}
+                className={`${mali.className}`}
+              >
+                About
+              </a>
+            </li>
+
+            <li>
+              <a
+                className={`${mali.className}`}
+                onClick={() => {
+                  if (pathname !== "") {
                     router.push("/");
                   }
                   handleClickScroll("services");
@@ -53,11 +69,30 @@ function Navbar() {
                 Services
               </a>
             </li>
+
+            <li>
+              <a
+                className={`${mali.className}`}
+                onClick={() => {
+                  if (pathname !== "") {
+                    router.push("/");
+                  }
+                  handleClickScroll("works");
+                }}
+              >
+                How it Works
+              </a>
+            </li>
+            <li>
+              <Link href={"/faq"} className={`${mali.className}`}>
+                FAQ
+              </Link>
+            </li>
           </ul>
         </div>
-        <a
+        <Link
           className="btn btn-ghost flex flex-row gap-x-3 items-center text-xl"
-          href="https://farmwise.tz"
+          href="/"
         >
           <img src="/assets/images/farmwiselogo.png" className="w-10" />{" "}
           <div
@@ -65,18 +100,26 @@ function Navbar() {
           >
             Farmwise
           </div>
-        </a>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a href={"/"} className={`${mali.className}`}>
+            <Link className={`${mali.className}`} href={"/"}>
               Home
-            </a>
+            </Link>
           </li>
 
           <li>
-            <a  onClick={() =>   handleClickScroll("about")} className={`${mali.className}`}>
+            <a
+              onClick={() => {
+                if (pathname !== "") {
+                  router.push("/");
+                }
+                handleClickScroll("about");
+              }}
+              className={`${mali.className}`}
+            >
               About
             </a>
           </li>
@@ -84,7 +127,12 @@ function Navbar() {
           <li>
             <a
               className={`${mali.className}`}
-              onClick={() =>   handleClickScroll("services")}
+              onClick={() => {
+                if (pathname !== "") {
+                  router.push("/");
+                }
+                handleClickScroll("services");
+              }}
             >
               Services
             </a>
@@ -93,15 +141,27 @@ function Navbar() {
           <li>
             <a
               className={`${mali.className}`}
-              onClick={() => handleClickScroll("works")}
+              onClick={() => {
+                if (pathname !== "") {
+                  router.push("/");
+                }
+                handleClickScroll("works");
+              }}
             >
               How it Works
             </a>
           </li>
+          <li>
+            <Link href={"/faq"} className={`${mali.className}`}>
+              FAQ
+            </Link>
+          </li>
         </ul>
       </div>
       <div className="navbar-end">
-        <Link className="btn" href="/contact">Join</Link>
+        <Link className="btn" href="/contact">
+        Registered Interest
+        </Link>
       </div>
     </div>
   );

@@ -1,11 +1,7 @@
-import RootLayout from "@/app/layout";
-import Footer from "@/components/footer";
-import React from "react";
-
 function Index() {
   return (
-    <RootLayout>
-      <div
+    <div>
+         <div
         className="hero h-[35vh] md:h-[60vh]"
         style={{ backgroundImage: "url(/assets/images/banners/banner7-min.jpg)" }}
       >
@@ -27,9 +23,7 @@ function Index() {
           Loading…
         </iframe>
       </div>
-
-      <Footer />
-    </RootLayout>
+    </div>
   );
 }
 
