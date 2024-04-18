@@ -5,12 +5,14 @@ function Page() {
     <div>
       <div
         className="hero h-[40vh]"
-        style={{ backgroundImage: "url(/assets/images/farm2.jpeg)" }}
+        style={{ backgroundImage: "url(/assets/images/farm1.jpg)" }}
       >
-        <div className="hero-overlay bg-opacity-60 bg-black"></div>
+        <div className="hero-overlay bg-opacity-70 bg-black"></div>
         <div className="hero-content text-center text-neutral-content text-white">
-          <div className="max-w-md">
-            <h1 className="mb-5 text-6xl font-bold">Farm Officers</h1>
+          <div className="max-w-7xl">
+            <h1 className="mb-5 text-xl md:text-4xl font-bold text-center">
+            If you're an agricultural graduate from an accredited college and interested in becoming a Farm Officer, please leave your details below.
+            </h1>
           </div>
         </div>
       </div>
