@@ -431,25 +431,17 @@ function Index() {
       </div>
       {/* end of services section  */}
 
-      <div
-        className="hero max-h-fit bg-cover"
-        style={{
-          backgroundImage: "url(/assets/images/tractor-field-min.jpg",
-        }}
-      >
-        <div className="hero-overlay bg-opacity-80 py-20 bg-black"></div>
-        <div className="hero-content text-neutral-content  py-20">
-          <div className="text-white w-[80vw] pt-20">
+      <div className="px-5 md:px-20 py-20">
             <div className={`${mali.className} text-center mb-12 text-3xl`}>
               Why Choose Farmwise
             </div>
             <div className="grid grid-col-1 md:grid-cols-2 gap-20">
               <div>
                 <div className="flex flex-row items-center mb-5 gap-x-5">
-                  {/* <img
-                    src="/assets/icons/Farm.png"
-                    className="text-white max-w-20"
-                  /> */}
+                <img
+                    src="/assets/icons/why/F18.png"
+                    className="w-10"
+                  />
                   <div className="font-bold text-xl md:text-2xl">
                     Instant and Flexible
                   </div>
@@ -465,10 +457,10 @@ function Index() {
 
               <div>
                 <div className="flex flex-row items-center mb-5 gap-x-5">
-                  {/* <img
-                    src="/assets/icons/Com Sup.png"
-                    className="text-white w-10"
-                  /> */}
+                <img
+                    src="/assets/icons/why/F19.png"
+                    className="w-10"
+                  />
                   <div className="font-bold  text-xl md:text-2xl">
                     Minimal Time and Investment Required
                   </div>
@@ -484,10 +476,10 @@ function Index() {
 
               <div>
                 <div className="flex flex-row items-center mb-5 gap-x-5">
-                  {/* <img
-                    src="assets/icons/Recy.png"
-                    className="text-white w-10"
-                  /> */}
+                <img
+                    src="/assets/icons/why/F23.png"
+                    className="w-10"
+                  />
                   <div className="font-bold  text-xl md:text-2xl">
                     Guaranteed ROI
                   </div>
@@ -503,10 +495,10 @@ function Index() {
 
               <div>
                 <div className="flex flex-row items-center mb-5 gap-x-5">
-                  {/* <img
-                    src="/assets/icons/Success.png"
-                    className="text-white w-10"
-                  /> */}
+                <img
+                    src="/assets/icons/why/F20.png"
+                    className="w-10"
+                  />
                   <div className="font-bold  text-xl md:text-2xl">
                     No Farming Knowledge or Experience Required
                   </div>
@@ -522,10 +514,10 @@ function Index() {
 
               <div>
                 <div className="flex flex-row items-center mb-5 gap-x-5">
-                  {/* <img
-                    src="/assets/icons/Success.png"
-                    className="text-white w-10"
-                  /> */}
+                <img
+                    src="/assets/icons/why/F21.png"
+                    className="w-10"
+                  />
                   <div className="font-bold  text-xl md:text-2xl">
                     Tech-Driven Convenience
                   </div>
@@ -541,10 +533,10 @@ function Index() {
 
               <div>
                 <div className="flex flex-row items-center mb-5 gap-x-5">
-                  {/* <img
-                    src="/assets/icons/Success.png"
-                    className="text-white w-10"
-                  /> */}
+                  <img
+                    src="/assets/icons/why/F22.png"
+                    className="w-10"
+                  />
                   <div className="font-bold  text-xl md:text-2xl">
                     Scalability to Fit Any Goal
                   </div>
@@ -559,8 +551,6 @@ function Index() {
               </div>
             </div>
           </div>
-        </div>
-      </div>
 
       {/* start of testimonial */}
       <div className="px-5 md:mt-1 md:px-20 py-12 md:py-20 bg-[#fcfaf0]">
