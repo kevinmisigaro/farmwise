@@ -229,7 +229,7 @@ function Index() {
 
             <div className="card bg-[#173d25] border-8 border-[#fdd51f] max-w-sm -mt-5 animate-bounce">
               <div className="card-body text-white text-center">
-                <div className="stat-value">100+</div>
+                <div className="stat-value">1000+</div>
                 <div className={`stat-desc text-lg ${mali.className}`}>
                   Subscribed Users
                 </div>
@@ -443,21 +443,10 @@ function Index() {
         <h1
           className={`text-center text-2xl md:text-5xl text-white ${mali.className}`}
         >
-          How Farmwise works:
-          <br /> Effortless Farming at your Fingertips
+          How Farmwise works
         </h1>
 
-        <div className="px-5 text-xl md:px-20 py-10 text-white text-center">
-          <p>
-            At Farmwise, we&apos;ve streamlined the path to successful farming
-            for busy professionals like you. Our innovative online Farm services
-            platform is designed to make agriculture accessible, no matter your
-            schedule or location. Here&apos;s how you can dive into farming,
-            hassle-free:
-          </p>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-10 mt-10 px-5 md:px-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-10 mt-20 px-5 md:px-20">
           <HowItWorksCard
             title=" Select and customize your Farm"
             description=" At Farmwise, we offer a wide selection of farms across the
