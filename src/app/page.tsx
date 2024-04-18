@@ -99,11 +99,14 @@ function Index() {
         </div>
       </Slider> */}
 
-<div className="hero h-[50vh] md:h-[78vh]" style={{backgroundImage: 'url(/assets/images/banners/banner1.jpg)'}}>
-  <div className="hero-overlay bg-opacity-40 bg-black"></div>
-  <div className="hero-content text-center text-neutral-content">
-    <div className="max-w-md text-white">
-    <h1
+      <div
+        className="hero h-[50vh] md:h-[78vh]"
+        style={{ backgroundImage: "url(/assets/images/banners/banner1.jpg)" }}
+      >
+        <div className="hero-overlay bg-opacity-40 bg-black"></div>
+        <div className="hero-content text-center text-neutral-content">
+          <div className="max-w-md text-white">
+            <h1
               className={`mb-5 text-xl md:text-5xl font-bold ${mali.className}`}
             >
               More than Farming...
@@ -124,11 +127,9 @@ function Index() {
                 Learn More
               </div>
             </div>
-    </div>
-  </div>
-</div>
-
-
+          </div>
+        </div>
+      </div>
 
       <div className="px-5 md:px-20 py-20 bg-[#173d25] text-white" id="about">
         <div className={`${mali.className} text-center text-4xl`}>
@@ -242,62 +243,57 @@ function Index() {
         </h1>
 
         <div className="grid grid-cols-1 md:grid-cols-3 px-10 gap-y-5 mt-10 gap-x-8 items-stretch">
-        
-            <ServicesCard
-                title="Short-term Farm Rental Opportunity Nationwide"
-                description=" Offers flexible, short-term leases on a wide range of farms
+          <ServicesCard
+            title="Short-term Farm Rental Opportunity Nationwide"
+            description=" Offers flexible, short-term leases on a wide range of farms
                 across the country, allowing investors and even non-farmers to
                 embark on agricultural projects instantly without long-term
                 commitments."
-                image="/assets/icons/services/F9.png"
-            />
+            image="/assets/icons/services/F9.png"
+          />
 
-
-<ServicesCard
-                title="Land Preparation and Management"
-                description="Provides comprehensive farm services including soil testing
+          <ServicesCard
+            title="Land Preparation and Management"
+            description="Provides comprehensive farm services including soil testing
                 and treatment, plowing, and irrigation setup (where
                 applicable) to ensure land is fertile and ready for planting,
                 optimizing crop yield potential."
-                image="/assets/icons/services/F8.png"
-            />
-<ServicesCard
-                title=" Quality Agricultural Input"
-                description="   Supplies top-tier seeds, fertilizers, and pesticides, so that
+            image="/assets/icons/services/F8.png"
+          />
+          <ServicesCard
+            title=" Quality Agricultural Input"
+            description="   Supplies top-tier seeds, fertilizers, and pesticides, so that
                 farmers have access to the best inputs for their crops,
                 leading to healthier plants and increased yields."
-                image="/assets/icons/services/F1.png"
-            />
+            image="/assets/icons/services/F1.png"
+          />
 
-
-<ServicesCard
-                title="Farming as a Service (FaaS)"
-                description="Our mobile app delivers end-to-end farm management for remote
+          <ServicesCard
+            title="Farming as a Service (FaaS)"
+            description="Our mobile app delivers end-to-end farm management for remote
                 farm management for transparency and accountability. You can
                 select from our list of certified and dedicated Farm Officers
                 from accredited Agricultural institutions to manage your farm
                 covering all aspects from planting to harvesting."
-                image="/assets/icons/services/F6.png"
-            />
-<ServicesCard
-                title=" Agricultural Financial Services"
-                description="We partner with agricultural-centric banks to offer tailored
+            image="/assets/icons/services/F6.png"
+          />
+          <ServicesCard
+            title=" Agricultural Financial Services"
+            description="We partner with agricultural-centric banks to offer tailored
                 financial solutions, including loans, insurance cover, and
                 investment opportunities, aimed to support agro-investments
                 for guaranteed returns."
-                image="/assets/icons/services/F4.png"
-            />
+            image="/assets/icons/services/F4.png"
+          />
 
-<ServicesCard
-                title="  Ready Market Access"
-                description=" At Farmwise, we facilitate connections between farmers and
+          <ServicesCard
+            title="  Ready Market Access"
+            description=" At Farmwise, we facilitate connections between farmers and
                 buyers, ensuring that produce is fairly priced, and reaches
                 the market efficiently and profitably, reducing the risk of
                 post-harvest losses for our platform investors."
-                image="/assets/icons/services/F3.png"
-            />
-
-      
+            image="/assets/icons/services/F3.png"
+          />
         </div>
 
         <div className="flex flex-row justify-center mt-20">

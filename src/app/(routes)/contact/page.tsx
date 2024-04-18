@@ -9,7 +9,7 @@ function Index() {
         <div className="hero-content text-center text-neutral-content text-white">
           <div className="max-w-md">
             <h1 className="mb-5 text-4xl font-bold">
-            Show Interest Below
+            Be the First to Benefit!
             </h1>
           </div>
         </div>
@@ -17,7 +17,7 @@ function Index() {
       <div className="px-5 md:px-20 py-10 flex flex-row justify-center">
         <iframe
           src="https://docs.google.com/forms/d/e/1FAIpQLSfbGR7-tpjo8LkzGSuIwNwOWO0yTTsj7nf5K-oyybSr6wZY0w/viewform?embedded=true"
-          width="900"
+          width="1000"
           height="1100"
         >
           Loading…
