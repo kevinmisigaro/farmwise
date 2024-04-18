@@ -13,7 +13,7 @@ function SideHustleCard({
     <div className="card w-full shadow-xl bg-white">
       <div className="card-body py-4 px-6">
         <div className="flex flex-col items-center gap-x-5 text-center gap-y-4">
-          <img src={image} className="w-12 md:w-20" />
+          <img src={image} className="h-14" />
           <h3 className={`${mali.className} font-bold text-xl`}>
             {title}
           </h3>

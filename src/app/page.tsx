@@ -425,7 +425,7 @@ function Index() {
             image="/assets/icons/hustle/F12.png"
           />
           <SideHustleCard
-            title=" Storage and Market Access"
+            title=" Storage & Market Access"
             description="  Proper storage and market access are crucial for preserving
           quality and ensuring products reach the market, requiring
           additional resources and coordination."
@@ -499,10 +499,10 @@ function Index() {
             <div className="grid grid-col-1 md:grid-cols-2 gap-20">
               <div>
                 <div className="flex flex-row items-center mb-5 gap-x-5">
-                  <img
+                  {/* <img
                     src="/assets/icons/Farm.png"
                     className="text-white max-w-20"
-                  />
+                  /> */}
                   <div className="font-bold text-xl">Instant and Flexible</div>
                 </div>
                 <div className="text-xl text-justify">
@@ -516,10 +516,10 @@ function Index() {
 
               <div>
                 <div className="flex flex-row items-center mb-5 gap-x-5">
-                  <img
+                  {/* <img
                     src="/assets/icons/Com Sup.png"
                     className="text-white w-10"
-                  />
+                  /> */}
                   <div className="font-bold text-xl">
                     Minimal Time and Investment Required
                   </div>
@@ -535,10 +535,10 @@ function Index() {
 
               <div>
                 <div className="flex flex-row items-center mb-5 gap-x-5">
-                  <img
+                  {/* <img
                     src="assets/icons/Recy.png"
                     className="text-white w-10"
-                  />
+                  /> */}
                   <div className="font-bold text-xl">Guaranteed ROI</div>
                 </div>
                 <div className="text-xl text-justify">
@@ -552,10 +552,10 @@ function Index() {
 
               <div>
                 <div className="flex flex-row items-center mb-5 gap-x-5">
-                  <img
+                  {/* <img
                     src="/assets/icons/Success.png"
                     className="text-white w-10"
-                  />
+                  /> */}
                   <div className="font-bold text-xl">
                     No Farming Knowledge or Experience Required
                   </div>
@@ -571,10 +571,10 @@ function Index() {
 
               <div>
                 <div className="flex flex-row items-center mb-5 gap-x-5">
-                  <img
+                  {/* <img
                     src="/assets/icons/Success.png"
                     className="text-white w-10"
-                  />
+                  /> */}
                   <div className="font-bold text-xl">
                     Tech-Driven Convenience
                   </div>
@@ -590,10 +590,10 @@ function Index() {
 
               <div>
                 <div className="flex flex-row items-center mb-5 gap-x-5">
-                  <img
+                  {/* <img
                     src="/assets/icons/Success.png"
                     className="text-white w-10"
-                  />
+                  /> */}
                   <div className="font-bold text-xl">
                     Scalability to Fit Any Goal
                   </div>
