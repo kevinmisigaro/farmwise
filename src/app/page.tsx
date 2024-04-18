@@ -248,12 +248,12 @@ function Index() {
         <div className="grid grid-cols-1 md:grid-cols-3 px-10 gap-y-5 mt-10 gap-x-8 items-stretch">
           <div className="basis-1 md:basis-1/3">
             <div className="card w-full bg-white shadow-xl">
-              <div className="card-body flex items-center text-center max-h-fit">
+              <div className="card-body flex items-center text-center">
                 <img className="h-28" src="/assets/icons/services/F9.png" />
-                <p className={`${mali.className} mt-5 text-2xl font-bold`}>
+                <p className={`${mali.className} mt-5 text-2xl font-bold h-12`}>
                   Short-term Farm Rental <br /> Opportunity Nationwide
                 </p>
-                <p className="text-xl mt-5">
+                <p className="text-xl mt-5 h-40">
                   Offers flexible, short-term leases on a wide range of farms
                   across the country, allowing investors and even non-farmers to
                   embark on agricultural projects instantly without long-term
@@ -265,12 +265,12 @@ function Index() {
 
           <div className="basis-1 md:basis-1/3">
             <div className="card w-full bg-white shadow-xl">
-              <div className="card-body flex items-center text-center max-h-fit">
+              <div className="card-body flex items-center text-center">
                 <img className="h-28" src="/assets/icons/services/F8.png" />
-                <p className={`${mali.className} mt-5 text-2xl font-bold`}>
+                <p className={`${mali.className} mt-5 text-2xl font-bold h-12`}>
                   Land Preparation and Management <br />
                 </p>
-                <p className="text-xl mt-5">
+                <p className="text-xl mt-5 h-40">
                   Provides comprehensive farm services including soil testing
                   and treatment, plowing, and irrigation setup (where
                   applicable) to ensure land is fertile and ready for planting,
@@ -282,12 +282,12 @@ function Index() {
 
           <div className="basis-1 md:basis-1/3">
             <div className="card w-full bg-white shadow-xl">
-              <div className="card-body flex items-center text-center max-h-fit">
+              <div className="card-body flex items-center text-center">
                 <img className="h-28" src="/assets/icons/services/F1.png" />
-                <p className={`${mali.className} mt-5 text-2xl font-bold`}>
+                <p className={`${mali.className} mt-5 text-2xl font-bold h-12`}>
                   Quality Agricultural Input
                 </p>
-                <p className="text-xl mt-5 mb-7">
+                <p className="text-xl mt-5 h-40">
                   Supplies top-tier seeds, fertilizers, and pesticides, so that
                   farmers have access to the best inputs for their crops,
                   leading to healthier plants and increased yields.
@@ -300,12 +300,10 @@ function Index() {
             <div className="card w-full bg-white shadow-xl">
               <div className="card-body flex items-center text-center">
                 <img className="h-28" src="/assets/icons/services/F6.png" />
-                <p className={`${mali.className} mt-5 text-2xl font-bold`}>
+                <p className={`${mali.className} mt-5 text-2xl font-bold h-12`}>
                   Farming as a Service (FaaS)
-                  <br />
-                  <br />
                 </p>
-                <p className="max-h-fit md:h-[45vh] text-xl mt-5">
+                <p className="text-xl mt-5 h-60">
                   Our mobile app delivers end-to-end farm management for remote
                   farm management for transparency and accountability. You can
                   select from our list of certified and dedicated Farm Officers
@@ -320,12 +318,10 @@ function Index() {
             <div className="card w-full bg-white shadow-xl">
               <div className="card-body flex items-center text-center">
                 <img className="h-28" src="/assets/icons/services/F4.png" />
-                <p className={`${mali.className} mt-5 text-2xl text-center`}>
+                <p className={`${mali.className} mt-5 text-2xl font-bold h-12`}>
                   Agricultural Financial Services
-                  <br />
-                  <br />
                 </p>
-                <p className="max-h-fit md:h-[45vh] text-xl mt-5">
+                <p className="text-xl mt-5 h-60">
                   We partner with agricultural-centric banks to offer tailored
                   financial solutions, including loans, insurance cover, and
                   investment opportunities, aimed to support agro-investments
@@ -339,12 +335,12 @@ function Index() {
             <div className="card w-full bg-white shadow-xl">
               <div className="card-body flex items-center text-center">
                 <img className="h-28" src="/assets/icons/services/F3.png" />
-                <p className={`${mali.className} mt-5 text-lg text-center`}>
+                <p className={`${mali.className} mt-5 text-2xl font-bold h-12`}>
                   Ready Market Access
                   <br />
                   <br />
                 </p>
-                <p className="max-h-fit md:h-[45vh] text-xl mt-5">
+                <p className="text-xl mt-5 h-60">
                   At Farmwise, we facilitate connections between farmers and
                   buyers, ensuring that produce is fairly priced, and reaches
                   the market efficiently and profitably, reducing the risk of
@@ -579,7 +575,9 @@ function Index() {
                     src="/assets/icons/Success.png"
                     className="text-white w-10"
                   />
-                  <div className="font-bold text-xl">Tech-Driven Convenience</div>
+                  <div className="font-bold text-xl">
+                    Tech-Driven Convenience
+                  </div>
                 </div>
                 <div className="text-xl text-justify">
                   Leveraging the latest in agricultural technology, Farmwise DIY
@@ -596,7 +594,9 @@ function Index() {
                     src="/assets/icons/Success.png"
                     className="text-white w-10"
                   />
-                  <div className="font-bold text-xl">Scalability to Fit Any Goal</div>
+                  <div className="font-bold text-xl">
+                    Scalability to Fit Any Goal
+                  </div>
                 </div>
                 <div className="text-xl text-justify">
                   Whether you are looking to experiment with agriculture as a
@@ -620,12 +620,10 @@ function Index() {
           className={`grid grid-cols-1 md:grid-cols-4 gap-x-10 gap-y-6 mt-10`}
         >
           <Testimonial
-            description="Kama shamba limeandaliwa na lina Mifumo ya umwagiliaji nitalima sana tuu, maana tatizo kubwa ilikuwa jinsi ya kupata shamba lililo tayari, gharama ni kubwa sana kwa sisi Vijana. Lakini pia kuna wakati hatupati mbegu bora."
-            name="Baraka Mugeta
-            "
-            role="Dereva wa Bajaji
-            "
-            image="/assets/images/testimonials/testimonial1.jpeg"
+            image="/assets/images/testimonials/testimonial4.jpg"
+            role="Banker"
+            name="Asha Baruti"
+            description="Wow, I never knew at some point in my life I would be able to use technology and farming!! I'm really excited, this is so huge, a banker and a farmer? … I can't wait for the next season of making money to start! "
           />
 
           <Testimonial
@@ -643,10 +641,12 @@ function Index() {
           />
 
           <Testimonial
-            image="/assets/images/testimonials/testimonial4.jpg"
-            role="Banker"
-            name="Asha Baruti"
-            description="Wow, I never knew at some point in my life I would be able to use technology and farming!! I'm really excited, this is so huge, a banker and a farmer? … I can't wait for the next season of making money to start! "
+            description="Kama shamba limeandaliwa na lina Mifumo ya umwagiliaji nitalima sana tuu, maana tatizo kubwa ilikuwa jinsi ya kupata shamba lililo tayari, gharama ni kubwa sana kwa sisi Vijana. Lakini pia kuna wakati hatupati mbegu bora."
+            name="Baraka Mugeta
+            "
+            role="Dereva wa Bajaji
+            "
+            image="/assets/images/testimonials/testimonial1.jpeg"
           />
         </div>
       </div>

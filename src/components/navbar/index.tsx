@@ -34,7 +34,7 @@ function Navbar() {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-black rounded-box w-52"
           >
             <li>
-              <a href={"/"}>Home</a>
+              <a href={"https://farmwise.tz"}>Home</a>
             </li>
 
             <li>
@@ -57,7 +57,7 @@ function Navbar() {
         </div>
         <a
           className="btn btn-ghost flex flex-row gap-x-3 items-center text-xl"
-          href="/"
+          href="https://farmwise.tz"
         >
           <img src="/assets/images/farmwiselogo.png" className="w-10" />{" "}
           <div
