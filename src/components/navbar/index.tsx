@@ -185,7 +185,7 @@ function Navbar() {
       </div>
       <div className="navbar-end">
         <Link className="btn" href="/contact">
-          Registered Interest
+          Register Interest
         </Link>
       </div>
     </div>
