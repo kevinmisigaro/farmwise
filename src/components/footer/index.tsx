@@ -10,12 +10,12 @@ function Footer() {
         </aside>
         <nav className="grid grid-cols-1">
           <h6 className="footer-title">Explore</h6>
-          <div className="grid grid-cols-1 gap-4">
+          <div className="grid grid-cols-1 gap-4 text-xl">
             <Link href={"/faq"}>FAQ</Link>
             <Link href={"/"}>Blog</Link>
             <Link href={"/owners"}>Land Owners</Link>
             <Link href={"/officers"}>Farm Officers</Link>
-            <Link href={"/owners"}>Careers</Link>
+            <Link href={"/careers"}>Careers</Link>
             <Link href={"/officers"}>Community</Link>
           </div>
         </nav>
