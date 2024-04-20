@@ -7,7 +7,7 @@ import { FaInstagram, FaSquareXTwitter } from "react-icons/fa6";
 
 function Footer() {
   return (
-    <footer className="bg-black text-white ">
+    <footer className="bg-black text-white">
       <div className="footer p-10 text-neutral-content">
         <aside>
           <img src="/assets/images/Farmwise logo.png" className="w-20" />
