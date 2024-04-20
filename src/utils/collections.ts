@@ -530,8 +530,7 @@ export const jobs: Job[] = [
         ],
       },
     ],
-    howToApply:
-      "Interested candidates should submit their resume, cover letter, and references to Career@farmwise.Tz. Please include 'Farm Manager Application' in the subject line of your email.",
+    howToApply: `<p>Interested candidates should submit their resume along with other details through this <u><a href="https://forms.gle/mhoWpR1kmn1q37Hi7" target="_blank">link</a></u>.</p>`,
     qualifications: [
       "Bachelor’s degree in Agriculture, Animal Science, or a related field.",
       "At least [X] years of experience in farm management, agricultural operations, or a related area.",
@@ -597,8 +596,7 @@ export const jobs: Job[] = [
         ],
       },
     ],
-    howToApply:
-      "Interested candidates should submit a detailed resume and a cover letter highlighting relevant experience to Career@farmwise.Tz. Please mention 'Farm Technician Application' in the subject line.",
+    howToApply: `<p>Interested candidates should submit their resume along with other details through this <u><a href="https://forms.gle/mhoWpR1kmn1q37Hi7" target="_blank">link</a></u>.</p>`,
     qualifications: [
       "High school diploma or equivalent; degree or certification in Agricultural Science or a related field is preferred.",
       "Proven experience operating and maintaining farm machinery.",
@@ -664,8 +662,7 @@ export const jobs: Job[] = [
         ],
       },
     ],
-    howToApply:
-      'Interested candidates should send their resume, cover letter, and any relevant certifications to Career@farmwise.Tz Please include "Agronomist Application" in the subject line.',
+    howToApply: `<p>Interested candidates should submit their resume along with other details through this <u><a href="https://forms.gle/mhoWpR1kmn1q37Hi7" target="_blank">link</a></u>.</p>`,
     qualifications: [
       "Bachelor's degree in Agronomy, Agricultural Science, or a related field; a Master's degree is preferred.",
       "Proven experience as an Agronomist or similar role with a strong background in soil science and crop management.",
@@ -731,8 +728,7 @@ export const jobs: Job[] = [
         ],
       },
     ],
-    howToApply:
-      'Interested candidates should submit their resume, cover letter, and relevant academic publications to Career@farmwise.Tz. Please mention "Agricultural Economist Application" in the subject line.',
+    howToApply: `<p>Interested candidates should submit their resume along with other details through this <u><a href="https://forms.gle/mhoWpR1kmn1q37Hi7" target="_blank">link</a></u>.</p>`,
     qualifications: [
       "Master's degree or higher in Agricultural Economics, Economics, or a closely related field.",
       "Proven experience in economic analysis and research, preferably within the agricultural sector.",
@@ -797,8 +793,7 @@ export const jobs: Job[] = [
         ],
       },
     ],
-    howToApply:
-      'Interested candidates should submit their resume, a cover letter that discusses their specific experience and how it relates to this position, and any relevant certifications to Career@farmwise.Tz. Please include "Project Manager Application" in the subject line.',
+    howToApply: `<p>Interested candidates should submit their resume along with other details through this <u><a href="https://forms.gle/mhoWpR1kmn1q37Hi7" target="_blank">link</a></u>.</p>`,
     qualifications: [
       "Bachelor's degree in Business Administration, Management, or a related field; Master's degree or professional project management accreditation preferred.",
       "Proven working experience as a project manager in the information technology sector or in project management in the industry sector relevant to the project.",
@@ -856,8 +851,7 @@ export const jobs: Job[] = [
         ],
       },
     ],
-    howToApply:
-      'Interested candidates should submit a resume and a cover letter outlining their qualifications and experience to Career@farmwise.Tz. Please include "Full Stack Developer Application" in the subject line.',
+    howToApply: `<p>Interested candidates should submit their resume along with other details through this <u><a href="https://forms.gle/mhoWpR1kmn1q37Hi7" target="_blank">link</a></u>.</p>`,
     qualifications: [
       "Bachelor's degree in Computer Science, Engineering, or a related field.",
       "Strong understanding of front-end technologies, such as JavaScript, HTML5, and CSS3.",
@@ -931,8 +925,7 @@ export const jobs: Job[] = [
         ],
       },
     ],
-    howToApply:
-      'Interested candidates should submit their resume, a detailed cover letter, and three professional references to Career@farmwise.Tz. Please include "CFO Application" in the subject line.',
+    howToApply: `<p>Interested candidates should submit their resume along with other details through this <u><a href="https://forms.gle/mhoWpR1kmn1q37Hi7" target="_blank">link</a></u>.</p>`,
     qualifications: [
       "Master's degree in Accounting, Finance, or Business Administration; CPA or CFA is highly preferred.",
       "Proven experience as CFO, finance officer, or relevant role with at least 10 years in the finance industry and managing teams.",
@@ -1000,8 +993,7 @@ export const jobs: Job[] = [
         ],
       },
     ],
-    howToApply:
-      'Interested candidates should send a resume, cover letter, and any relevant certificates to Career@farmwise.Tz. Please include "Business Development Manager Application – Farmwise Tanzania" in the subject line.',
+    howToApply: `<p>Interested candidates should submit their resume along with other details through this <u><a href="https://forms.gle/mhoWpR1kmn1q37Hi7" target="_blank">link</a></u>.</p>`,
     qualifications: [
       "Bachelor's degree in Business Administration, Agricultural Economics, or related field. Master's degree preferred.",
       "Proven experience as a Business Development Manager, Sales Manager, or relevant role in the agricultural sector, particularly within Tanzania or East Africa.",
@@ -1068,8 +1060,7 @@ export const jobs: Job[] = [
         ],
       },
     ],
-    howToApply:
-      'Interested candidates should submit a resume and a cover letter explaining their interest and qualifications for the role to Career@farmwise.Tz. Please include "Ecosystem Development Manager Application" in the subject line.',
+    howToApply: `<p>Interested candidates should submit their resume along with other details through this <u><a href="https://forms.gle/mhoWpR1kmn1q37Hi7" target="_blank">link</a></u>.</p>`,
     qualifications: [
       "Bachelor's degree in Business Administration, Marketing, or a related field; Master's degree preferred.",
       "Proven experience in ecosystem development, partnership management, or business development, especially within the tech sector.",
@@ -1136,8 +1127,7 @@ export const jobs: Job[] = [
         ],
       },
     ],
-    howToApply:
-      'Interested candidates should submit their resume, a cover letter detailing their experience in farm real estate, and any relevant certifications or licenses to Career@farmwise.Tz. Please include "Farm Real Estate Agent Application" in the subject line.',
+    howToApply: `<p>Interested candidates should submit their resume along with other details through this <u><a href="https://forms.gle/mhoWpR1kmn1q37Hi7" target="_blank">link</a></u>.</p>`,
     qualifications: [
       "Real estate license required (specific requirements may vary by state).",
       "Experience in real estate, specifically with farm or rural properties.",

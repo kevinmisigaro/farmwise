@@ -71,8 +71,9 @@ function Page() {
         </div>
 
         <p>
-          <b>How to Apply:</b> <br /> {job?.howToApply}
+          <b>How to Apply:</b>
         </p>
+        <div dangerouslySetInnerHTML={{ __html: job?.howToApply! }} />
       </div>
     </div>
   );
