@@ -16,7 +16,7 @@ function TopBar() {
           <img className="w-5" src="/assets/icons/icons8-location-50.png" />
           <p className="text-sm">
             {" "}
-            Msasani Tower, Postal code 14111, Plot number 503/1
+            Msasani Tower, Postal code 14111, Plot number 503/1, Dar Es Salaam, Tanzania
           </p>
         </div>
       </div>

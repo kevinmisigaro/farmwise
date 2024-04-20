@@ -1,10 +1,6 @@
-import RootLayout from "@/app/layout";
-import Footer from "@/components/footer";
-import { mali } from "@/utils/fonts";
-
 const Index = () => {
   return (
-    <RootLayout>
+    <>
       <div
         className="hero h-[35vh] md:h-[60vh] bg-cover"
         style={{ backgroundImage: "url(/assets/images/banners/about-us.png)" }}
@@ -67,10 +63,7 @@ const Index = () => {
         all.
       </div>
 
-
-
-      <Footer />
-    </RootLayout>
+    </>
   );
 };
 

@@ -7,6 +7,9 @@ function Footer() {
       <div className="footer p-10 text-neutral-content">
         <aside>
           <img src="/assets/images/Farmwise logo.png" className="w-20" />
+          <p>
+            We simplify agriculture to <br /> open it up to everyone.
+          </p>
         </aside>
         <nav className="grid grid-cols-1">
           <h6 className="footer-title">Explore</h6>
@@ -17,6 +20,19 @@ function Footer() {
             <Link href={"/officers"}>Farm Officers</Link>
             <Link href={"/careers"}>Careers</Link>
             <Link href={"/officers"}>Community</Link>
+          </div>
+        </nav>
+        <nav className="grid grid-cols-1">
+          <h6 className="footer-title">Legal</h6>
+          <div className="grid grid-cols-1 gap-4 text-xl">
+            <Link href={"/datapolicy"}>Data Protection Policy</Link>
+            <Link href={"/customerservice"}>Customer Service Policy</Link>
+            <Link href={"/enviromentalpolicy"}>
+              Environmental Sustainability Policy
+            </Link>
+            <Link href={"/partnershipconduct"}>
+              Partnership Code of Conduct
+            </Link>
           </div>
         </nav>
         <nav className="grid grid-cols-1">
