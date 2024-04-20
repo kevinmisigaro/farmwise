@@ -1,5 +1,9 @@
+"use client";
+
+import { handleClickScroll } from "@/utils/functions";
 import Link from "next/link";
-import React from "react";
+import { FaArrowAltCircleUp } from "react-icons/fa";
+import { FaInstagram, FaSquareXTwitter } from "react-icons/fa6";
 
 function Footer() {
   return (
@@ -8,7 +12,7 @@ function Footer() {
         <aside>
           <img src="/assets/images/Farmwise logo.png" className="w-20" />
           <p>
-            We simplify agriculture to <br /> open it up to everyone.
+            We simplify agriculture to <br /> open it up to everyone.
           </p>
         </aside>
         <nav className="grid grid-cols-1">
@@ -35,31 +39,23 @@ function Footer() {
             </Link>
           </div>
         </nav>
-        <nav className="grid grid-cols-1">
-          <h6 className="footer-title">Social</h6>
-          <div className="grid grid-flow-col gap-4">
-            <a href="https://twitter.com/Farmwisetz" target="_blank">
-              <img
-                src="/assets/images/social/icons8-twitterx-50.png"
-                className="w-8"
-              />
-            </a>
-            <a
-              href="https://www.instagram.com/farmwisetz/?hl=en"
-              target="_blank"
-            >
-              <img
-                src="/assets/images/social/icons8-instagram-50.png"
-                className="w-8"
-              />
-            </a>
-          </div>
-        </nav>
       </div>
-      <div className="footer footer-center p-4 bg-[#15191e] text-base-content">
-        <aside>
-          <p>Copyright © 2024 - All right reserved by Farmwise</p>
+      <div className="footer items-center p-4 bg-[#15191e] text-neutral-content">
+        <aside className="items-center grid-flow-col gap-x-5">
+          <FaArrowAltCircleUp
+            className="cursor-pointer w-5 h-5"
+            onClick={() => handleClickScroll("nav")}
+          />
+          <p>Copyright © 2024 - All right reserved</p>
         </aside>
+        <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+          <a href="https://www.instagram.com/farmwisetz/?hl=en" target="_blank">
+            <FaInstagram className="w-5 h-5" />
+          </a>
+          <a href="https://twitter.com/Farmwisetz" target="_blank">
+            <FaSquareXTwitter className="w-5 h-5" />
+          </a>
+        </nav>
       </div>
     </footer>
   );

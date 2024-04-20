@@ -1,4 +1,4 @@
-import React from "react";
+import { FaInstagram, FaSquareXTwitter } from "react-icons/fa6";
 
 function TopBar() {
   return (
@@ -22,18 +22,12 @@ function TopBar() {
       </div>
 
       <div className="flex flex-row gap-x-4">
-        <a href="https://twitter.com/Farmwisetz" target="_blank">
-          <img
-            src="/assets/images/social/icons8-twitterx-50.png"
-            className="w-4"
-          />
-        </a>
-        <a href="https://www.instagram.com/farmwisetz/?hl=en" target="_blank">
-          <img
-            src="/assets/images/social/icons8-instagram-50.png"
-            className="w-4"
-          />
-        </a>
+      <a href="https://www.instagram.com/farmwisetz/?hl=en" target="_blank">
+            <FaInstagram className="w-5 h-5" />
+          </a>
+          <a href="https://twitter.com/Farmwisetz" target="_blank">
+            <FaSquareXTwitter className="w-5 h-5" />
+          </a>
       </div>
     </div>
   );

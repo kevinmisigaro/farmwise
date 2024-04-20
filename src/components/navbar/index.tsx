@@ -4,18 +4,13 @@ import { inter, mali } from "@/utils/fonts";
 import { handleClickScroll } from "@/utils/functions";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { useEffect } from "react";
 
 function Navbar() {
   const router = useRouter();
   const pathname = usePathname();
 
-  useEffect(() => {
-    console.log(pathname);
-  }, []);
-
   return (
-    <div className="navbar bg-[black] text-white">
+    <div className="navbar bg-[black] text-white" id="nav">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
