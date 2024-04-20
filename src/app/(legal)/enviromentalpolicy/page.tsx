@@ -171,7 +171,7 @@ function Page() {
             <h2 className="text-2xl font-bold mb-4">7. Compliance</h2>
             <p className="mb-4">
               All employees are expected to adhere to this policy and contribute
-              to the company's sustainability goals. Non-compliance with this
+              to the company&apos;s sustainability goals. Non-compliance with this
               policy may result in disciplinary action.
             </p>
           </div>
