@@ -620,7 +620,7 @@ function Index() {
         </div>
         <div className="flex items-center gap-x-5 mb-5">
           <img
-            className="mask mask-squircle w-[3.5rem] h-[3.5rem]"
+            className="w-[3.5rem] h-[3.5rem]"
             src="/assets/icons/icons8-telegram-app-50.png"
           />
           <div>

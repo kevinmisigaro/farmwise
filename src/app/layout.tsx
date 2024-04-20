@@ -2,6 +2,7 @@ import Navbar from "@/components/navbar";
 import "./globals.css";
 import { CSPostHogProvider } from "@/utils/providers/PostHogProvider";
 import Footer from "@/components/footer";
+import TopBar from "@/components/TopBar";
 
 export default function RootLayout({
   children,
@@ -49,6 +50,7 @@ export default function RootLayout({
       </head>
       <CSPostHogProvider>
         <body>
+          <TopBar />
           <Navbar />
           <main>{children}</main>
           <Footer />
