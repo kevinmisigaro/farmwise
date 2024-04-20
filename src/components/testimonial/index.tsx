@@ -2,15 +2,15 @@ function Testimonial({
   name,
   role,
   description,
-  image
+  image,
 }: {
   name: string;
   role: string;
   description: string;
-  image: string
+  image: string;
 }) {
   return (
-    <div className="flex flex-col gap-y-2 h-[35rem] md:h-[38rem] px-8 py-10 bg-white shadow-xl rounded-md">
+    <div className="flex flex-col gap-y-2 h-[35rem] md:h-[28rem] px-4 py-10 bg-white shadow-xl rounded-md">
       <div className="rating">
         <input
           type="radio"
@@ -49,11 +49,11 @@ function Testimonial({
       </div>
 
       <div className="flex flex-row items-center gap-x-5 h-32">
-      <img src={image} className="mask mask-circle w-24 h-30" />
-      <div>
-      <div className="font-extrabold">{name}</div>
-        <div className="italic text-sm">{role}</div>
-      </div>
+        <img src={image} className="mask mask-circle w-24 h-30" />
+        <div>
+          <div className="font-extrabold">{name}</div>
+          <div className="italic text-sm">{role}</div>
+        </div>
       </div>
 
       <div className="text-left md:text-justify text-lg">{description}</div>

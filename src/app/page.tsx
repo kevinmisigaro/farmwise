@@ -528,7 +528,7 @@ function Index() {
           What people say about Farmwise
         </div>
         <div
-          className={`grid grid-cols-1 md:grid-cols-4 gap-x-10 gap-y-6 mt-10 items-center`}
+          className={`grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-6 mt-10 items-center`}
         >
           <Testimonial
             image="/assets/images/testimonials/testimonial4.jpg"
