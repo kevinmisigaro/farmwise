@@ -13,7 +13,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <title>Farmwise</title>
-        <link rel="icon" type="image/png" href="/assets/images/farmwiselogo.png" />
+        <link rel="icon" type="image/png" href="/assets/images/farmwiselogo.png" sizes="any" />
         <meta property="og:url" content="https://www.farmwise.tz" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Farmwise" />
