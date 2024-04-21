@@ -170,15 +170,26 @@ function Index() {
 
         <div className="mt-12 md:mt-20 text-left md:text-justify text-lg md:text-xl">
           <p>
-            Patricia Kakorozya and Ruth Yongolo, founders of Farmwise Tanzania,
-            were concerned about the decline of smallholder farmers and
-            abandoned farmlands in their villages. As city dwellers from farming
-            backgrounds, they felt a personal urgency to act. Motivated by their
-            own need for additional revenue streams, they developed an
-            innovative business model to transform farming into an appealing
-            side hustle for gainfully employed city dwellers, making farming
-            accessible and profitable, and ensuring a win-win approach for both
-            platform users and the future of farming.
+          Patricia Kakorozya and Ruth Yongolo, founders of Farmwise Tanzania,
+            shared a deep concern stemming from a common observation: with each
+            visit to their villages, they witnessed the troubling decline in the
+            number of smallholder farmers and abandoned farmlands. Coming from
+            farming backgrounds themselves and now living in Dar es Salaam.
+            Witnessing how city dwellers struggle with financial pressures, they
+            felt a personal and urgent call to action. This shared sentiment
+            ignited their resolve to find a solution that would reverse the
+            trend.
+            <br />
+            <br />
+            Motivated by their own need for additional revenue streams and
+            recognizing the broader potential to invigorate the agricultural
+            sector, they developed an innovative business model. Their vision
+            was to transform farming into an appealing side hustle specifically
+            tailored for gainfully employed city dwellers like themselves. By
+            making farming accessible and profitable, Farmwise Tanzania aims to
+            attract those far removed from traditional agricultural settings,
+            thereby ensuring a win-win approach for both platform users and the
+            future of farming for future generations.
           </p>
         </div>
       </div>
