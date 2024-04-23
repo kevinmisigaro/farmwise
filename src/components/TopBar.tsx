@@ -23,7 +23,7 @@ function TopBar() {
       </div>
 
       <div className="flex flex-row gap-x-4">
-        <a href="https://www.instagram.com/farmwisetz/?hl=en" target="_blank">
+        <a href="https://www.instagram.com/farmwise2024/" target="_blank">
           <FaInstagram className="w-8 h-8 md:w-5 md:h-5" />
         </a>
         <a href="https://twitter.com/Farmwisetz" target="_blank">
