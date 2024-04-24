@@ -17,7 +17,7 @@ function ServicesCard({
           <h3 className={`${mali.className} font-bold text-xl`}>{title}</h3>
         </div>
 
-        <p className="text-lg md:text-xl mt-5 mt-3 text-left md:text-justify">
+        <p className="text-lg md:text-xl mt-5 mt-3 text-left">
           {description}
         </p>
       </div>

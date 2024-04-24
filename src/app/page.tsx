@@ -168,7 +168,7 @@ function Index() {
           </div>
         </div>
 
-        <div className="mt-12 md:mt-20 text-left md:text-justify text-lg md:text-xl">
+        <div className="mt-12 md:mt-20 text-left text-lg md:text-xl">
           <p>
           Patricia Kakorozya and Ruth Yongolo, founders of Farmwise Tanzania,
             shared a deep concern stemming from a common observation: with each
@@ -201,7 +201,7 @@ function Index() {
             <h2 className={`${mali.className} text-3xl md:text-5xl`}>
               Morogoro Maize Farm Project
             </h2>
-            <p className="mt-10 text-left md:text-justify mb-10 text-xl md:text-2xl">
+            <p className="mt-10 text-left mb-10 text-xl md:text-2xl">
               Exciting news! Farmwise has secured 10,000 acres in
               Tanzania&apos;s fertile Morogoro region for our next maize farming
               project. As we prepare the farm for the next planting season, we
