@@ -16,14 +16,18 @@ function Page() {
           </div>
         </div>
       </div>
-      <div className="px-5 md:px-20 py-10 flex flex-row justify-center">
-        <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSekLGiA52Pxo0LlriUZloh6H8BD3IuRTbSIKUcqrk3X6BLk2Q/viewform?embedded=true"
-          width="1000"
-          height="2000"
-        >
-          Loading…
-        </iframe>
+      <div className="px-5 md:px-20 py-32 flex flex-row justify-center">
+     <p className="text-xl">
+     For farm officers, please click this{" "}
+          <a
+            href="https://forms.gle/YR8nYLuxnC9qmS38A"
+            target="_blank"
+            className="underline text-[#277f3b]"
+          >
+            link
+          </a>{" "}
+          to register your details.
+     </p>
       </div>
     </div>
   );

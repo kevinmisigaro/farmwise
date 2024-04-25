@@ -17,13 +17,13 @@ function Page() {
           </div>
         </div>
       </div>
-      <div className="px-5 md:px-20 py-10 flex flex-row justify-center">
+      <div className="px-5 md:px-20 py-32 flex flex-row justify-center">
         <p className="text-lg md:text-xl">
           For farm owners, please click this{" "}
           <a
             href="https://forms.gle/ovWoT3WqEbhWQSw66"
             target="_blank"
-            className="underline"
+            className="underline text-[#277f3b]"
           >
             link
           </a>{" "}

@@ -14,14 +14,18 @@ function Index() {
           </div>
         </div>
       </div>
-      <div className="px-5 md:px-20 py-10 flex flex-row justify-center">
-        <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSfbGR7-tpjo8LkzGSuIwNwOWO0yTTsj7nf5K-oyybSr6wZY0w/viewform?embedded=true"
-          width="1000"
-          height="1100"
+      <div className="px-5 md:px-20 py-32 flex flex-row justify-center">
+      <p className="text-xl">
+    Please click this{" "}
+        <a
+          href="https://forms.gle/EDwwi3ck3Kgf6HBs9"
+          target="_blank"
+          className="underline text-[#277f3b]"
         >
-          Loading…
-        </iframe>
+          link
+        </a>{" "}
+        to register your details and show your expression of interest
+    </p>
       </div>
     </div>
   );

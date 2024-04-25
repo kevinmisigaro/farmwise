@@ -89,7 +89,11 @@ function Navbar() {
                 Farm Officers
               </Link>
             </li>
-
+            <li>
+              <Link href={"/suppliers"} className={`${mali.className}`}>
+                Suppliers
+              </Link>
+            </li>
             <li>
               <Link href={"/faq"} className={`${mali.className}`}>
                 FAQ
@@ -170,7 +174,11 @@ function Navbar() {
               Farm Officers
             </Link>
           </li>
-
+          <li>
+            <Link href={"/suppliers"} className={`${mali.className}`}>
+              Suppliers
+            </Link>
+          </li>
           <li>
             <Link href={"/faq"} className={`${mali.className}`}>
               FAQ
