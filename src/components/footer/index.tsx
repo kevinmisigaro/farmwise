@@ -49,7 +49,7 @@ function Footer() {
           <p>Copyright © 2024 - All right reserved</p>
         </aside>
         <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-          <a href="https://www.instagram.com/farmwise2024/" target="_blank">
+          <a href="https://www.instagram.com/farmwise.tz?igsh=MXFjeGhwZm14aXU4OA==" target="_blank">
             <FaInstagram className="w-5 h-5" />
           </a>
           <a href="https://twitter.com/Farmwisetz" target="_blank">
