@@ -5,9 +5,9 @@ function Page() {
     <div>
       <div
         className="hero h-[55vh] bg-cover"
-        style={{ backgroundImage: "url(/assets/images/officer.jpg)", backgroundPosition: "center -45px" }}
+        style={{ backgroundImage: "url(/assets/images/banners/officers2.jpeg)", backgroundPosition: "center -45px" }}
       >
-        <div className="hero-overlay bg-opacity-70 bg-black"></div>
+        <div className="hero-overlay bg-opacity-60 bg-black"></div>
         <div className="hero-content text-center text-neutral-content text-white">
           <div className="max-w-7xl">
             <h1 className="mb-5 text-xl md:text-4xl font-bold text-center">
