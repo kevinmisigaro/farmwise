@@ -4,15 +4,15 @@ function Page() {
   return (
     <div>
       <div
-        className="hero h-[55vh] bg-cover"
+        className="hero h-[60vh] bg-cover"
         style={{
-          backgroundImage: "url(/assets/images/banners/development.jpeg)",
+          backgroundImage: "url(/assets/images/banners/farmowners2.jpeg)",
         }}
       >
         <div className="hero-overlay bg-opacity-50 bg-black"></div>
         <div className="hero-content text-center text-neutral-content text-white">
           <div className="max-w-8xl">
-            <h1 className="mb-5 text-xl md:text-3xl font-bold text-center">
+            <h1 className="mb-5 text-xl md:text-2xl font-bold text-center">
               Partner with Us for Farm Development:
               <br />
               <br />

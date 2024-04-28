@@ -4,13 +4,13 @@ function Page() {
   return (
     <div>
       <div
-        className="hero h-[40vh]"
-        style={{ backgroundImage: "url(/assets/images/banners/farmowners2.jpeg)" }}
+        className="hero h-[60vh]"
+        style={{ backgroundImage: "url(/assets/images/banners/development.jpeg)" }}
       >
         <div className="hero-overlay bg-opacity-65 bg-black"></div>
         <div className="hero-content text-center text-neutral-content text-white">
           <div className="max-w-7xl">
-            <h1 className="mb-5 text-xl md:text-4xl font-bold text-center">
+            <h1 className="mb-5 text-xl md:text-2xl font-bold text-center">
               Partner with Us for Farm Excellence:
               <br />
               <br />
