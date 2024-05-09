@@ -122,12 +122,12 @@ function Index() {
             </h1>
 
             <div className="flex flex-row justify-center mt-10">
-              <div
-                onClick={() => handleClickScroll("dream")}
+              <Link
+                href="/contact"
                 className="px-4 md:px-12 font-bold py-3 rounded-md max-w-fit text-white bg-[#173d25] cursor-pointer"
               >
-                Learn More
-              </div>
+                Register Interest
+              </Link>
             </div>
           </div>
         </div>
@@ -170,7 +170,7 @@ function Index() {
 
         <div className="mt-12 md:mt-20 text-left text-lg md:text-xl">
           <p>
-          Patricia Kakorozya and Ruth Yongolo, founders of Farmwise Tanzania,
+            Patricia Kakorozya and Ruth Yongolo, founders of Farmwise Tanzania,
             shared a deep concern stemming from a common observation: with each
             visit to their villages, they witnessed the troubling decline in the
             number of smallholder farmers and abandoned farmlands. Coming from

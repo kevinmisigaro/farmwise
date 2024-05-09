@@ -51,7 +51,7 @@ export default function RootLayout({
       </head>
       <CSPostHogProvider>
         <body>
-          <TopBar />
+          {/* <TopBar /> */}
           <Navbar />
           <main>{children}</main>
           <Footer />
