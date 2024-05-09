@@ -4,6 +4,7 @@ import { inter, mali } from "@/utils/fonts";
 import { handleClickScroll } from "@/utils/functions";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
+import { FaInstagram, FaSquareXTwitter } from "react-icons/fa6";
 
 function Navbar() {
   const router = useRouter();
@@ -187,9 +188,17 @@ function Navbar() {
         </ul>
       </div>
       <div className="navbar-end">
-        <Link className="btn" href="/contact">
+        {/* <Link className="btn" href="/contact">
           Register Interest
-        </Link>
+        </Link> */}
+         <div className="flex flex-row gap-x-4">
+        <a href="https://www.instagram.com/farmwise.tz?igsh=MXFjeGhwZm14aXU4OA==" target="_blank">
+          <FaInstagram className="w-8 h-8 md:w-5 md:h-5" />
+        </a>
+        <a href="https://twitter.com/Farmwisetz" target="_blank">
+          <FaSquareXTwitter className="w-8 h-8 md:w-5 md:h-5" />
+        </a>
+      </div>
       </div>
     </div>
   );
