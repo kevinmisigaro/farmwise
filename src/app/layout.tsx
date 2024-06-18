@@ -13,7 +13,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <title>Farmwise</title>
-        <link rel="icon" type="image/png" href="/assets/images/farmwiselogo.png" sizes="any" />
+        <link rel="icon" type="image/jpeg" href="/assets/new-images/icon.jpeg" sizes="any" />
         <meta property="og:url" content="https://www.farmwise.tz" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Farmwise" />
@@ -25,18 +25,18 @@ export default function RootLayout({
         <meta
           name="image"
           property="og:image"
-          content="/assets/images/farmwiselogo.png"
+          content="/assets/new-images/icon.jpeg"
         />
         <meta property="og:image:type" content="image/svg+xml" />
         <meta property="og:image:width" content="50" />
         <meta property="og:image:height" content="50" />
         <meta property="og:image:alt" content="logo" />
-        <meta name="image" content="/assets/images/farmwiselogo.png" />
+        <meta name="image" content="/assets/new-images/icon.jpeg" />
         <meta
           name="description"
           content="We make farming possible and profitable for everyone."
         />
-        <meta name="twitter:image" content="/assets/images/farmwiselogo.png" />
+        <meta name="twitter:image" content="/assets/new-images/icon.jpeg" />
         <link
           rel="stylesheet"
           type="text/css"
