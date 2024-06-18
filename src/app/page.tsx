@@ -124,7 +124,7 @@ function Index() {
             <div className="flex flex-row justify-center mt-10">
               <Link
                 href="/contact"
-                className="px-4 md:px-12 font-bold py-3 rounded-md max-w-fit text-white bg-[#173d25] cursor-pointer animate-bounce"
+                className="px-4 md:px-12 font-bold py-3 rounded-md max-w-fit text-white bg-[#006633] cursor-pointer animate-bounce"
               >
                 Register Interest
               </Link>
