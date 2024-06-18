@@ -133,7 +133,7 @@ function Index() {
         </div>
       </div>
 
-      <div className="px-5 md:px-20 py-20 bg-[#173d25] text-white" id="about">
+      <div className="px-5 md:px-20 py-20 bg-[#006633] text-white" id="about">
         <div className={`${mali.className} text-center text-4xl`}>
           Founders Story
         </div>
@@ -216,7 +216,7 @@ function Index() {
 
             <Link
               href={"/contact"}
-              className="px-12 py-3 rounded-md max-w-fit text-white bg-[#173d25] cursor-pointer"
+              className="px-12 py-3 rounded-md max-w-fit text-white bg-[#006633] cursor-pointer"
             >
               Register Now
             </Link>
@@ -226,7 +226,7 @@ function Index() {
           <div className="basis-1 md:basis-1/2 mb-10">
             <div className="bg-[url('/assets/images/cta-2.jpg')] h-[60vh] bg-cover"></div>
 
-            <div className="card bg-[#173d25] border-8 border-[#fdd51f] max-w-sm -mt-5 animate-bounce">
+            <div className="card bg-[#006633] border-8 border-[#fdd51f] max-w-sm -mt-5 animate-bounce">
               <div className="card-body text-white text-center">
                 <div className="stat-value">1000+</div>
                 <div className={`stat-desc text-lg ${mali.className}`}>
@@ -301,14 +301,14 @@ function Index() {
         <div className="flex flex-row justify-center mt-20">
           <Link
             href={"/contact"}
-            className="px-12 py-3 rounded-md max-w-fit text-white bg-[#173d25] cursor-pointer"
+            className="px-12 py-3 rounded-md max-w-fit text-white bg-[#006633] cursor-pointer"
           >
             Register Now
           </Link>
         </div>
       </div>
 
-      <div className="px-5 md:px-10 py-10 md:py-20 bg-[#3C975E]">
+      <div className="px-5 md:px-10 py-10 md:py-20 bg-[#50CC50]">
         <h1 className="font-bold text-4xl md:text-5xl text-center text-white">
           Why Farming is Rarely <br /> a Side Hustle
         </h1>
@@ -534,7 +534,7 @@ function Index() {
       </div>
 
       {/* start of testimonial */}
-      <div className="px-5 md:mt-1 md:px-20 py-12 md:py-20 bg-[#D3D1C6]">
+      <div className="px-5 md:mt-1 md:px-20 py-12 md:py-20 bg-[#CCCCCC]">
         <div className={`${mali.className} text-center text-4xl`}>
           What people say about Farmwise
         </div>
@@ -574,7 +574,7 @@ function Index() {
       </div>
       {/* end of testimonial */}
 
-      <div className="px-5 md:px-32 bg-[#173d25] text-white flex flex-col md:flex-row justify-between gap-x-5 md:gap-x-12 py-12">
+      <div className="px-5 md:px-32 bg-[#006633] text-white flex flex-col md:flex-row justify-between gap-x-5 md:gap-x-12 py-12">
         <div className="flex items-center gap-x-5 mb-5">
           <img
             className="mask mask-squircle w-[3.5rem] h-[3.5rem]"

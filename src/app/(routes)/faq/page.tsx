@@ -23,7 +23,7 @@ function Index() {
         {faqs.map((f, i) => (
           <div key={i} className="mb-10">
             <h3 className="text-2xl font-semibold">{f.title}</h3>
-            <div className="-ml-4 mt-3 bg-[#173d25] text-white">
+            <div className="-ml-4 mt-3 bg-[#006633] text-white">
               {f.questions.map((x, k) => (
                 <div key={k} className="collapse collapse-arrow bg-base-200">
                   <input type="radio" name="first-accordion" defaultChecked />

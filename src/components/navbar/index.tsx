@@ -103,15 +103,10 @@ function Navbar() {
           </ul>
         </div>
         <Link
-          className="btn btn-ghost flex flex-row gap-x-3 items-center text-xl"
+          className="btn btn-ghost"
           href="/"
         >
-          <img src="/assets/images/farmwiselogo.png" className="w-10" />{" "}
-          <div
-            className={`${inter.className} font-bold text-md text-[#277f3b] hidden md:block`}
-          >
-            Farmwise
-          </div>
+          <img src="/assets/new-images/farmwise-black.jpeg" className="w-32" />{" "}
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">

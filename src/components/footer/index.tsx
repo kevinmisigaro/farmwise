@@ -10,7 +10,7 @@ function Footer() {
     <footer className="bg-black text-white">
       <div className="footer p-10 text-neutral-content">
         <aside>
-          <img src="/assets/images/Farmwise logo.png" className="w-20" />
+          <img src="/assets/new-images/farmwise-black-mobile.jpeg" className="w-40" />
           <p className="text-lg">
             We simplify agriculture to <br /> open it up to everyone.
           </p>
